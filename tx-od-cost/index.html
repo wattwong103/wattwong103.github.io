@@ -21,10 +21,11 @@
 
     <h2>Results:</h2>
     <ul>
-        <li><strong>Grab Cost:</strong> $<span id="grabCost"></span></li>
-        <li><strong>JustGrab Cost:</strong> $<span id="justGrabCost"></span></li>
-        <li><strong>PremiumGrab Cost:</strong> $<span id="premiumGrabCost"></span></li>
-        <li><strong>Traffic Cost:</strong> $<span id="trafficCost"></span></li>
+        <li><strong>Grab Cost:</strong> THB<span id="grabCost"></span></li>
+        <li><strong>JustGrab Cost:</strong> THB<span id="justGrabCost"></span></li>
+        <li><strong>PremiumGrab Cost:</strong> THB<span id="premiumGrabCost"></span></li>
+        <li><strong>Taxi Cost:</strong> THB<span id="taxicost"></span></li>
+        <li><strong>Traffic Cost:</strong> THB<span id="trafficCost"></span></li>
     </ul>
 
     <script>
@@ -41,6 +42,7 @@
             document.getElementById('justGrabCost').textContent = results.JustGrab.toFixed(2);
             document.getElementById('premiumGrabCost').textContent = results.PremiumGrab.toFixed(2);
             document.getElementById('trafficCost').textContent = results.TrafficCost.toFixed(2);
+            document.getElementById('taxicost').textContent = results.NormalTaxi.toFixed(2);
         }
 
         function multipleFunc(x, y) {
@@ -48,6 +50,7 @@
                 Grab: calculateGrabCost(x),
                 JustGrab: calculateJustGrabCost(x),
                 PremiumGrab: calculateGrabPremCost(x),
+                NormalTaxi: calculateTaxiCost(x),
                 TrafficCost: calculateJamCost(y)
             };
         }
@@ -90,6 +93,26 @@
             cost += 20;
             return cost;
         }
+
+        function calculateTaxiCost(distance) {
+            let cost;
+            if (distance >= 0 && distance <= 1) {
+                cost = 40;
+            } else if (distance > 1 && distance <= 10) {
+                cost = 40 + 6.5 * (distance - 1);
+            } else if (distance > 10 && distance <= 20) {
+                cost = 40 + 6.5 * (distance - 1) + 7 * (distance - 10);
+            } else if (distance > 20 && distance <= 40) {
+                cost = 40 + 6.5 * (distance - 1) + 7 * (distance - 10) + 8 * (distance - 20);
+            } else if (distance > 40 && distance <= 80) {
+                cost = 40 + 6.5 * (distance - 1) + 7 * (distance - 10) + 8 * (distance - 20) + 9 * (distance - 40);
+            } else {
+                cost = 40 + 6.5 * (distance - 1) + 7 * (distance - 10) + 8 * (distance - 20) + 9 * (distance - 40) + 10.5 * (distance - 80);
+            }
+            cost += 5;
+            return cost;
+        }
+
 
         function calculateJamCost(time) {
             return 3 * time;
