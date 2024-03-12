@@ -25,6 +25,8 @@
         <li><strong>JustGrab Cost:</strong> THB<span id="justGrabCost"></span></li>
         <li><strong>PremiumGrab Cost:</strong> THB<span id="premiumGrabCost"></span></li>
         <li><strong>Taxi Cost:</strong> THB<span id="taxicost"></span></li>
+        <li><strong>Motorcycle Taxi Cost:</strong> THB<span id="mctaxi"></span></li>
+        <li><strong>Grab Bike Cost:</strong> THB<span id="grabbike"></span></li>
         <li><strong>Traffic Cost:</strong> THB<span id="trafficCost"></span></li>
     </ul>
 
@@ -43,6 +45,8 @@
             document.getElementById('premiumGrabCost').textContent = results.PremiumGrab.toFixed(2);
             document.getElementById('trafficCost').textContent = results.TrafficCost.toFixed(2);
             document.getElementById('taxicost').textContent = results.NormalTaxi.toFixed(2);
+            document.getElementById('mctaxi').textContent = results.MCTaxi.toFixed(2);
+            document.getElementById('grabbike').textContent = results.GrabBike.toFixed(2);
         }
 
         function multipleFunc(x, y) {
@@ -51,7 +55,9 @@
                 JustGrab: calculateJustGrabCost(x),
                 PremiumGrab: calculateGrabPremCost(x),
                 NormalTaxi: calculateTaxiCost(x),
-                TrafficCost: calculateJamCost(y)
+                TrafficCost: calculateJamCost(y),
+                MCTaxi: calculateMCTaxiCost(x),
+                GrabBike: calculateGrabBikeCost(x)
             };
         }
 
@@ -108,6 +114,36 @@
                 cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (distance - 40);
             } else {
                 cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (80 - 40) + 10.5 * (distance - 80);
+            }
+            cost += 5;
+            return cost;
+        }
+
+        function calculateMCTaxiCost(distance) {
+            let cost;
+            if (distance >= 0 && distance <= 2) {
+                cost = 25;
+            } else if (distance > 2 && distance <= 5) {
+                cost = 25 + 6 * (distance - 2);
+            } else if (distance > 5 && distance <= 15) {
+                cost = 25 + 6 * (5 - 2) + 10 * (distance - 5);
+            } else {
+                cost = 25 + 6 * (5 - 2) + 12 * (distance - 5);
+            }
+            cost += 5;
+            return cost;
+        }
+
+        function calculateGrabBikeCost(distance) {
+            let cost;
+            if (distance >= 0 && distance <= 2) {
+                cost = 25;
+            } else if (distance > 2 && distance <= 5) {
+                cost = 25 + 6 * (distance - 2);
+            } else if (distance > 5 && distance <= 15) {
+                cost = 50 + 10 * (distance - 5);
+            } else {
+                cost = 50 + 10 * (15 - 5) + 15 * (distance - 15);
             }
             cost += 5;
             return cost;
