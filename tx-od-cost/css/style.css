@@ -353,7 +353,7 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 70px;
     vertical-align: middle;
     margin-right: 15px;
 }
@@ -363,6 +363,7 @@ section {
 }
 
 .nav-solid #logo #banner-logo {
+    min-height: 65px;
     display: none;
 }
 
@@ -2361,3 +2362,7 @@ input:nth-child(1) {
     margin-bottom: 10px;
 }
 
+.map-container {
+    height: 45vh;
+    cursor: pointer;
+}
