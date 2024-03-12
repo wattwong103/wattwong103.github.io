@@ -73,7 +73,7 @@ function findRoute() {
 }
 
 function calculateRoute(origin, destination, waypoints) {
-    const coordinates = [origin, ...waypoints, destination].map(marker => [marker.lat, marker.lng]);
+    const coordinates = [origin, waypoints, destination].map(marker => [marker.lat, marker.lng]);
 
     const routeUrl = `https://api.openrouteservice.org/v2/directions/driving-car?api_key=${openRouteServiceApiKey}`;
     const data = {
