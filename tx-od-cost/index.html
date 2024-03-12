@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Map with Markers</title>
+    <title>Interactive Map with Markers and Routing</title>
     
     <!-- Leaflet.js CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -47,6 +47,8 @@
                     <h2>Marked Locations</h2>
                     <ul id="markedLocations"></ul>
                 </div>
+
+                <button id="findRoute" onclick="findRoute()">Find Route</button>
             </div>
 
         </div>
@@ -55,6 +57,11 @@
 
     <!-- Leaflet.js JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- OpenRouteService API Key -->
+    <script>
+        const openRouteServiceApiKey = '5b3ce3597851110001cf6248f19529f06373425594ccedf8c2170b52';
+    </script>
 
     <!-- Script JS -->
     <script src="./script.js"></script>

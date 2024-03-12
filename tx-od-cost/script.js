@@ -58,6 +58,62 @@ function updateMarkedLocations() {
     document.getElementById('longitude').value = '';
 }
 
+function findRoute() {
+    if (markers.length < 2) {
+        alert('Please add at least two markers for routing.');
+        return;
+    }
+
+    const origin = markers[0];
+    const destination = markers[markers.length - 1];
+
+    const waypoints = markers.slice(1, -1);
+
+    calculateRoute(origin, destination, waypoints);
+}
+
+function calculateRoute(origin, destination, waypoints) {
+    const coordinates = [origin, ...waypoints, destination].map(marker => [marker.lat, marker.lng]);
+
+    const routeUrl = `https://api.openrouteservice.org/v2/directions/driving-car?api_key=${openRouteServiceApiKey}`;
+    const data = {
+        coordinates: coordinates,
+        format: 'geojson',
+        options: {
+            units: 'kilometers'
+        }
+    };
+
+    fetch(routeUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+    .then(response => response.json())
+    .then(result => {
+        displayRoute(result);
+    })
+    .catch(error => {
+        console.error('Error calculating route:', error);
+    });
+}
+
+function displayRoute(routeData) {
+    // Extract the coordinates from the route data
+    const coordinates = routeData.features[0].geometry.coordinates;
+
+    // Create an array of LatLng objects from the coordinates
+    const latLngs = coordinates.map(coord => L.latLng(coord[1], coord[0]));
+
+    // Create a polyline with the coordinates and add it to the map
+    const polyline = L.polyline(latLngs, { color: 'blue' }).addTo(map);
+
+    // Fit the map bounds to the polyline
+    map.fitBounds(polyline.getBounds());
+}
+
 function viewLocation(lat, lng) {
     map.panTo(new L.LatLng(lat, lng));
 }
