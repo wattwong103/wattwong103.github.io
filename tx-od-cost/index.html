@@ -1,21 +1,100 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body style='border:0; margin: 0'>
-        <div id='map'></div>
-        <div class="formBlock">
-            <form id="form">
-                <input type="text" name="start" class="input" id="start" placeholder="Choose starting point" />
-                <input type="text" name="end" class="input" id="destination" placeholder="Choose starting point" />
-                <button style="display: none;" type="submit">Get Directions</button>
-            </form>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Functions Calculator</title>
+</head>
+<body>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
-        <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=nyx6iFJXfTlFmLdu6Ev3aB2Nv1Gt0btS"></script>
-        <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=nyx6iFJXfTlFmLdu6Ev3aB2Nv1Gt0btS"></script>
-        <script src="app.js"></script>
-    </body>
+    <h1>R Functions Calculator</h1>
+
+    <form id="calculatorForm">
+        <label for="distance">Enter distance (in km):</label>
+        <input type="number" id="distance" name="distance" required>
+
+        <label for="time">Enter time (in minutes):</label>
+        <input type="number" id="time" name="time" required>
+
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+
+    <h2>Results:</h2>
+    <ul>
+        <li><strong>Grab Cost:</strong> $<span id="grabCost"></span></li>
+        <li><strong>JustGrab Cost:</strong> $<span id="justGrabCost"></span></li>
+        <li><strong>PremiumGrab Cost:</strong> $<span id="premiumGrabCost"></span></li>
+        <li><strong>Traffic Cost:</strong> $<span id="trafficCost"></span></li>
+    </ul>
+
+    <script>
+        function calculate() {
+            // Get user input
+            const distance = parseFloat(document.getElementById('distance').value);
+            const time = parseFloat(document.getElementById('time').value);
+
+            // Perform calculations
+            const results = multipleFunc(distance, time);
+
+            // Display the results
+            document.getElementById('grabCost').textContent = results.Grab.toFixed(2);
+            document.getElementById('justGrabCost').textContent = results.JustGrab.toFixed(2);
+            document.getElementById('premiumGrabCost').textContent = results.PremiumGrab.toFixed(2);
+            document.getElementById('trafficCost').textContent = results.TrafficCost.toFixed(2);
+        }
+
+        function multipleFunc(x, y) {
+            return {
+                Grab: calculateGrabCost(x),
+                JustGrab: calculateJustGrabCost(x),
+                PremiumGrab: calculateGrabPremCost(x),
+                TrafficCost: calculateJamCost(y)
+            };
+        }
+
+        function calculateGrabCost(distance) {
+            let cost;
+            if (distance >= 0 && distance <= 2) {
+                cost = 45;
+            } else if (distance > 2 && distance <= 6) {
+                cost = 45 + 8 * (distance - 2);
+            } else if (distance > 6 && distance <= 40) {
+                cost = 45 + 8 * (6 - 2) + 7 * (distance - 6);
+            } else {
+                cost = 45 + 8 * (6 - 2) + 7 * (40 - 6) + 10 * (distance - 40);
+            }
+            cost += 20;
+            return cost;
+        }
+
+        function calculateJustGrabCost(distance) {
+            let cost;
+            if (distance >= 0 && distance <= 2) {
+                cost = 45;
+            } else if (distance > 2 && distance <= 40) {
+                cost = 45 + 7 * (distance - 2);
+            } else {
+                cost = 45 + 7 * (distance - 2) + 10 * (distance - 40);
+            }
+            cost += 20;
+            return cost;
+        }
+
+        function calculateGrabPremCost(distance) {
+            let cost;
+            if (distance >= 0 && distance <= 2) {
+                cost = 110;
+            } else {
+                cost = 45 + 12 * (distance - 2);
+            }
+            cost += 20;
+            return cost;
+        }
+
+        function calculateJamCost(time) {
+            return 3 * time;
+        }
+    </script>
+
+</body>
 </html>
