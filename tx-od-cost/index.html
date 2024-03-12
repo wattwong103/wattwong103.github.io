@@ -1,159 +1,383 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R Functions Calculator</title>
+
+    <!--Page Title-->
+    <title>NaviCity</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-    <h1>R Functions Calculator</h1>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
 
-    <form id="calculatorForm">
-        <label for="distance">Enter distance (in km):</label>
-        <input type="number" id="distance" name="distance" required>
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
 
-        <label for="time">Enter time (in minutes):</label>
-        <input type="number" id="time" name="time" required>
+<div id="wrapper">
 
-        <button type="button" onclick="calculate()">Calculate</button>
-    </form>
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
 
-    <h2>Results:</h2>
-    <ul>
-        <li><strong>Grab Cost:</strong> THB<span id="grabCost"></span></li>
-        <li><strong>JustGrab Cost:</strong> THB<span id="justGrabCost"></span></li>
-        <li><strong>PremiumGrab Cost:</strong> THB<span id="premiumGrabCost"></span></li>
-        <li><strong>Taxi Cost:</strong> THB<span id="taxicost"></span></li>
-        <li><strong>Motorcycle Taxi Cost:</strong> THB<span id="mctaxi"></span></li>
-        <li><strong>Grab Bike Cost:</strong> THB<span id="grabbike"></span></li>
-        <li><strong>Traffic Cost:</strong> THB<span id="trafficCost"></span></li>
-    </ul>
+                    <!--Logo-->
+                    <div id="logo">
 
-    <script>
-        function calculate() {
-            // Get user input
-            const distance = parseFloat(document.getElementById('distance').value);
-            const time = parseFloat(document.getElementById('time').value);
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
 
-            // Perform calculations
-            const results = multipleFunc(distance, time);
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
 
-            // Display the results
-            document.getElementById('grabCost').textContent = results.Grab.toFixed(2);
-            document.getElementById('justGrabCost').textContent = results.JustGrab.toFixed(2);
-            document.getElementById('premiumGrabCost').textContent = results.PremiumGrab.toFixed(2);
-            document.getElementById('trafficCost').textContent = results.TrafficCost.toFixed(2);
-            document.getElementById('taxicost').textContent = results.NormalTaxi.toFixed(2);
-            document.getElementById('mctaxi').textContent = results.MCTaxi.toFixed(2);
-            document.getElementById('grabbike').textContent = results.GrabBike.toFixed(2);
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                            <li>
+                                <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                    <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#map">Map</a>
+                            </li>
+                            <li>
+                                <a href="#calculator">Calculator</a>
+                            </li>
+                            <li>
+                                <a href="#results">Results</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>Transport Cost Calculator</h1>
+                    <h2>NaviCity is a free transport cost calculator in Bangkok. Now, its only a matter of modes what you want to embark on</h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="#map" class="button">Start Now</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="map" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>SUCCESS</h3>
+                        <h2 class="section-title">How We Help You To Sell Your Product</h2>
+                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+
+
+        <!--Gallery-->
+        <aside id="calculator" class="row text-center scrollto clearfix" data-featherlight-gallery
+                 data-featherlight-filter="a">
+                
+                 <div class="section-heading">
+                    <h3>Calculator</h3>
+                    <h2 class="section-title">Time and distance from the map</h2>
+                </div>
+
+                <form id="calculatorForm">
+                    <label for="distance">Enter distance (in km):</label>
+                    <input type="number" id="distance" name="distance" required>
+
+                    <label for="time">Enter estimate traffic time (in minutes):</label>
+                    <input type="number" id="time" name="time" required>
+
+                    <button type="button" onclick="calculate()">Calculate</button>
+                </form>
+
+        </aside>
+        <!--End of Gallery-->
+
+
+        <!--Pricing Tables-->
+        <section id="results" class="secondary-color text-center scrollto clearfix ">
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>YOUR CHOICE</h3>
+                    <h2 class="section-title">Choose what you ride</h2>
+                </div>
+
+                <!--Pricing Block-->
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="pricing-block-content">
+                        <div class="pricing">
+                            <div class="price"> Car </div>
+                        </div>
+                        <ul>
+                            <li><strong>Grab Cost:</strong> THB<span id="grabCost"></span></li>
+                            <li><strong>JustGrab Cost:</strong> THB<span id="justGrabCost"></span></li>
+                            <li><strong>PremiumGrab Cost:</strong> THB<span id="premiumGrabCost"></span></li>
+                            <li><strong>Taxi Cost:</strong> THB<span id="taxicost"></span></li>
+                            <li><strong>Traffic Cost:</strong> THB<span id="trafficCost"></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+
+                <!--Pricing Block-->
+                <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="pricing-block-content">
+                        <div class="pricing">
+                            <div class="price"> 2-Wheels </div>
+                        </div>
+                        <ul>
+                            <li><strong>Motorcycle Taxi Cost:</strong> THB<span id="mctaxi"></span></li>
+                            <li><strong>Grab Bike Cost:</strong> THB<span id="grabbike"></span></li>
+                            <li><strong>Traffic Cost:</strong> THB<span id="trafficCost"></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+
+                <!--Pricing Block-->
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="pricing-block-content">
+                        <div class="pricing">
+                            <div class="price"> Public Transport </div>
+                        </div>
+                        <ul>
+                            <li>Coming Soon</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+
+                <a href="#" class="button">BUY TODAY</a>
+
+            </div>
+        </section>
+        <!--End of Pricing Tables-->
+
+    </main>
+    <!--End Main Content Area-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+<script>
+    function calculate() {
+        // Get user input
+        const distance = parseFloat(document.getElementById('distance').value);
+        const time = parseFloat(document.getElementById('time').value);
+
+        // Perform calculations
+        const results = multipleFunc(distance, time);
+
+        // Display the results
+        document.getElementById('grabCost').textContent = results.Grab.toFixed(2);
+        document.getElementById('justGrabCost').textContent = results.JustGrab.toFixed(2);
+        document.getElementById('premiumGrabCost').textContent = results.PremiumGrab.toFixed(2);
+        document.getElementById('trafficCost').textContent = results.TrafficCost.toFixed(2);
+        document.getElementById('taxicost').textContent = results.NormalTaxi.toFixed(2);
+        document.getElementById('mctaxi').textContent = results.MCTaxi.toFixed(2);
+        document.getElementById('grabbike').textContent = results.GrabBike.toFixed(2);
+    }
+
+    function multipleFunc(x, y) {
+        return {
+            Grab: calculateGrabCost(x),
+            JustGrab: calculateJustGrabCost(x),
+            PremiumGrab: calculateGrabPremCost(x),
+            NormalTaxi: calculateTaxiCost(x),
+            TrafficCost: calculateJamCost(y),
+            MCTaxi: calculateMCTaxiCost(x),
+            GrabBike: calculateGrabBikeCost(x)
+        };
+    }
+
+    function calculateGrabCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 45;
+        } else if (distance > 2 && distance <= 6) {
+            cost = 45 + 8 * (distance - 2);
+        } else if (distance > 6 && distance <= 40) {
+            cost = 45 + 8 * (6 - 2) + 7 * (distance - 6);
+        } else {
+            cost = 45 + 8 * (6 - 2) + 7 * (40 - 6) + 10 * (distance - 40);
         }
+        cost += 20;
+        return cost;
+    }
 
-        function multipleFunc(x, y) {
-            return {
-                Grab: calculateGrabCost(x),
-                JustGrab: calculateJustGrabCost(x),
-                PremiumGrab: calculateGrabPremCost(x),
-                NormalTaxi: calculateTaxiCost(x),
-                TrafficCost: calculateJamCost(y),
-                MCTaxi: calculateMCTaxiCost(x),
-                GrabBike: calculateGrabBikeCost(x)
-            };
+    function calculateJustGrabCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 45;
+        } else if (distance > 2 && distance <= 40) {
+            cost = 45 + 7 * (distance - 2);
+        } else {
+            cost = 45 + 7 * (40 - 2) + 10 * (distance - 40);
         }
+        cost += 20;
+        return cost;
+    }
 
-        function calculateGrabCost(distance) {
-            let cost;
-            if (distance >= 0 && distance <= 2) {
-                cost = 45;
-            } else if (distance > 2 && distance <= 6) {
-                cost = 45 + 8 * (distance - 2);
-            } else if (distance > 6 && distance <= 40) {
-                cost = 45 + 8 * (6 - 2) + 7 * (distance - 6);
-            } else {
-                cost = 45 + 8 * (6 - 2) + 7 * (40 - 6) + 10 * (distance - 40);
-            }
-            cost += 20;
-            return cost;
+    function calculateGrabPremCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 110;
+        } else {
+            cost = 45 + 12 * (distance - 2);
         }
+        cost += 20;
+        return cost;
+    }
 
-        function calculateJustGrabCost(distance) {
-            let cost;
-            if (distance >= 0 && distance <= 2) {
-                cost = 45;
-            } else if (distance > 2 && distance <= 40) {
-                cost = 45 + 7 * (distance - 2);
-            } else {
-                cost = 45 + 7 * (40 - 2) + 10 * (distance - 40);
-            }
-            cost += 20;
-            return cost;
+    function calculateTaxiCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 1) {
+            cost = 40;
+        } else if (distance > 1 && distance <= 10) {
+            cost = 40 + 6.5 * (distance - 1);
+        } else if (distance > 10 && distance <= 20) {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (distance - 10);
+        } else if (distance > 20 && distance <= 40) {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (distance - 20);
+        } else if (distance > 40 && distance <= 80) {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (distance - 40);
+        } else {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (80 - 40) + 10.5 * (distance - 80);
         }
+        cost += 5;
+        return cost;
+    }
 
-        function calculateGrabPremCost(distance) {
-            let cost;
-            if (distance >= 0 && distance <= 2) {
-                cost = 110;
-            } else {
-                cost = 45 + 12 * (distance - 2);
-            }
-            cost += 20;
-            return cost;
+    function calculateMCTaxiCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 25;
+        } else if (distance > 2 && distance <= 5) {
+            cost = 25 + 6 * (distance - 2);
+        } else if (distance > 5 && distance <= 15) {
+            cost = 25 + 6 * (5 - 2) + 10 * (distance - 5);
+        } else {
+            cost = 25 + 6 * (5 - 2) + 12 * (distance - 5);
         }
+        cost += 5;
+        return cost;
+    }
 
-        function calculateTaxiCost(distance) {
-            let cost;
-            if (distance >= 0 && distance <= 1) {
-                cost = 40;
-            } else if (distance > 1 && distance <= 10) {
-                cost = 40 + 6.5 * (distance - 1);
-            } else if (distance > 10 && distance <= 20) {
-                cost = 40 + 6.5 * (10 - 1) + 7 * (distance - 10);
-            } else if (distance > 20 && distance <= 40) {
-                cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (distance - 20);
-            } else if (distance > 40 && distance <= 80) {
-                cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (distance - 40);
-            } else {
-                cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (80 - 40) + 10.5 * (distance - 80);
-            }
-            cost += 5;
-            return cost;
+    function calculateGrabBikeCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 25;
+        } else if (distance > 2 && distance <= 5) {
+            cost = 25 + 6 * (distance - 2);
+        } else if (distance > 5 && distance <= 15) {
+            cost = 50 + 10 * (distance - 5);
+        } else {
+            cost = 50 + 10 * (15 - 5) + 15 * (distance - 15);
         }
-
-        function calculateMCTaxiCost(distance) {
-            let cost;
-            if (distance >= 0 && distance <= 2) {
-                cost = 25;
-            } else if (distance > 2 && distance <= 5) {
-                cost = 25 + 6 * (distance - 2);
-            } else if (distance > 5 && distance <= 15) {
-                cost = 25 + 6 * (5 - 2) + 10 * (distance - 5);
-            } else {
-                cost = 25 + 6 * (5 - 2) + 12 * (distance - 5);
-            }
-            cost += 5;
-            return cost;
-        }
-
-        function calculateGrabBikeCost(distance) {
-            let cost;
-            if (distance >= 0 && distance <= 2) {
-                cost = 25;
-            } else if (distance > 2 && distance <= 5) {
-                cost = 25 + 6 * (distance - 2);
-            } else if (distance > 5 && distance <= 15) {
-                cost = 50 + 10 * (distance - 5);
-            } else {
-                cost = 50 + 10 * (15 - 5) + 15 * (distance - 15);
-            }
-            cost += 5;
-            return cost;
-        }
+        cost += 5;
+        return cost;
+    }
 
 
-        function calculateJamCost(time) {
-            return 3 * time;
-        }
-    </script>
+    function calculateJamCost(time) {
+        return 3 * time;
+    }
+</script>
 
 </body>
 </html>
