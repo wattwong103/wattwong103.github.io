@@ -508,46 +508,6 @@
     </main>
     <!--End Main Content Area-->
 
-
-    <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
-        <div class="row clearfix">
-
-            <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p>
-
-            <!--Social Icons in Footer-->
-            <ul class="col-2 social-icons">
-                <li>
-                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
-                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Google+" href="http://google.com/+username">
-                        <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
-                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
-                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="behance" href="http://www.behance.net">
-                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
-                    </a>
-                </li>
-            </ul>
-            <!--End of Social Icons in Footer-->
-        </div>
-    </footer>
-    <!--End of Footer-->
-
 </div>
 
 <!-- Include JavaScript resources -->
@@ -563,7 +523,130 @@
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
+<script>
+    function calculate() {
+        // Get user input
+        const distance = parseFloat(document.getElementById('distance').value);
+        const time = parseFloat(document.getElementById('time').value);
 
+        // Perform calculations
+        const results = multipleFunc(distance, time);
+
+        // Display the results
+        document.getElementById('grabCost').textContent = results.Grab.toFixed(2);
+        document.getElementById('justGrabCost').textContent = results.JustGrab.toFixed(2);
+        document.getElementById('premiumGrabCost').textContent = results.PremiumGrab.toFixed(2);
+        document.getElementById('trafficCost').textContent = results.TrafficCost.toFixed(2);
+        document.getElementById('taxicost').textContent = results.NormalTaxi.toFixed(2);
+        document.getElementById('mctaxi').textContent = results.MCTaxi.toFixed(2);
+        document.getElementById('grabbike').textContent = results.GrabBike.toFixed(2);
+    }
+
+    function multipleFunc(x, y) {
+        return {
+            Grab: calculateGrabCost(x),
+            JustGrab: calculateJustGrabCost(x),
+            PremiumGrab: calculateGrabPremCost(x),
+            NormalTaxi: calculateTaxiCost(x),
+            TrafficCost: calculateJamCost(y),
+            MCTaxi: calculateMCTaxiCost(x),
+            GrabBike: calculateGrabBikeCost(x)
+        };
+    }
+
+    function calculateGrabCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 45;
+        } else if (distance > 2 && distance <= 6) {
+            cost = 45 + 8 * (distance - 2);
+        } else if (distance > 6 && distance <= 40) {
+            cost = 45 + 8 * (6 - 2) + 7 * (distance - 6);
+        } else {
+            cost = 45 + 8 * (6 - 2) + 7 * (40 - 6) + 10 * (distance - 40);
+        }
+        cost += 20;
+        return cost;
+    }
+
+    function calculateJustGrabCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 45;
+        } else if (distance > 2 && distance <= 40) {
+            cost = 45 + 7 * (distance - 2);
+        } else {
+            cost = 45 + 7 * (40 - 2) + 10 * (distance - 40);
+        }
+        cost += 20;
+        return cost;
+    }
+
+    function calculateGrabPremCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 110;
+        } else {
+            cost = 45 + 12 * (distance - 2);
+        }
+        cost += 20;
+        return cost;
+    }
+
+    function calculateTaxiCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 1) {
+            cost = 40;
+        } else if (distance > 1 && distance <= 10) {
+            cost = 40 + 6.5 * (distance - 1);
+        } else if (distance > 10 && distance <= 20) {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (distance - 10);
+        } else if (distance > 20 && distance <= 40) {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (distance - 20);
+        } else if (distance > 40 && distance <= 80) {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (distance - 40);
+        } else {
+            cost = 40 + 6.5 * (10 - 1) + 7 * (20 - 10) + 8 * (40 - 20) + 9 * (80 - 40) + 10.5 * (distance - 80);
+        }
+        cost += 5;
+        return cost;
+    }
+
+    function calculateMCTaxiCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 25;
+        } else if (distance > 2 && distance <= 5) {
+            cost = 25 + 6 * (distance - 2);
+        } else if (distance > 5 && distance <= 15) {
+            cost = 25 + 6 * (5 - 2) + 10 * (distance - 5);
+        } else {
+            cost = 25 + 6 * (5 - 2) + 12 * (distance - 5);
+        }
+        cost += 5;
+        return cost;
+    }
+
+    function calculateGrabBikeCost(distance) {
+        let cost;
+        if (distance >= 0 && distance <= 2) {
+            cost = 25;
+        } else if (distance > 2 && distance <= 5) {
+            cost = 25 + 6 * (distance - 2);
+        } else if (distance > 5 && distance <= 15) {
+            cost = 50 + 10 * (distance - 5);
+        } else {
+            cost = 50 + 10 * (15 - 5) + 15 * (distance - 15);
+        }
+        cost += 5;
+        return cost;
+    }
+
+
+    function calculateJamCost(time) {
+        return 3 * time;
+    }
+</script>
 
 </body>
 </html>
