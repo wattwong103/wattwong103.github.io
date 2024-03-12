@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Finder</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" integrity="sha512-cAaWuwbgJjl2RqFJLcK5NQr5MqddEXt9GC0q1lGVPY5Ou4CxM/HN7U02X7/CdZ+eZvqP5c5QhN8RLoavfeW1OQ==" crossorigin=""/>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Route Finder</h1>
+
+<form>
+    <label for="origin">Origin:</label>
+    <input type="text" id="origin" name="origin" placeholder="Enter origin">
+
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" name="destination" placeholder="Enter destination">
+
+    <button type="button" onclick="findRoute()">Find Route</button>
+</form>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js" integrity="sha512-cAaWuwbgJjl2RqFJLcK5NQr5MqddEXt9GC0q1lGVPY5Ou4CxM/HN7U02X7/CdZ+eZvqP5c5QhN8RLoavfeW1OQ==" crossorigin=""></script>
+
+<script>
+    let map;
+    let markerLayer;
+
+    function initMap() {
+        map = L.map('map').setView([0, 0], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        markerLayer = L.layerGroup().addTo(map);
+
+        map.on('click', function (e) {
+            const latlng = e.latlng;
+            addMarker(latlng);
+        });
+    }
+
+    function addMarker(latlng) {
+        markerLayer.clearLayers();
+        L.marker(latlng).addTo(markerLayer);
+    }
+
+    function findRoute() {
+        const origin = document.getElementById('origin').value;
+        const destination = document.getElementById('destination').value;
+
+        if (!origin || !destination) {
+            alert('Please enter both origin and destination.');
+            return;
+        }
+
+        geocodeAddress(origin, function (originLatLng) {
+            geocodeAddress(destination, function (destinationLatLng) {
+                map.fitBounds([originLatLng, destinationLatLng]);
+
+                // You can now use originLatLng and destinationLatLng for further processing (e.g., routing).
+                console.log('Origin:', originLatLng);
+                console.log('Destination:', destinationLatLng);
+            });
+        });
+    }
+
+    function geocodeAddress(address, callback) {
+        fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${address}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.length > 0) {
+                    const lat = parseFloat(data[0].lat);
+                    const lon = parseFloat(data[0].lon);
+
+                    const latlng = L.latLng(lat, lon);
+                    callback(latlng);
+                } else {
+                    alert(`Location not found for: ${address}`);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }
+</script>
+
+</body>
+</html>
