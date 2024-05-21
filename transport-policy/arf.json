@@ -149,18 +149,20 @@
             },
             {
               "name": "MailsHunt",
-              "type": "url",
-              "url": "https://mailshunt.com/"
+              "type": "text",
+              "text": "- dfsdfdsf /n dfsdafsdf"
             }
           ],
-          "name": "Email Search",
+          "name": "MPs",
           "type": "folder"
         }
       ],
-      "name": "OSINT Framework",
+      "name": "PT Party",
       "type": "folder"
     }
   ],
   "name": "Transport Policy",
   "type": "folder"
 }
+
+
