@@ -1,278 +1,48 @@
 {
-  "children": [
+  "name": "Clifford Shanks",
+  "born": 1862,
+  "died": 1906,
+  "location": "Petersburg, VA",
+  "parents": [
     {
-      "children": [
+      "name": "James Shanks",
+      "born": 1831,
+      "died": 1884,
+      "location": "Petersburg, VA",
+      "parents": [
         {
-          "children": [
-            {
-              "name": "Department of Revenue",
-              "type": "url",
-              "url": "http://checkusernames.com/"
-            },
-            {
-              "name": "Bank of Investment, Thailand",
-              "type": "url",
-              "url": "https://namecheckup.com/"
-            },
-            {
-              "name": "XYZ",
-              "type": "url",
-              "url": "https://instantusername.com/"
-            },
-            {
-              "name": "ABC",
-              "type": "url",
-              "url": "https://namesdir.com/"
-            }
-          ],
-          "name": "Evaluator",
-          "type": "folder"
+          "name": "Robert Shanks",
+          "born": 1781,
+          "died": 1871,
+          "location": "Ireland/Petersburg, VA"
         },
         {
-          "children": [
-            {
-              "children": [
-                {
-                  "name": "MOT Link",
-                  "type": "url",
-                  "url": "https://keybase.io/"
-                },
-                {
-                  "name": "Mechanism/ Legal Ref",
-                  "type": "url",
-                  "url": "http://pgp.mit.edu/"
-                },
-                {
-                  "name": "Mechanism/ Legal Data"
-                }
-              ],
-              "name": "MOT : XX",
-              "type": "folder"
-            },
-            {
-              "name": "PGP MIT : XX",
-              "type": "url",
-              "url": "http://pgp.mit.edu/"
-            }
-          ],
-          "name": "Regulator",
-          "type": "folder"
+          "name": "Elizabeth Shanks",
+          "born": 1795,
+          "died": 1871,
+          "location": "Ireland/Petersburg, VA"
         }
-      ],
-      "name": "Mechanism & Legal",
-      "type": "folder"
+      ]
     },
     {
-      "children": [
+      "name": "Ann Emily Brown",
+      "born": 1826,
+      "died": 1866,
+      "location": "Brunswick/Petersburg, VA",
+      "parents": [
         {
-          "children": [
-            {
-              "children": [
-                {
-                  "name": "Red Bulls : NEG"
-                },
-                {
-                  "name": "Red Necks : POS"
-                },
-                {
-                  "name": "Red Guard : 0"
-                }
-              ],
-              "name": "Voter Stance",
-              "type": "folder"
-            },
-            {
-              "children": [
-                {
-                  "name": "Z"
-                },
-                {
-                  "name": "Y"
-                },
-                {
-                  "name": "X"
-                }
-              ],
-              "name": "Future",
-              "type": "folder"
-            },
-            {
-              "name": "Past"
-            },
-            {
-              "name": "Present"
-            }
-          ],
-          "name": "Data Policy",
-          "type": "folder"
+          "name": "Henry Brown",
+          "born": 1792,
+          "died": 1845,
+          "location": "Montgomery, NC"
         },
         {
-          "children": [
-            {
-              "name": "List Data"
-            },
-            {
-              "name": "Seo Jin Won"
-            },
-            {
-              "name": "Some Bloke"
-            },
-            {
-              "name": "James Petersen"
-            },
-            {
-              "name": "Peter Schidmt"
-            }
-          ],
-          "name": "MPs",
-          "type": "folder"
+          "name": "Sarah Houchins",
+          "born": 1793,
+          "died": 1882,
+          "location": "Montgomery, NC"
         }
-      ],
-      "name": "PT Party",
-      "type": "folder"
-    },
-    {
-      "children": [
-        {
-          "children": [
-            {
-              "children": [
-                {
-                  "name": "Red Bulls : NEG"
-                },
-                {
-                  "name": "Red Necks : POS"
-                },
-                {
-                  "name": "Red Guard : 0"
-                }
-              ],
-              "name": "Draft",
-              "type": "folder"
-            },
-            {
-              "children": [
-                {
-                  "name": "Z"
-                },
-                {
-                  "name": "Y"
-                },
-                {
-                  "name": "X"
-                }
-              ],
-              "name": "Argument",
-              "type": "folder"
-            }
-          ],
-          "name": "Pink Party",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
-              "name": "List Data"
-            },
-            {
-              "name": "Seo Jin Won"
-            },
-            {
-              "name": "Some Bloke"
-            },
-            {
-              "name": "James Petersen"
-            },
-            {
-              "name": "Peter Schidmt"
-            }
-          ],
-          "name": "Blue Party",
-          "type": "folder"
-        }
-      ],
-      "name": "Competitor",
-      "type": "folder"
-    },
-    {
-      "children": [
-        {
-          "children": [
-            {
-              "children": [
-                {
-                  "name": "Red Bulls : NEG"
-                },
-                {
-                  "name": "Red Necks : POS"
-                },
-                {
-                  "name": "Red Guard : 0"
-                }
-              ],
-              "name": "Internal",
-              "type": "folder"
-            },
-            {
-              "children": [
-                {
-                  "name": "Z"
-                },
-                {
-                  "name": "Y"
-                },
-                {
-                  "name": "X"
-                }
-              ],
-              "name": "Internatinal",
-              "type": "folder"
-            }
-          ],
-          "name": "Business Institutions",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
-              "name": "List Data"
-            },
-            {
-              "name": "Seo Jin Won"
-            },
-            {
-              "name": "Some Bloke"
-            },
-            {
-              "name": "James Petersen"
-            },
-            {
-              "name": "Peter Schidmt"
-            }
-          ],
-          "name": "Academias",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
-              "name": "Z"
-            },
-            {
-              "name": "Y"
-            },
-            {
-              "name": "X"
-            }
-          ],
-          "name": "Civil Society",
-          "type": "folder"
-        }
-      ],
-      "name": "Stakesholder",
-      "type": "folder"
+      ]
     }
-  ],
-  "name": "Transport Policy",
-  "type": "folder"
+  ]
 }
