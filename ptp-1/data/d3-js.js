@@ -1,4 +1,3 @@
-
 var data;
 
 var boxWidth = 150,
@@ -52,7 +51,7 @@ var tree = d3.layout.tree()
     }
   });
 
-d3.json('data/ptp-1.json', function(error, json){
+d3.json('data/8gens.json', function(error, json){
   
   if(error) {
     return console.error(error);
@@ -91,7 +90,6 @@ function draw(){
       .on('click', togglePerson);
 
   // Draw the rectangle person boxes
-  /*
   nodeEnter.append("rect")
       .attr({
         x: -(boxWidth/2),
@@ -99,7 +97,6 @@ function draw(){
         width: boxWidth,
         height: boxHeight
       });
-  */
 
   // Draw the person's name and position it inside the box
   nodeEnter.append("text")
@@ -150,16 +147,6 @@ function togglePerson(person){
   draw();
 }
 
-/**
- * Collapse person (hide their ancestors). We recursively
- * collapse the ancestors so that when the person is
- * expanded it will only reveal one generation. If we don't
- * recursively collapse the ancestors then when
- * the person is clicked on again to expand, all ancestors
- * that were previously showing will be shown again.
- * If you want that behavior then just remove the recursion
- * by removing the if block.
- */
 function collapse(person){
   person.collapsed = true;
   if(person._parents){
@@ -167,16 +154,6 @@ function collapse(person){
   }
 }
     
-/**
- * Custom path function that creates straight connecting lines.
- * Calculate start and end position of links.
- * Instead of drawing to the center of the node,
- * draw to the border of the person profile box.
- * That way drawing order doesn't matter. In other
- * words, if we draw to the center of the node
- * then we have to draw the links first and the
- * draw the boxes on top of them.
- */
 function elbow(d) {
   var sourceX = d.source.x,
       sourceY = d.source.y + (boxWidth / 2),
