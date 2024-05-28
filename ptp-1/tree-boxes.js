@@ -22,7 +22,6 @@
  * - d3.js
  * - jquery.js
  */
-"use strict";
 
 function treeBoxes(urlService, jsonData) {
 	var urlService_ = '';
