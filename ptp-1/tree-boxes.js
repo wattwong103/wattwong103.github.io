@@ -203,6 +203,16 @@ function treeBoxes(urlService, jsonData) {
 			.on('mouseout', function (d) {
 				$('#nodeInfoID' + d.id).css('visibility', 'hidden');
 				$('#nodeInfoTextID' + d.id).css('visibility', 'hidden');
+			})
+
+		nodeEnter.append("svg:circle")
+			.attr("x", function (d) { return 0 })
+			.attr("dy", "-.15em")
+			.attr("r", 1e-2)
+			.style("fill", function (d) { return d.children ? "black" : "#999"; })
+			.on('click', function (d) {
+				var url = d.url; // Replace with your URL logic
+				window.open(url, '_blank');
 			});
 
 		nodeEnterTooltip.append("rect")
@@ -248,6 +258,12 @@ function treeBoxes(urlService, jsonData) {
 		nodeUpdate.select('rect')
 			.attr('class', function (d) { return d._children ? 'node-rect-closed' : 'node-rect'; });
 
+		nodeUpdate.select("circle")
+			.attr("r", 6)
+			.style("fill", function (d) { return d._children ? "black" : "#999"; });
+
+
+
 		nodeUpdate.select('text').style('fill-opacity', 1);
 
 		// Transition exiting nodes to the parent's new position
@@ -259,6 +275,8 @@ function treeBoxes(urlService, jsonData) {
 			.remove();
 
 		nodeExit.select('text').style('fill-opacity', 1e-6);
+		nodeExit.select("circle")
+			.attr("r", 1e-6);
 
 
 		// 2) ******************* Update the links *******************

@@ -122,6 +122,7 @@
 								"code" : "N4.2",
 								"label" : "Node name 4.2",
 								"version" : "v1.0",
+								"url" : "http://www.google.com",
 								"link" : {
 										"name" : "Link node 3.4 to 4.2",
 										"nodeName" : "NODE NAME 4.1",
