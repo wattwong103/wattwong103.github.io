@@ -1,4 +1,3 @@
-
 /*
  * Dependencies:
  * - d3.js
@@ -25,8 +24,8 @@ function treeBoxes(urlService, jsonData) {
 		width = 800 - margin.right - margin.left,
 		height = 400 - margin.top - margin.bottom;
 
-	var rectNode = { width: 120, height: 45, textMargin: 5 },
-		tooltip = { width: 150, height: 40, textMargin: 5 };
+	var rectNode = { width: 225, height: 100, textMargin: 7.5 },
+		tooltip = { width: 150, height: 50, textMargin: 7.5 };
 	var i = 0,
 		duration = 750,
 		root;
@@ -96,7 +95,7 @@ function treeBoxes(urlService, jsonData) {
 			.attr('height', height + margin.top + margin.bottom)
 			.attr('class', 'svgContainer')
 			.call(d3.behavior.zoom()
-				//.scaleExtent([0.5, 1.5]) // Limit the zoom scale
+				.scaleExtent([0.1, 3]) // Limit the zoom scale
 				.on('zoom', zoomAndDrag));
 
 		// Mouse wheel is desactivated, else after a first drag of the tree, wheel event drags the tree (instead of scrolling the window)
@@ -190,9 +189,9 @@ function treeBoxes(urlService, jsonData) {
 			.append('xhtml').html(function (d) {
 				return '<div style="width: '
 					+ (rectNode.width - rectNode.textMargin * 2) + 'px; height: '
-					+ (rectNode.height - rectNode.textMargin * 2) + 'px;" class="node-text wordwrap">'
+					+ (rectNode.height - rectNode.textMargin * 2) + 'px; font-size: 14px; " class="node-text wordwrap">'
 					+ '<b>' + d.nodeName + '</b><br><br>'
-					+ '<b>Code: </b>' + d.code + '<br>'
+					+ '<b>Description: </b>' + d.desc + '<br>'
 					+ '<b>Version: </b>' + d.version + '<br>'
 					+ '</div>';
 			})
@@ -242,6 +241,7 @@ function treeBoxes(urlService, jsonData) {
 			.attr('height', tooltip.height)
 			.attr('class', 'tooltip-text')
 			.style('fill', 'white')
+			.style('font-size', '12px') // Adjust the font size here
 			.append("tspan")
 			.text(function (d) { return 'Name: ' + d.name; })
 			.append("tspan")
