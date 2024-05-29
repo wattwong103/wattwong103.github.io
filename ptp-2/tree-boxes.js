@@ -125,6 +125,16 @@ function treeBoxes(urlService, jsonData) {
 		initArrowDef();
 		initDropShadow();
 
+		root.children.forEach(collapse);
+
+		function collapse(d) {
+			if (d.children) {
+			  d._children = d.children
+			  d._children.forEach(collapse)
+			  d.children = null
+			}
+		  }
+
 		update(root);
 	}
 
