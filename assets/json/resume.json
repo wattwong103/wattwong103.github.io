@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Watcharapong Wongkaew",
+    "label": "Transportation Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "wat.wongkaew@gmail.com",
+    "phone": "(+66) 85-333-8822",
+    "url": "https://wattwong103.github.io/",
+    "summary": "An aspiring transportation engineer with a passion for sustainable transportation and urban planning with a bachelor in civil engineering from Chulalongkorn University.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "17 Bangbon 5 soi 3",
+      "postalCode": "10150",
+      "city": "Bangbon",
+      "countryCode": "TH",
+      "region": "Bangkok"
     },
     "profiles": [
       {
