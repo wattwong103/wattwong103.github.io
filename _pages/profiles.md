@@ -18,7 +18,7 @@ profiles:
       <p>Dept. of Civil Engineering</p>
       <p>CU, Bangkok Thailand 10330</p>
   - align: left
-    image: ing.jpg
+    image: king.jpg
     content: king.md
     image_circular: false # crops the image to make it circular
     more_info: >
