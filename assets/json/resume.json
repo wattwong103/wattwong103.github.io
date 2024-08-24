@@ -172,7 +172,7 @@
         "Traditional Statistical Learning",
         "Monte Carlo Simulation",
         "Supervised Learning",
-        "Unsupervised Learning",
+        "Unsupervised Learning"
       ]
     }
   ],
@@ -189,6 +189,11 @@
     },
     {
       "language": "Japanese",
+      "fluency": "Conversational",
+      "icon": ""
+    },
+    {
+      "language": "German",
       "fluency": "Conversational",
       "icon": ""
     }
@@ -226,12 +231,12 @@
     {
       "name": "Professor Saksith Chalermpong",
       "icon": "fa-solid fa-laptop",
-      "reference": ""
+      "reference": "One of his standout contributions was his innovative work on the Bangkok Travel Demand survey, where he authored a creative paper predicting mode choice using machine learning methods "
     },
     {
       "name": "Assistant Professor Pongsun Bunditsakulchai",
       "icon": "fa-solid fa-thumbtack",
-      "reference": ""
+      "reference": "His time during research project entitled “Development of a Time-Specific 4-Step Sequential Model for Examining Travel Behavior in Nakhon Ratchasima” is what truly sets him apart. His capacity to not only comprehend intricate theories but also to apply them in ways that redefine boundaries within travel behavior survey and analysis. "
     }
   ],
   "projects": [
