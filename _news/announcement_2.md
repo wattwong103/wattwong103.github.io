@@ -1,33 +1,23 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: My new journey starts
+date: 2024-08-17 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Embarking on a New Chapter: My Journey with the Pheu Thai Party
 
----
+Raw ambition meets thoughtful governance—this is how I envision my journey as I step into a pivotal role at the Pheu Thai Party. The call to serve my country by shaping transportation policies and planning public infrastructure is one that I’ve eagerly answered. This new chapter is not just a career move; it’s a commitment to innovation and social betterment.
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+In my role, I am diving deep into the intricate world of public transportation data analysis, with a focus on the Household Travel Survey 2022 from the Ministry of Transport. My goal? To generate actionable insights that will influence the way public transportation is designed and implemented across Thailand. But this isn’t just about crunching numbers—this is about creating policies that truly serve the people, making their daily commutes more efficient, reliable, and sustainable.
 
-#### Hipster list
+Key Areas of Focus
+<ul> <li>Analyzing transportation data to inform policy decisions</li> <li>Designing bus routes and incentives for public transport mode shifting</li> <li>Enhancing data and policy infrastructures within the party</li> </ul>
+As I continue to navigate through the complex terrains of transportation planning, I am also tasked with planning new bus routes and developing incentives to encourage a shift towards public transportation in Lad Krabang, Bangkok. This project, backed by a ministerial grant, underscores the importance of strategic urban planning in promoting sustainable urban mobility.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+This journey with the Pheu Thai Party is about more than just policies and planning. It’s about being part of a team that believes in the power of data-driven decision-making and the potential for positive change in every Thai citizen’s life.
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+"We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another." —Anais Nin
 
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+As I grow in this new role, I look forward to contributing to a future where our transportation systems are not only efficient but also equitable and accessible to all. Stay tuned as I share more about this exciting journey and the innovative projects we’ll be rolling out in the coming months.
