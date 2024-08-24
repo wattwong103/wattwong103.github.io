@@ -97,45 +97,45 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Supervised Machine Learning: Regression",
+      "date": "2024-08",
+      "issuer": "IBM",
+      "url": "https://coursera.org/verify/SYVO8UN0PB1T",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Mathematics for Machine Learning",
+      "date": "2024-08",
+      "issuer": "Imperial College London",
+      "url": "https://coursera.org/verify/specialization/RBBD7S91B0Y8",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Alternative Mobility Narratives",
+      "date": "2024-07",
+      "issuer": "EIT Urban Mobility",
+      "url": "https://coursera.org/verify/OZFD 1H0GCJHL",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Bayesian Statistics: From Concept to Data Analysis",
+      "date": "2024-07",
+      "issuer": "University of California, Santa Cruz",
+      "url": "https://coursera.org/verify/NXRUSJ36SVVL",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Causal Inference",
+      "date": "2024-08",
+      "issuer": "Columbia University",
+      "url": "https://coursera.org/verify/5W8SU3PAWCC0",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Neural Networks and Deep Learning",
+      "date": "2024-07",
+      "issuer": "DeepLearning.AI",
+      "url": "https://coursera.org/verify/Q9LIV0MBQJ94",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
