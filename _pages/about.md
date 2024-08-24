@@ -1,25 +1,29 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='http://www.cuti.chula.ac.th/en'>Chulalongkorn University Transportation Institute</a>. 254, Phayathai Rd. Chulalongkorn University. +66-85-333-8822. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Transportation Engineering Lab</p>
+    <p>Department of Civil Engnineering</p>
+    <p>Chulalongkorn University, Bangkok 10330</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Watcharapong Wongkaew is an accomplished civil engineer specializing in transportation science, urban planning, and artificial intelligence, with a strong academic foundation and professional experience in Thailand.
+Graduating with first-class honors in Civil Engineering from Chulalongkorn University, he has cultivated a deep interest in the intersection of geography, transportation science, and AI. His academic pursuits were complemented by his research apprenticeship at the Chulalongkorn University Transportation Institute, where he delved into contemporary transportation modeling and public transportation policy.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, Watcharapong serves as a Researcher at the Academic Division of the Pheu Thai Party, where he plays a pivotal role in analyzing transportation data, generating insights from the Household Travel Survey 2022, and designing public transportation policies. His work includes planning bus routes and incentives for public transport mode shifting, reflecting his commitment to improving urban mobility in Bangkok.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In addition to his role with the Pheu Thai Party, Watcharapong is also affiliated with the Advanced Railway Infrastructure Innovation and Systems Engineering (ARIISE) Research Unit, where he focuses on railway track management, sustainable transportation, and climate change adaptation. His leadership in independent projects, such as public transportation cost analysis and travel time modeling, highlights his innovative approach to addressing transportation challenges in Thailand.
+
+Watcharapong's dedication to education is evident through his role as a Lecturer and Faculty Advisor at Mahidol Wittayanusorn School, where he has developed curricula for the National Geography Olympiad and trained students in geography fieldwork and human geography.
+
