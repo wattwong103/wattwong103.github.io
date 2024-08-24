@@ -1,6 +1,6 @@
 ---
 layout: page
-title: submenus
+title: Submenus
 nav: true
 nav_order: 8
 dropdown: true
@@ -13,4 +13,7 @@ children:
   - title: divider
   - title: news
     permalink: /news/
+  - title: divider
+  - title: Transportation Open Data Map
+    permalink: /th-open-transdata/
 ---
