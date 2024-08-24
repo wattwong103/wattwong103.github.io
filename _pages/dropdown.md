@@ -5,13 +5,13 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: publications
+  - title: Publications
     permalink: /publications/
   - title: divider
-  - title: research
+  - title: Research
     permalink: /research/
   - title: divider
-  - title: news
+  - title: News
     permalink: /news/
   - title: divider
   - title: Transportation Open Data Map
