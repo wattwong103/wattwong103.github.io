@@ -241,12 +241,18 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Tuk-Tuk Safety",
+      "summary": "A project to improve the safety of Tuk-Tuk in Bangkok.",
+      "highlights": ["Transportation Policy", "Safety Analysis"],
+      "startDate": "2024-04-01",
+      "endDate": "2023-09-01"
+    },
+    {
+      "name": "Don Meuang Airport Egress Mode Choice Modelling",
+      "summary": "Public Mode Choice Modelling for Don Meuang Airport.",
+      "highlights": ["Public Transit", "Transportation Planning","Mode Choice Analysis", "Travel Behavior"],
+      "startDate": "2023-04-01",
+      "endDate": "2023-09-01"
     }
   ]
 }
