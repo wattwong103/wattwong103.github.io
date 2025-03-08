@@ -169,10 +169,14 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
+  - name: RTUS Live
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+      - url: https://www.facebook.com/rtusbangkok/posts/pfbid02nV4F5T2BaxKBNwcmtA6nAMBwZVFziKTHzT2aeZ7MbebqSrNwvTBQQhRaTb1akEfJl
+        published_date: 2022-11-22
+  - name: RTUS Transport Blog - Future of Railways
+    posts:
+      - url: https://www.facebook.com/rtusbangkok/posts/pfbid02ALfECGmYSjteWdD1DebvgDAJZnbstvFKNaE4P4R6KX1rjo7ZnnqxDVHAHadLfGkcl
+        published_date: 2022-08-03
 
 # -----------------------------------------------------------------------------
 # Newsletter
