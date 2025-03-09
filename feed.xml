@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://wattwong103.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://wattwong103.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-03-08T22:33:01+00:00</updated><id>https://wattwong103.github.io/feed.xml</id><title type="html">W.Wongkaew</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with tabs</title><link href="https://wattwong103.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://wattwong103.github.io/blog/2024/tabs</id><content type="html" xml:base="https://wattwong103.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://wattwong103.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://wattwong103.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-03-09T21:31:49+00:00</updated><id>https://wattwong103.github.io/feed.xml</id><title type="html">W.Wongkaew</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Mixed-Use Development and Sustainable Mobility in Thailand</title><link href="https://wattwong103.github.io/blog/2025/mixedused/" rel="alternate" type="text/html" title="Mixed-Use Development and Sustainable Mobility in Thailand"/><published>2025-03-09T00:00:00+00:00</published><updated>2025-03-09T00:00:00+00:00</updated><id>https://wattwong103.github.io/blog/2025/mixedused</id><content type="html" xml:base="https://wattwong103.github.io/blog/2025/mixedused/"><![CDATA[<h1 id="mixed-use-development-and-sustainable-mobility-in-thailand">Mixed-Use Development and Sustainable Mobility in Thailand</h1> <p>The relationship between urban design and transportation choices is inseparable. As Bangkok continues to evolve, the development of mixed-use urban centers around transit hubs presents an exciting opportunity to reshape mobility patterns while acknowledging Thailand’s car-centric culture. In this post, I’ll explore how thoughtful urban planning can create more sustainable mobility options without directly challenging the cultural significance of car ownership.</p> <h2 id="the-urban-design-challenge-in-bangkok">The Urban Design Challenge in Bangkok</h2> <p>Bangkok’s urban development has historically prioritized car infrastructure, resulting in sprawling neighborhoods connected by congested roadways. This pattern not only reinforces dependence on private vehicles but also diminishes quality of life through extended commutes, pollution, and reduced community spaces.</p> <p>My observations of Bangkok’s development patterns reveal that changing this dynamic requires more than just building additional public transportation lines—it demands a fundamental rethinking of how urban spaces are organized around mobility hubs.</p> <h2 id="transit-oriented-development-with-a-thai-perspective">Transit-Oriented Development with a Thai Perspective</h2> <p>The concept of Transit-Oriented Development (TOD) typically centers on creating high-density, walkable communities around transit stations. However, in Thailand, where car ownership remains aspirational for many, I believe these developments must incorporate elements that respect car culture while gradually reducing car dependency.</p> <p>Key areas in Bangkok like Siam, Asoke, and Chatuchak show tremendous potential for this balanced approach. Here’s how mixed-use development around these transit hubs could transform urban mobility:</p> <h3 id="1-integrated-parking-and-transit-solutions">1. Integrated Parking and Transit Solutions</h3> <p>Rather than eliminating parking, these developments could feature smart parking structures integrated with transit stations. These would include premium services for car owners (valet options, car cleaning, maintenance services) while making the transition to public transit for the final leg of journeys seamless and attractive.</p> <h3 id="2-walkable-car-free-zones-with-prestigious-addresses">2. Walkable “Car-Free” Zones with Prestigious Addresses</h3> <p>Creating pedestrian-focused zones around transit hubs that become prestigious locations for businesses and residences can shift perceptions about car-free areas. When the most desirable addresses become those with limited car access but excellent transit connections, cultural attitudes begin to evolve organically.</p> <h3 id="3-mixed-use-developments-that-reduce-trip-needs">3. Mixed-Use Developments That Reduce Trip Needs</h3> <p>By combining residential, commercial, recreational, and office spaces around transit hubs, these developments can significantly reduce the need for daily trips. When essential services and amenities are within walking distance, car usage becomes a choice rather than a necessity, even for those who maintain car ownership.</p> <h3 id="4-public-spaces-that-rival-private-experiences">4. Public Spaces That Rival Private Experiences</h3> <p>Developing high-quality public spaces around transit hubs—featuring gardens, art installations, entertainment venues, and premium dining options—can create environments that offer experiences superior to those available via private transportation.</p> <h2 id="real-world-examples-and-possibilities">Real-World Examples and Possibilities</h2> <p>Several projects in Bangkok already hint at this potential:</p> <ul> <li><strong>One Bangkok</strong> near Lumphini MRT station combines office, retail, residential, and hotel spaces with significant public areas and transit connections</li> <li><strong>The development around Chatuchak Park</strong> integrates the weekend market, park spaces, and transit connections</li> <li><strong>Potential redevelopment around Bang Sue Grand Station</strong> could create Thailand’s most impressive example of transit-oriented development</li> </ul> <p>The key is ensuring these developments don’t simply target car-free lifestyles but instead create environments where reduced car usage becomes a natural choice due to convenience and quality of life improvements.</p> <h2 id="environmental-and-social-benefits">Environmental and Social Benefits</h2> <p>This approach to urban development offers substantial benefits:</p> <ul> <li><strong>Environmental impact</strong>: Reduced emissions through decreased vehicle-kilometers traveled</li> <li><strong>Land utilization</strong>: More efficient use of urban land, with less space dedicated to roads and parking</li> <li><strong>Community building</strong>: Enhanced social interactions in walkable neighborhoods</li> <li><strong>Economic vitality</strong>: Increased business activity in mixed-use centers</li> <li><strong>Public health</strong>: Improved air quality and increased physical activity through walking</li> </ul> <h2 id="challenges-and-considerations">Challenges and Considerations</h2> <p>Implementing this vision faces several obstacles:</p> <ul> <li><strong>Land acquisition costs</strong> around existing transit hubs</li> <li><strong>Zoning regulations</strong> that may need updating to permit mixed-use development</li> <li><strong>Balancing density</strong> with quality of life considerations</li> <li><strong>Ensuring affordable housing</strong> within these developments to prevent exclusionary outcomes</li> <li><strong>Maintaining cultural relevance</strong> while promoting new urban lifestyles</li> </ul> <h2 id="looking-forward">Looking Forward</h2> <p>The future of mobility in Thailand doesn’t require choosing between car culture and sustainable transportation. Through thoughtful mixed-use development around transit hubs, we can create urban environments that naturally reduce car dependency while respecting individual choices and cultural values.</p> <p>As Bangkok continues to grow, prioritizing these transit-oriented developments represents our best opportunity to create a more sustainable, livable city that honors Thailand’s past while embracing a more balanced mobility future.</p> <p>What do you think about this approach to urban development? Could mixed-use centers around transit hubs change how you think about mobility in Bangkok? I’d love to hear your perspectives in the comments.</p>]]></content><author><name></name></author><category term="mobility-innovation"/><category term="urban-planning"/><category term="mixed-use-development"/><category term="transit-oriented"/><category term="sustainable-mobility"/><summary type="html"><![CDATA[How transit-oriented development around major hubs can transform Bangkok's urban landscape while respecting car culture]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://wattwong103.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://wattwong103.github.io/blog/2024/tabs</id><content type="html" xml:base="https://wattwong103.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
 
@@ -13,16 +13,16 @@ Content 2
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="8f56f42b-36b9-43d3-82cc-bfc49e4dfebf" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="8f56f42b-36b9-43d3-82cc-bfc49e4dfebf" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="d5f0c15d-ed01-45a1-8ad6-e083d5de0cac" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="d5f0c15d-ed01-45a1-8ad6-e083d5de0cac" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="762e06a0-3d01-4e4d-a21d-c7b6adbf453e" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="762e06a0-3d01-4e4d-a21d-c7b6adbf453e" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="b80569d1-845e-4ea4-b231-237212b3424e" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="b80569d1-845e-4ea4-b231-237212b3424e" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
 </code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="6040540f-a758-420f-aa55-e4c4f67ce9f7" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="6040540f-a758-420f-aa55-e4c4f67ce9f7" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://wattwong103.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://wattwong103.github.io/blog/2024/typograms</id><content type="html" xml:base="https://wattwong103.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="4cf69d4f-6539-4d65-8316-b8acae369802" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="4cf69d4f-6539-4d65-8316-b8acae369802" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://wattwong103.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://wattwong103.github.io/blog/2024/typograms</id><content type="html" xml:base="https://wattwong103.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
 </span><span class="sb">+----+
 |    |---&gt; My first diagram!
 +----+</span>
@@ -774,162 +774,4 @@ index 3bb754ac..a34839c0 100644
     }
   ]
 }
-</code></pre> <p>Note that this library offer support for both light and dark themes. You can switch between them using the theme switcher in the top right corner of the page.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included echarts code could look like]]></summary></entry><entry><title type="html">a post with chart.js</title><link href="https://wattwong103.github.io/blog/2024/chartjs/" rel="alternate" type="text/html" title="a post with chart.js"/><published>2024-01-26T01:04:00+00:00</published><updated>2024-01-26T01:04:00+00:00</updated><id>https://wattwong103.github.io/blog/2024/chartjs</id><content type="html" xml:base="https://wattwong103.github.io/blog/2024/chartjs/"><![CDATA[<p>This is an example post with some <a href="https://www.chartjs.org/">chart.js</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">chartjs
-</span><span class="sb">{
-  "type": "line",
-  "data": {
-    "labels": [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July"
-    ],
-    "datasets": [
-      {
-        "label": "# of bugs",
-        "fill": false,
-        "lineTension": 0.1,
-        "backgroundColor": "rgba(75,192,192,0.4)",
-        "borderColor": "rgba(75,192,192,1)",
-        "borderCapStyle": "butt",
-        "borderDash": [],
-        "borderDashOffset": 0,
-        "borderJoinStyle": "miter",
-        "pointBorderColor": "rgba(75,192,192,1)",
-        "pointBackgroundColor": "#fff",
-        "pointBorderWidth": 1,
-        "pointHoverRadius": 5,
-        "pointHoverBackgroundColor": "rgba(75,192,192,1)",
-        "pointHoverBorderColor": "rgba(220,220,220,1)",
-        "pointHoverBorderWidth": 2,
-        "pointRadius": 1,
-        "pointHitRadius": 10,
-        "data": [
-          65,
-          59,
-          80,
-          81,
-          56,
-          55,
-          40
-        ],
-        "spanGaps": false
-      }
-    ]
-  },
-  "options": {}
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>This is how it looks like:</p> <pre><code class="language-chartjs">{
-  "type": "line",
-  "data": {
-    "labels": [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July"
-    ],
-    "datasets": [
-      {
-        "label": "# of bugs",
-        "fill": false,
-        "lineTension": 0.1,
-        "backgroundColor": "rgba(75,192,192,0.4)",
-        "borderColor": "rgba(75,192,192,1)",
-        "borderCapStyle": "butt",
-        "borderDash": [],
-        "borderDashOffset": 0,
-        "borderJoinStyle": "miter",
-        "pointBorderColor": "rgba(75,192,192,1)",
-        "pointBackgroundColor": "#fff",
-        "pointBorderWidth": 1,
-        "pointHoverRadius": 5,
-        "pointHoverBackgroundColor": "rgba(75,192,192,1)",
-        "pointHoverBorderColor": "rgba(220,220,220,1)",
-        "pointHoverBorderWidth": 2,
-        "pointRadius": 1,
-        "pointHitRadius": 10,
-        "data": [
-          65,
-          59,
-          80,
-          81,
-          56,
-          55,
-          40
-        ],
-        "spanGaps": false
-      }
-    ]
-  },
-  "options": {}
-}
-</code></pre> <p>Also another example chart.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">chartjs
-</span><span class="sb">{
-  "type": "doughnut",
-  "data": {
-    "labels": [
-      "Red",
-      "Blue",
-      "Yellow"
-    ],
-    "datasets": [
-      {
-        "data": [
-          300,
-          50,
-          100
-        ],
-        "backgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ],
-        "hoverBackgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ]
-      }
-    ]
-  },
-  "options": {}
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-chartjs">{
-  "type": "doughnut",
-  "data": {
-    "labels": [
-      "Red",
-      "Blue",
-      "Yellow"
-    ],
-    "datasets": [
-      {
-        "data": [
-          300,
-          50,
-          100
-        ],
-        "backgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ],
-        "hoverBackgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ]
-      }
-    ]
-  },
-  "options": {}
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included chart.js code could look like]]></summary></entry></feed>
+</code></pre> <p>Note that this library offer support for both light and dark themes. You can switch between them using the theme switcher in the top right corner of the page.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included echarts code could look like]]></summary></entry></feed>
