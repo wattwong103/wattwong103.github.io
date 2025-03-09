@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mixed-Use Development and Sustainable Mobility in Thailand
-date: 2025-03-09 17:00:00
+date: 2025-03-09
 description: How transit-oriented development around major hubs can transform Bangkok's urban landscape while respecting car culture
 tags: urban-planning mixed-use-development transit-oriented sustainable-mobility
 categories: mobility-innovation
