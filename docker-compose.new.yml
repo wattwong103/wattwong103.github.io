@@ -1,0 +1,13 @@
+﻿version: '3'
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile.new
+    ports:
+      - 8080:8080
+      - 35729:35729
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
