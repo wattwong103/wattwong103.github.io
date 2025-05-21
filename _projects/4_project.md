@@ -1,80 +1,37 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Research Works
+description: Collaborative research projects at Chulalongkorn University Transportation Institute
+importance: 2
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Research Experience
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+As a research assistant at the Transportation Institute at Chulalongkorn University, I have worked with numerous researchers with different expertises ranging from public transportation and logistics to engineering economy and feasibility studies. This diverse experience has allowed me to develop a broad understanding of transportation systems and their impacts.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Research Projects
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### BMA Garbage Logistics
+Analysis and optimization of garbage collection routes in Bangkok Metropolitan Area to reduce operational costs and environmental impacts.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Sustainable Transportation
+Research on sustainable mobility options for Bangkok, including assessment of carbon emissions reduction strategies and promotion of active transportation modes.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Airport Egress Modelling
+Development of models to predict and optimize passenger flows exiting Suvarnabhumi Airport, with focus on reducing congestion and improving service quality.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Mode Change Prediction
+Application of machine learning techniques to predict traveler behavior and mode choice shifts in response to transportation system changes.
 
-{% raw %}
+### Travel Demand Survey Analysis
+Comprehensive analysis of travel demand patterns in Bangkok based on household survey data, identifying key determinants of travel behavior.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Shared Mobility in University
+Investigation of shared mobility solutions for university campuses, including bike-sharing and ride-sharing systems optimization.
 
-{% endraw %}
+### Land Use Changes and Transport Demand
+Analysis of the relationship between land use development patterns and resulting transportation demand, with implications for urban planning.
+
+### Technical Analysis
+Other technical analyses utilizing R and Python programming languages, including statistical modeling, GIS applications, and data visualization for transportation research.

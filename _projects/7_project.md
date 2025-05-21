@@ -1,81 +1,65 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Machine Learning Approach to Predict Railway Track Buckling
+description: Our first project with my Prof. Chayut
 img: assets/img/4.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Summary
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This research develops and implements advanced machine learning models to predict buckling failure modes in ballasted railway tracks, addressing a critical safety concern in railway infrastructure. As climate change increases the frequency of extreme temperatures, the risk of track buckling grows - particularly in continuous welded rail (CWR) systems that are susceptible to heat-induced expansion and lateral instability.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Research Highlights
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **Novel Approach**: Utilizes machine learning techniques to analyze track parameters and predict buckling failures before they occur
+- **High Accuracy**: Achieves 97% prediction accuracy using optimized XGBoost models
+- **Multiple Buckling Modes**: Distinguishes between snap-through and progressive buckling modes
+- **Comprehensive Modeling**: Incorporates temperature effects, track geometry, and mechanical properties
+- **Practical Application**: Validated through real-world case study from Thailand's railway system
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Technical Implementation
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The research employed various machine learning algorithms including Logistic Regression, k-Nearest Neighbor, Decision Trees, Random Forest, and gradient boosting techniques (XGBoost, LightGBM). After comprehensive testing and optimization, XGBoost emerged as the most effective model with outstanding performance metrics (F1 score: 0.97).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+#### Key Model Features:
+- **Input Parameters**: Lateral stiffness, displacement limits, torsional resistance, unconstrained length, and initial misalignment
+- **Prediction Outputs**: Non-buckling, snap-through buckling, or progressive buckling modes
+- **Feature Importance Analysis**: Identified lateral misalignment, torsional resistance, and lateral displacement limit as the most significant factors
 
-{% raw %}
+#### Data Processing:
+- 8,000 simulated track scenarios from advanced finite element modeling
+- Synthetic Minority Over-Sampling Technique (SMOTE) to address class imbalance
+- K-Fold Cross Validation for robust model evaluation
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Key Findings
 
-{% endraw %}
+1. Different track parameters significantly influence the temperature at which buckling occurs
+2. Progressive buckling typically occurs at lower lateral stiffness and lower temperatures
+3. Snap-through buckling becomes more prominent with increased lateral resistance
+4. The model successfully predicted both the buckling temperature and mode in a real-world case study with high accuracy
+
+### Practical Implications
+
+This machine learning approach offers significant potential for:
+- Early warning systems for railway operators
+- Optimized maintenance scheduling based on predicted risk
+- Improved safety protocols during extreme temperature conditions
+- Enhanced understanding of track buckling physics
+- Better railway asset management and investment planning
+
+### Future Research Directions
+
+The researchers acknowledge limitations including the simplification of track misalignments using sine waves rather than actual track geometry data. Future work could focus on:
+- Incorporating real-world track alignment measurements
+- Developing more sophisticated models with additional parameters
+- Creating user-friendly tools for railway engineers and operators
+- Expanding the approach to other types of railway infrastructure
+
+This research represents a significant advancement in railway engineering by integrating machine learning with structural analysis, potentially leading to safer and more efficient railway systems worldwide.
+
+This project builds to our work {% cite DiscovApplSci.6.212 %}.
+
+[Download Poster (PDF)](/assets/pdf/PosterBuckling2.pdf){: .btn}
