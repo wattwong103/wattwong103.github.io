@@ -7,25 +7,29 @@ importance: 3
 category: work
 ---
 
-# Railway Flood Risk Mapping Project 🚂 💧
-
 ## The Challenge: When Railways Meet Monsoons
 
 In Thailand's monsoon-prone regions, railways face a perpetual battle against nature. Heavy rainfall events frequently lead to flooding, disrupting critical transportation infrastructure and causing significant economic losses. Add human activities like railway embankments that obstruct natural water flow, and you've got a perfect storm of flood risk factors.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/flooded-railway.jpg" title="Flooded railway tracks in Thailand" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/flood-simulation.jpg" title="Flood simulation model" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/flood-risk-levels.jpg" title="Flood risk levels visualization" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/flood-simulation.png" title="Flood simulation model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Flooded railway tracks during monsoon season. Middle: Flood simulation and modeling. Right: Visualization of different flood risk levels.
+    Left: Flooded railway tracks during monsoon season. Right: Flood simulation and modeling.
+</div>
+
+<div class="row mt-3">
+    <div class="col-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/flood-lev.png" title="Flood level analysis" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Flood Level Analysis.
 </div>
 
 ## Our Innovative Approach
@@ -70,10 +74,10 @@ We tested several machine learning models and found that the **Extra Trees class
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/model-performance.jpg" title="Model performance comparison" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/model-perf.png" title="Model performance comparison" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/feature-importance.jpg" title="Feature importance graph" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/feature-imp.png" title="Feature importance graph" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -92,7 +96,7 @@ Our model successfully:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/flood-risk-visualization.jpg" title="Full visualization of railway flood risk mapping" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/flood-risk-viz.png" title="Full visualization of railway flood risk mapping" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
