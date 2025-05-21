@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out my academic blog [TransitThreads](https://wattwong103.github.io/acad-blog/)
+Check out my academic one page [Research](https://wattwong103.github.io/research/)
