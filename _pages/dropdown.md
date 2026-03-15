@@ -5,9 +5,6 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: Research
-    permalink: /research/
-  - title: divider
   - title: News
     permalink: /news/
   - title: divider
