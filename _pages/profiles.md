@@ -1,27 +1,13 @@
 ---
-layout: profiles
+layout: page
 permalink: /people/
 title: People
 description: Research collaborators and colleagues
 nav: true
 nav_order: 7
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: w_leo.jpg
-    content: wleo.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>ARIISE Research Unit</p>
-      <p>Dept. of Civil Engineering</p>
-      <p>CU, Bangkok Thailand 10330</p>
-  - align: left
-    image: king.jpg
-    content: king.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>On education leave</p>
-      <p>Budapest, Hungary</p>
 ---
+
+## Collaborators
+
+- **Wachira Muanyoksakul** — Civil Engineering, Chulalongkorn University. Railway infrastructure, flood risk assessment, ML for track buckling prediction.
+- **Kittipat Phunjanna** — Electronic Engineering, The Chinese University of Hong Kong. Data science, computer vision, deep learning.
