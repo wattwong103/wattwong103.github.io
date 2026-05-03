@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research and personal projects in transportation engineering, urban planning, and machine learning.
 nav: true
 nav_order: 3
 display_categories: [work,projects, fun, research]

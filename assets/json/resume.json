@@ -1,35 +1,48 @@
 {
   "basics": {
     "name": "Watcharapong Wongkaew",
-    "label": "Transportation Engineer",
+    "label": "Graduate Student, Transportation Engineering",
     "image": "",
     "email": "wat.wongkaew@gmail.com",
-    "phone": "(+66) 85-333-8822",
+    "phone": "",
     "url": "https://wattwong103.github.io/",
-    "summary": "An aspiring transportation engineer with a passion for sustainable transportation and urban planning with a bachelor in civil engineering from Chulalongkorn University.",
+    "summary": "Graduate student at the Center for Spatial Information Science (CSIS), University of Tokyo. Research interests in transportation engineering, urban planning, and machine learning. B.Eng. (First Class Honors) in Civil Engineering from Chulalongkorn University.",
     "location": {
-      "address": "17 Bangbon 5 soi 3",
-      "postalCode": "10150",
-      "city": "Bangbon",
-      "countryCode": "TH",
-      "region": "Bangkok"
+      "address": "",
+      "postalCode": "",
+      "city": "Kashiwa",
+      "countryCode": "JP",
+      "region": "Chiba"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "wattwong103",
+        "url": "https://github.com/wattwong103"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "w-wongkaew",
+        "url": "https://th.linkedin.com/in/w-wongkaew"
       }
     ]
   },
   "work": [
     {
+      "name": "Center for Spatial Information Science (CSIS), University of Tokyo",
+      "position": "Graduate Student",
+      "url": "https://www.csis.u-tokyo.ac.jp/",
+      "startDate": "2025-04-01",
+      "summary": "Graduate research at CSIS focusing on transportation engineering, spatial analysis, and machine learning.",
+      "highlights": ["Transportation Modeling", "Spatial Analysis", "Machine Learning"]
+    },
+    {
       "name": "Chulalongkorn University Transportation Institute",
       "position": "Research Associate",
       "url": "http://www.cuti.chula.ac.th/",
       "startDate": "2021-07-01",
-      "endDate": "2025-05-01",
-      "summary": "Research Associate at Chulalongkorn University Transportation Institute (CUTI) with a focus on transportation engineering and urban planning.",
+      "endDate": "2025-03-01",
+      "summary": "Research Associate at CUTI with a focus on transportation engineering, mode choice modeling, and urban planning.",
       "highlights": ["Mode Choice", "Transportation Planning", "Traffic Engineering"]
     },
     {
@@ -37,18 +50,18 @@
       "position": "Researcher",
       "url": "https://ariise.eng.chula.ac.th/en/author/wwongkaew/",
       "startDate": "2023-08-01",
-      "endDate": "2025-08-01",
-      "summary": "Researcher at Advanced Railway Infrastructure, Innovation and Systems Engineering Research Unit (ARIISE) with a focus on railway engineering and climate resilient.",
-      "highlights": ["Developed a new method for predicting the flood risk","Machine Learning", "Climate Resilient"]
+      "endDate": "2025-03-01",
+      "summary": "Researcher at ARIISE with a focus on railway engineering, flood risk mapping, and climate resilience.",
+      "highlights": ["Flood Risk Prediction with ML", "Machine Learning", "Climate Resilience"]
     },
     {
       "name": "Pheu Thai Party",
-      "position": "Researcher",
+      "position": "Researcher, Academic Division",
       "url": "https://en.wikipedia.org/wiki/Pheu_Thai_Party",
       "startDate": "2024-05-01",
-      "endDate": "2025-05-01",
-      "summary": "Researcher at Pheu Thai Party with a focus on transportation policy and urban planning.",
-      "highlights": ["Digital Transformation", "Transportation Policy", "Urban Planning"]
+      "endDate": "2025-03-01",
+      "summary": "Analyzed household travel survey data and designed public transportation policies for Bangkok.",
+      "highlights": ["Transportation Policy", "Bus Route Planning", "Data Analysis"]
     }
   ],
   "volunteer": [
@@ -64,6 +77,15 @@
     }
   ],
   "education": [
+    {
+      "institution": "University of Tokyo",
+      "location": "Kashiwa, Chiba, Japan",
+      "url": "https://www.u-tokyo.ac.jp/en/",
+      "area": "Spatial Information Science",
+      "studyType": "Graduate Student",
+      "startDate": "2025-04-01",
+      "courses": []
+    },
     {
       "institution": "Chulalongkorn University",
       "location": "Bangkok, Thailand",
@@ -145,7 +167,7 @@
       "publisher": "Discover Applied Sciences",
       "releaseDate": "2024-04-14",
       "url": "https://link.springer.com/article/10.1007/s42452-024-05885-3",
-      "summary": "This study explores the development and application of a machine learning (ML) approach to predict buckling failure modes in ballasted railway tracks. "
+      "summary": "This study explores the development and application of a machine learning (ML) approach to predict buckling failure modes in ballasted railway tracks."
     }
   ],
   "skills": [
@@ -231,12 +253,12 @@
     {
       "name": "Professor Saksith Chalermpong",
       "icon": "fa-solid fa-laptop",
-      "reference": "One of his standout contributions was his innovative work on the Bangkok Travel Demand survey, where he authored a creative paper predicting mode choice using machine learning methods "
+      "reference": "One of his standout contributions was his innovative work on the Bangkok Travel Demand survey, where he authored a creative paper predicting mode choice using machine learning methods."
     },
     {
       "name": "Assistant Professor Pongsun Bunditsakulchai",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "His time during research project entitled “Development of a Time-Specific 4-Step Sequential Model for Examining Travel Behavior in Nakhon Ratchasima” is what truly sets him apart. His capacity to not only comprehend intricate theories but also to apply them in ways that redefine boundaries within travel behavior survey and analysis. "
+      "reference": "His time during research project entitled “Development of a Time-Specific 4-Step Sequential Model for Examining Travel Behavior in Nakhon Ratchasima” is what truly sets him apart. His capacity to not only comprehend intricate theories but also to apply them in ways that redefine boundaries within travel behavior survey and analysis."
     }
   ],
   "projects": [
@@ -244,13 +266,13 @@
       "name": "Tuk-Tuk Safety",
       "summary": "A project to improve the safety of Tuk-Tuk in Bangkok.",
       "highlights": ["Transportation Policy", "Safety Analysis"],
-      "startDate": "2024-04-01",
+      "startDate": "2023-04-01",
       "endDate": "2023-09-01"
     },
     {
       "name": "Don Meuang Airport Egress Mode Choice Modelling",
       "summary": "Public Mode Choice Modelling for Don Meuang Airport.",
-      "highlights": ["Public Transit", "Transportation Planning","Mode Choice Analysis", "Travel Behavior"],
+      "highlights": ["Public Transit", "Transportation Planning", "Mode Choice Analysis", "Travel Behavior"],
       "startDate": "2023-04-01",
       "endDate": "2023-09-01"
     }
