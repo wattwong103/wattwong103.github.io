@@ -30,9 +30,20 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Wongkaew Research — brand palette (deep-blue academic).
+// Sass-level mirrors of the design tokens, for the few places that need a
+// literal color (e.g. interpolated #{...} values in _themes.scss). Everything
+// else should reference the CSS custom-property aliases in _brand-tokens.scss.
+$navy-900: #081a33;
+$navy-800: #0c2747;
+$navy-700: #123862; // primary brand color
+$blue-500: #2563a8; // interactive / accent
+$blue-200: #aecbe8;
+$coral-500: #e0533d; // highlight: awards, "Oral Presentation"
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($navy-700, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location

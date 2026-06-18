@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
-permalink: /
+title: about
+permalink: /about/
 subtitle: <a href='http://www.cuti.chula.ac.th/en'>Chulalongkorn University Transportation Institute</a>. 254, Phayathai Rd. Chulalongkorn University. +66-85-333-8822. Etc.
 
 profile:
