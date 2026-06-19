@@ -68,9 +68,10 @@
     .l-name {
       font-family: var(--font-display); font-weight: 700;
       font-size: clamp(46px, 8.4vw, 116px);
-      line-height: 0.92; letter-spacing: -0.035em; margin: 0;
+      line-height: 1.04; letter-spacing: -0.035em; margin: 0;
       color: var(--text-strong);
     }
+    .l-name span { display: block; padding-bottom: 0.08em; }
     .l-name .surname {
       background: linear-gradient(100deg, #E8633F 0%, #4F8DD6 52%, #2FB6A8 100%);
       -webkit-background-clip: text; background-clip: text; color: transparent;
@@ -127,10 +128,15 @@
     @media (prefers-reduced-motion: reduce) { .l-hero { animation: none; } }
 
     @media (max-width: 640px) {
-      .l-meta, .l-footmeta { font-size: 10px; }
+      .l-meta { font-size: 10px; }
+      .l-footmeta { font-size: 10px; flex-direction: column; gap: 6px; }
       .l-subtext { max-width: 100%; }
-      .l-stations { flex-wrap: wrap; row-gap: 18px; }
+      .l-route { padding-top: 8px; }
       .l-route .rail { display: none; }
+      /* Rail collapses to a tidy 2-up station list, each as a dot + label row. */
+      .l-stations { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 14px; }
+      .l-station, .l-station:last-child { flex-direction: row; align-items: center; gap: 11px; }
+      .l-station .dot { flex: 0 0 auto; }
     }
   </style>
 </head>
