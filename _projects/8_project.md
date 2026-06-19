@@ -45,13 +45,13 @@ This project addresses these challenges by creating an open, standardized platfo
 
 The platform currently provides access to several key transportation datasets:
 
-| Dataset | Description | Update Frequency | Source |
-|---------|-------------|------------------|--------|
-| Bus Routes | Route networks for all public buses in major cities | Monthly | Multiple city transit authorities |
-| Traffic Volumes | Vehicle counts at major intersections | Daily | Department of Highways |
-| Rail Schedules | Timetables for all rail services | Weekly | State Railway of Thailand |
-| Road Incidents | Traffic accidents and road closures | Hourly | Highway Police |
-| Bike Sharing | Station locations and bike availability | Real-time | Multiple bike sharing operators |
+| Dataset         | Description                                         | Update Frequency | Source                            |
+| --------------- | --------------------------------------------------- | ---------------- | --------------------------------- |
+| Bus Routes      | Route networks for all public buses in major cities | Monthly          | Multiple city transit authorities |
+| Traffic Volumes | Vehicle counts at major intersections               | Daily            | Department of Highways            |
+| Rail Schedules  | Timetables for all rail services                    | Weekly           | State Railway of Thailand         |
+| Road Incidents  | Traffic accidents and road closures                 | Hourly           | Highway Police                    |
+| Bike Sharing    | Station locations and bike availability             | Real-time        | Multiple bike sharing operators   |
 
 This open data platform enables numerous applications and research opportunities:
 
@@ -67,8 +67,8 @@ This open data platform enables numerous applications and research opportunities
 The roadmap for future development includes:
 
 1. **Real-time Data Integration**: Expanding real-time data sources for more transportation modes
-5. **Open Standards Development**: Contributing to international transportation data standards
-6. **Accessibility Features**: Enhancing the platform for users with disabilities
+2. **Open Standards Development**: Contributing to international transportation data standards
+3. **Accessibility Features**: Enhancing the platform for users with disabilities
 
 ## Collaboration Opportunities
 
@@ -81,9 +81,9 @@ We actively seek partnerships with:
 - International development partners
 
 ## Acknowledgments
+
 This is an open-source project that welcomes contributions from developers, data scientists, transportation professionals, and policy experts. To participate, just email me.
 This project is supported by contributions from the following organizations:
 
 - Chulalongkorn University Transportation Institute
 - Department of Civil Engineering, Chulalongkorn University
-

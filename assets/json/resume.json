@@ -39,7 +39,7 @@
       "startDate": "2023-08-01",
       "endDate": "2025-08-01",
       "summary": "Researcher at Advanced Railway Infrastructure, Innovation and Systems Engineering Research Unit (ARIISE) with a focus on railway engineering and climate resilient.",
-      "highlights": ["Developed a new method for predicting the flood risk","Machine Learning", "Climate Resilient"]
+      "highlights": ["Developed a new method for predicting the flood risk", "Machine Learning", "Climate Resilient"]
     },
     {
       "name": "Pheu Thai Party",
@@ -73,10 +73,18 @@
       "startDate": "2019-08-01",
       "endDate": "2023-07-01",
       "score": "3.63",
-      "courses": ["Transportation Engineering", "Travel Behavior Survey and Analysis",
-       "Urban Planning", "Advanced Transportation Statistics", "Transportation Economics",
-       "Traffic Engineering", "Transportation Planning", "Public Transportation Systems",
-      "Discrete Choice Models", "Transportation and Land Use Interaction"]
+      "courses": [
+        "Transportation Engineering",
+        "Travel Behavior Survey and Analysis",
+        "Urban Planning",
+        "Advanced Transportation Statistics",
+        "Transportation Economics",
+        "Traffic Engineering",
+        "Transportation Planning",
+        "Public Transportation Systems",
+        "Discrete Choice Models",
+        "Transportation and Land Use Interaction"
+      ]
     }
   ],
   "awards": [
@@ -250,7 +258,7 @@
     {
       "name": "Don Meuang Airport Egress Mode Choice Modelling",
       "summary": "Public Mode Choice Modelling for Don Meuang Airport.",
-      "highlights": ["Public Transit", "Transportation Planning","Mode Choice Analysis", "Travel Behavior"],
+      "highlights": ["Public Transit", "Transportation Planning", "Mode Choice Analysis", "Travel Behavior"],
       "startDate": "2023-04-01",
       "endDate": "2023-09-01"
     }

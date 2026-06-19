@@ -25,11 +25,13 @@ This research develops and implements advanced machine learning models to predic
 The research employed various machine learning algorithms including Logistic Regression, k-Nearest Neighbor, Decision Trees, Random Forest, and gradient boosting techniques (XGBoost, LightGBM). After comprehensive testing and optimization, XGBoost emerged as the most effective model with outstanding performance metrics (F1 score: 0.97).
 
 #### Key Model Features:
+
 - **Input Parameters**: Lateral stiffness, displacement limits, torsional resistance, unconstrained length, and initial misalignment
 - **Prediction Outputs**: Non-buckling, snap-through buckling, or progressive buckling modes
 - **Feature Importance Analysis**: Identified lateral misalignment, torsional resistance, and lateral displacement limit as the most significant factors
 
 #### Data Processing:
+
 - 8,000 simulated track scenarios from advanced finite element modeling
 - Synthetic Minority Over-Sampling Technique (SMOTE) to address class imbalance
 - K-Fold Cross Validation for robust model evaluation
@@ -44,6 +46,7 @@ The research employed various machine learning algorithms including Logistic Reg
 ### Practical Implications
 
 This machine learning approach offers significant potential for:
+
 - Early warning systems for railway operators
 - Optimized maintenance scheduling based on predicted risk
 - Improved safety protocols during extreme temperature conditions
@@ -53,6 +56,7 @@ This machine learning approach offers significant potential for:
 ### Future Research Directions
 
 The researchers acknowledge limitations including the simplification of track misalignments using sine waves rather than actual track geometry data. Future work could focus on:
+
 - Incorporating real-world track alignment measurements
 - Developing more sophisticated models with additional parameters
 - Creating user-friendly tools for railway engineers and operators

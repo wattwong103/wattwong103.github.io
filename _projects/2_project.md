@@ -14,14 +14,14 @@ NaviCity is a specialized transportation routing application designed to help pu
 
 ### Project Overview
 
-The application utilizes graph theory to create a comprehensive map of Bangkok's transportation network and implements advanced algorithms such as A* (A-star) to identify optimal routes based on user preferences. Users can specify whether they prioritize cost savings, travel time, or a balance between the two.
+The application utilizes graph theory to create a comprehensive map of Bangkok's transportation network and implements advanced algorithms such as A\* (A-star) to identify optimal routes based on user preferences. Users can specify whether they prioritize cost savings, travel time, or a balance between the two.
 
 ### Key Features
 
 - **Multi-modal routing**: Integrates all public transportation options in Bangkok (BTS, MRT, buses, boats, etc.)
 - **Cost vs. Time Optimization**: Allows users to set their preferences between saving money or saving time
 - **Graph-based Network Representation**: Accurately models the complex transportation network of Bangkok
-- **Advanced Pathfinding Algorithms**: Uses A* algorithm for efficient route calculation
+- **Advanced Pathfinding Algorithms**: Uses A\* algorithm for efficient route calculation
 - **Real-time Updates**: Incorporates service disruptions and schedule changes when available
 
 ### Current Status

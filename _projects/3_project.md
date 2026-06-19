@@ -14,6 +14,7 @@ This project investigates the methodological differences between various travel 
 ## Research Focus
 
 The research focused on analyzing and comparing different travel time calculation methods:
+
 - Snapshot calculation methodology
 - Vehicle Trajectory approaches
 - Departure time-based travel time (DTT)
@@ -33,12 +34,14 @@ The research focused on analyzing and comparing different travel time calculatio
 </div>
 
 **Snapshot Method:**
+
 - Summarizes travel times of vehicles in fixed time intervals
 - Measures travel time at the same point on all road segments and combines them
 - Advantages: Simple installation and system maintenance, more consistent measurements
 - Limitations: Does not reflect dynamic traffic changes, less responsive to sudden congestion
 
 **Vehicle Trajectory Method:**
+
 - Identifies vehicle travel paths through sensor pairs
 - Calculates travel time by finding the difference between origin and destination timestamps
 - Can be divided into two types: Departure time-based and Arrival time-based
@@ -57,6 +60,7 @@ The research focused on analyzing and comparing different travel time calculatio
 </div>
 
 **Departure Time-based Travel Time (DTT):**
+
 - Calculated using departure time from origin as the primary data point
 - Uses historical data or predictions to estimate travel time
 - More suitable for advance trip planning
@@ -64,6 +68,7 @@ The research focused on analyzing and comparing different travel time calculatio
 - Can be calculated before or at the time a vehicle departs from origin
 
 **Arrival Time-based Travel Time (ATT):**
+
 - Calculated using arrival time at destination as the primary data point
 - Analyzes multiple factors like driver behavior, intersections, traffic signals, etc.
 - Higher accuracy using actual travel data
@@ -77,13 +82,14 @@ The research focused on analyzing and comparing different travel time calculatio
 
 We conducted a detailed analysis on a major highway, examining 4 continuous segments spanning approximately 20 kilometers of roadway. The analysis used anonymized sensor pair data collected over a full year period and revealed significant statistical insights:
 
-| Method | Relative Standard Deviation | Measurement Characteristics |
-|--------|---------------------------|---------------------------|
-| Snapshot | Lowest | Most consistent measurements |
-| DTT Vehicle Trajectory | Medium | Good for prediction |
-| ATT Vehicle Trajectory | Highest | Most sensitive to actual traffic conditions |
+| Method                 | Relative Standard Deviation | Measurement Characteristics                 |
+| ---------------------- | --------------------------- | ------------------------------------------- |
+| Snapshot               | Lowest                      | Most consistent measurements                |
+| DTT Vehicle Trajectory | Medium                      | Good for prediction                         |
+| ATT Vehicle Trajectory | Highest                     | Most sensitive to actual traffic conditions |
 
 Key Findings from Primary Highway Analysis:
+
 - All three methods produced very similar mean travel times (within 1% of each other)
 - The Snapshot method demonstrated the most consistent measurements
 - ATT had the highest variability, indicating greater sensitivity to traffic fluctuations
@@ -102,6 +108,7 @@ Our hourly analysis revealed distinct traffic patterns throughout the day:
 6. **Late evening**: Decreasing traffic; times returning to near early morning levels
 
 During peak congestion periods, we observed:
+
 - Snapshot method consistently showed the highest values
 - DTT method showed intermediate values
 - ATT method consistently showed the lowest values (approximately 5% lower than Snapshot)
@@ -117,16 +124,19 @@ We also analyzed data from two additional highways, each divided into three cont
 Our comprehensive analysis revealed several important findings:
 
 1. **Method Selection Based on Purpose**:
+
    - For real-time traffic monitoring: ATT provides the most accurate picture of completed trips
    - For travel planning: DTT is more appropriate as it predicts travel times for departing vehicles
    - For consistent traffic pattern analysis: Snapshot provides more stable measurements
 
 2. **Traffic Condition Effects**:
+
    - The difference between methods is minimal during free-flow conditions (typically <2% variance)
    - During congestion, differences become significant (up to 5-10% variance)
    - DTT consistently shows higher values than ATT during peak congestion
 
 3. **Hourly Variations**:
+
    - All methods reflect the same general traffic patterns throughout the day
    - ATT has higher standard deviations during normal traffic periods
    - Snapshot method shows the most consistent standard deviations throughout the day
@@ -145,6 +155,7 @@ For a road segment AB with length L, the average speed can be calculated using:
 $$v = \frac{L}{\frac{1}{n} \sum_{i=1}^{n} tt_i}$$
 
 Where:
+
 - n is the number of vehicles used for averaging
 - tt_i is the travel time of vehicle i
 
