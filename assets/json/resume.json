@@ -1,186 +1,428 @@
 {
   "basics": {
     "name": "Watcharapong Wongkaew",
-    "label": "Transportation Engineer",
+    "label": "Civil Engineering Researcher · Transportation & Urban Mobility",
     "image": "",
-    "email": "wat.wongkaew@gmail.com",
+    "email": "w.wongkaew@csis.u-tokyo.ac.jp",
     "phone": "(+66) 85-333-8822",
     "url": "https://wattwong103.github.io/",
-    "summary": "An aspiring transportation engineer with a passion for sustainable transportation and urban planning with a bachelor in civil engineering from Chulalongkorn University.",
+    "summary": "Master's student in the Department of Civil Engineering, The University of Tokyo, working on the Generative Urban Foundation Model in Sekimoto Lab (IIS, CSIS), which generates realistic human-mobility trajectories across cities worldwide from real data. Three years of research experience spanning transportation science, travel behavior, geography, and artificial intelligence.",
     "location": {
       "address": "17 Bangbon 5 soi 3",
       "postalCode": "10150",
-      "city": "Bangbon",
+      "city": "Bangkok",
       "countryCode": "TH",
       "region": "Bangkok"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "wattwong103",
+        "url": "https://github.com/wattwong103"
       }
     ]
   },
   "work": [
     {
-      "name": "Chulalongkorn University Transportation Institute",
+      "name": "Chulalongkorn University Transportation Institute (CUTI)",
       "position": "Research Associate",
       "url": "http://www.cuti.chula.ac.th/",
       "startDate": "2021-07-01",
-      "endDate": "2025-05-01",
-      "summary": "Research Associate at Chulalongkorn University Transportation Institute (CUTI) with a focus on transportation engineering and urban planning.",
-      "highlights": ["Mode Choice", "Transportation Planning", "Traffic Engineering"]
+      "endDate": "2025-10-01",
+      "location": "Bangkok, Thailand",
+      "summary": "Transportation policy, planning, and survey research across national agencies and international partners.",
+      "highlights": [
+        "Analyzed motorcycle self-reported accident surveys (Chulalongkorn University, 2022)",
+        "Coordinated congestion-charge workshops for the Thailand Clean Mobility Program (GIZ, 2022)",
+        "Logistics- and railway-focused policy research for the Strategic Agenda Team, Thailand Science Research and Innovation (TSRI, 2022–2024)",
+        "Surveyed and analyzed Don Mueang airport access/egress data (Airports of Thailand, 2023)",
+        "Climate-sensitive transport planning in Chiang Mai and Khon Kaen with the GIZ UrbanAct Project (2023)",
+        "Motor-tricycle (Tuk-tuk) safety study for the Department of Land Transport (2023–2024)",
+        "Garbage-collection logistics analysis for the Bangkok Metropolitan Administration (2023)"
+      ]
     },
     {
-      "name": "Advanced Railway Infrastructure, Innovation and Systems Engineering Research Unit",
-      "position": "Researcher",
-      "url": "https://ariise.eng.chula.ac.th/en/author/wwongkaew/",
-      "startDate": "2023-08-01",
-      "endDate": "2025-08-01",
-      "summary": "Researcher at Advanced Railway Infrastructure, Innovation and Systems Engineering Research Unit (ARIISE) with a focus on railway engineering and climate resilient.",
-      "highlights": ["Developed a new method for predicting the flood risk", "Machine Learning", "Climate Resilient"]
-    },
-    {
-      "name": "Pheu Thai Party",
+      "name": "Academic Division, Pheu Thai Party",
       "position": "Researcher",
       "url": "https://en.wikipedia.org/wiki/Pheu_Thai_Party",
-      "startDate": "2024-05-01",
-      "endDate": "2025-05-01",
-      "summary": "Researcher at Pheu Thai Party with a focus on transportation policy and urban planning.",
-      "highlights": ["Digital Transformation", "Transportation Policy", "Urban Planning"]
+      "startDate": "2024-04-01",
+      "endDate": "2025-04-01",
+      "location": "Bangkok, Thailand",
+      "summary": "Data-driven transportation policy design for national and metropolitan government.",
+      "highlights": [
+        "Analyzed the 2022 Household Travel Survey (Ministry of Transport) to generate insights and design public-transport policy",
+        "Congestion-charge policy planning for the Bangkok Metropolitan Area",
+        "Planned bus routes and mode-shift incentives in Lat Krabang, Bangkok",
+        "Built data and policy infrastructure using government datasets"
+      ]
+    },
+    {
+      "name": "ARIISE Research Unit, Chulalongkorn University",
+      "position": "Researcher",
+      "url": "https://ariise.eng.chula.ac.th/en/author/wwongkaew/",
+      "startDate": "2023-07-01",
+      "endDate": "2024-10-01",
+      "location": "Bangkok, Thailand",
+      "summary": "Advanced Railway Infrastructure, Innovation and Systems Engineering — Transportation Behavior Research Group.",
+      "highlights": [
+        "Analyzed railway track geometry and buckling modes from FEM data and visualized results",
+        "Researched sustainable transportation, railway-infrastructure resilience, and climate-change adaptation",
+        "Led an independent project on public-transport cost and navigation in Thailand (2024)",
+        "Modeled travel time and delay on national highways using Highway Traffic Operation Center data (2023–2024)",
+        "Studied land-use-induced demand on public transportation in Bangkok (2024)"
+      ]
+    },
+    {
+      "name": "Toshiba Infrastructure Systems & Solutions Corporation",
+      "position": "Operations Intern",
+      "url": "https://www.global.toshiba/ww/products-solutions/infrastructure.html",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-01",
+      "location": "Tokyo, Japan (Online)",
+      "summary": "Urban-railway operations modeling for crew and train scheduling.",
+      "highlights": [
+        "Modeled urban railway crew/train scheduling against real-world cases, reaching ~80% accuracy on the BTS Yellow Line monorail and Gold Line APM",
+        "Produced operation plans and operation curves for planned railway projects"
+      ]
+    },
+    {
+      "name": "Mahidol Wittayanusorn School",
+      "position": "Lecturer / Faculty Advisor",
+      "url": "https://www.mwit.ac.th/",
+      "startDate": "2020-07-01",
+      "endDate": "2026-04-01",
+      "location": "Nakhon Pathom, Thailand",
+      "summary": "Geography Olympiad instruction and Social Science department support.",
+      "highlights": [
+        "Created the syllabus and curriculum for the National Geography Olympiad",
+        "Supported the Social Science department with classwork, exam reading, and fieldwork",
+        "Trained students in Geography Fieldwork and Human Geography"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Environmental Conservation Club",
+      "organization": "Anurak CU Environmental Conservation Club",
       "location": "Bangkok, Thailand",
-      "position": "PR Lead",
+      "position": "PR Lead & Camp Organizer",
       "url": "https://www.instagram.com/anurakchula/",
       "startDate": "2021-04-01",
       "endDate": "2022-07-01",
-      "summary": "PR Lead at Environmental Conservation Club with a focus on sustainable development.",
-      "highlights": ["Organize club's camp in Phetchaburi", "Co-organize PR event for the club"]
+      "summary": "Organized environmental-conservation camps and public-relations activities for the university club.",
+      "highlights": ["Organized the club's conservation camp", "Co-organized PR events for the club"]
+    },
+    {
+      "organization": "Police Border Patrol School, Chumphon",
+      "location": "Chumphon, Thailand",
+      "position": "Academic Tutor (Volunteer)",
+      "url": "",
+      "summary": "Volunteer academic tutor for students at a remote border-patrol school."
     }
   ],
   "education": [
     {
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "url": "https://www.u-tokyo.ac.jp/en/",
+      "area": "Civil Engineering — Geospatial Engineering",
+      "studyType": "M. Eng. (expected Oct 2027)",
+      "startDate": "2025-10-01",
+      "endDate": "2027-10-01",
+      "courses": [
+        "Center for Spatial Information Science (CSIS), Department of Civil Engineering",
+        "Pseudo-PFLOW: synthetic mobility simulation for nationwide transportation analysis",
+        "Authored technical documentation for the truck and taxi ABMs (calibration, data provenance, cross-verification)",
+        "Investigator on the Generative Urban Foundation Model in Sekimoto Lab (IIS, CSIS)"
+      ]
+    },
+    {
       "institution": "Chulalongkorn University",
       "location": "Bangkok, Thailand",
       "url": "https://www.chula.ac.th/",
-      "area": "Transportation Engineering",
-      "studyType": "B. Eng. (First Class Honors)",
+      "area": "Civil Engineering — Transportation Engineering",
+      "studyType": "B. Eng. (First-Class Honors)",
       "startDate": "2019-08-01",
-      "endDate": "2023-07-01",
+      "endDate": "2023-06-01",
       "score": "3.63",
       "courses": [
-        "Transportation Engineering",
-        "Travel Behavior Survey and Analysis",
-        "Urban Planning",
-        "Advanced Transportation Statistics",
-        "Transportation Economics",
-        "Traffic Engineering",
-        "Transportation Planning",
-        "Public Transportation Systems",
-        "Discrete Choice Models",
-        "Transportation and Land Use Interaction"
+        "Graduated with first-class honors",
+        "Research apprenticeship at the Chulalongkorn University Transportation Institute (2021–2023)",
+        "University Fund recipient: AI On-demand Transportation research",
+        "Engineering Student Committee (2020–2021)",
+        "Head of the RTUS Ideathon Bangkok transportation team (EU-led youth urban-development incubation)",
+        "Dissertation: contemporary time-specific 4-step transportation modeling of public transit in Nakhon Ratchasima"
+      ]
+    },
+    {
+      "institution": "Mahidol Wittayanusorn School",
+      "location": "Salaya, Nakhon Pathom",
+      "url": "https://www.mwit.ac.th/",
+      "area": "STEM Concentration",
+      "studyType": "High School Diploma (Grade 12)",
+      "startDate": "2016-05-01",
+      "endDate": "2019-03-01",
+      "courses": [
+        "Applied GIS to evaluate and survey flood-risk areas in Nakhon Pathom, Thailand",
+        "Bronze medalist, International Geography Olympiad"
       ]
     }
   ],
   "awards": [
     {
-      "title": "First Class Honors",
-      "date": "2023-10-04",
+      "title": "First-Class Honors",
+      "date": "2023-10",
       "awarder": "Chulalongkorn University",
       "url": "https://www.chula.ac.th/",
-      "summary": "First class honors in Bachelor of Engineering in Transportation Engineering."
+      "summary": "Bachelor of Engineering in Transportation Engineering."
+    },
+    {
+      "title": "Bronze Medal, International Geography Olympiad",
+      "date": "2018",
+      "awarder": "International Geographical Union",
+      "summary": "Awarded for performance in the international round of the Geography Olympiad."
+    },
+    {
+      "title": "Finalist, Thailand Innovation Awards 2021",
+      "date": "2021",
+      "awarder": "National Innovation Agency (NIA), Thailand",
+      "summary": "On-demand ride application for urban areas."
+    },
+    {
+      "title": "Honorable Mention, GPSC Greenovation Startup Sandbox",
+      "awarder": "Global Power Synergy (GPSC)",
+      "summary": "Concept for hydrogen-powered buses."
+    },
+    {
+      "title": "Honorable Mention, AWS Build on ASEAN",
+      "awarder": "Amazon Web Services",
+      "summary": "Tracking low-CO2 emissions from delivery users."
+    },
+    {
+      "title": "Honorable Mention, German Embassy EV Hackathon",
+      "awarder": "Embassy of the Federal Republic of Germany",
+      "summary": "Solving urban superblock problems."
+    },
+    {
+      "title": "Honorable Mention, Last Mile Hackathon",
+      "awarder": "EIT Urban Mobility",
+      "summary": "First- and last-mile connectivity in Bangkok."
+    },
+    {
+      "title": "Honorable Mention & Popular Vote, Falling Walls Lab",
+      "awarder": "Falling Walls Foundation",
+      "summary": "On-demand transportation pitch."
+    },
+    {
+      "title": "Third Place, Environhack",
+      "awarder": "Ministry of Natural Resources and Environment, Thailand",
+      "summary": "Motorcycle EV conversion concept."
     },
     {
       "title": "Research Apprenticeship",
-      "date": "2021-07-04",
+      "date": "2021-07",
       "awarder": "Chulalongkorn University Transportation Institute",
       "url": "http://www.cuti.chula.ac.th/",
-      "summary": "Awarded for research apprenticeship at Chulalongkorn University Transportation Institute."
+      "summary": "Awarded a research apprenticeship at CUTI (2021–2023)."
     }
   ],
   "certificates": [
     {
       "name": "Supervised Machine Learning: Regression",
-      "date": "2024-08",
+      "date": "2024",
       "issuer": "IBM",
       "url": "https://coursera.org/verify/SYVO8UN0PB1T",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-chart-line"
+    },
+    {
+      "name": "Neural Networks and Deep Learning",
+      "date": "2024",
+      "issuer": "DeepLearning.AI",
+      "url": "https://coursera.org/verify/Q9LIV0MBQJ94",
+      "icon": "fa-solid fa-brain"
     },
     {
       "name": "Mathematics for Machine Learning",
-      "date": "2024-08",
+      "date": "2024",
       "issuer": "Imperial College London",
       "url": "https://coursera.org/verify/specialization/RBBD7S91B0Y8",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-square-root-variable"
     },
     {
-      "name": "Alternative Mobility Narratives",
-      "date": "2024-07",
-      "issuer": "EIT Urban Mobility",
-      "url": "https://coursera.org/verify/OZFD 1H0GCJHL",
-      "icon": "fa-solid fa-envelope"
+      "name": "Causal Inference",
+      "date": "2024",
+      "issuer": "Columbia University",
+      "url": "https://coursera.org/verify/5W8SU3PAWCC0",
+      "icon": "fa-solid fa-diagram-project"
     },
     {
-      "name": "Bayesian Statistics: From Concept to Data Analysis",
-      "date": "2024-07",
+      "name": "Bayesian Statistics Specialization (Inference, Time Series, Hierarchical Models)",
+      "date": "2024",
       "issuer": "University of California, Santa Cruz",
       "url": "https://coursera.org/verify/NXRUSJ36SVVL",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Causal Inference",
-      "date": "2024-08",
-      "issuer": "Columbia University",
-      "url": "https://coursera.org/verify/5W8SU3PAWCC0",
-      "icon": "fa-solid fa-calendar"
+      "name": "Human Mobility in Future Cities Specialization",
+      "date": "2024",
+      "issuer": "University of Amsterdam & EIT Urban Mobility",
+      "icon": "fa-solid fa-person-walking"
     },
     {
-      "name": "Neural Networks and Deep Learning",
-      "date": "2024-07",
-      "issuer": "DeepLearning.AI",
-      "url": "https://coursera.org/verify/Q9LIV0MBQJ94",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Qualitative Research Methods",
+      "date": "2024",
+      "issuer": "University of Amsterdam",
+      "icon": "fa-solid fa-comments"
+    },
+    {
+      "name": "Management of Urban Infrastructures",
+      "date": "2024",
+      "issuer": "École Polytechnique Fédérale de Lausanne (EPFL)",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "name": "Geographical Information Systems",
+      "date": "2023",
+      "issuer": "École Polytechnique Fédérale de Lausanne (EPFL)",
+      "icon": "fa-solid fa-map-location-dot"
+    },
+    {
+      "name": "Technology and Innovative Entrepreneurship",
+      "date": "2023",
+      "issuer": "Stanford University",
+      "icon": "fa-solid fa-lightbulb"
+    },
+    {
+      "name": "The Data Scientist's Toolbox",
+      "date": "2023",
+      "issuer": "Johns Hopkins University",
+      "icon": "fa-solid fa-toolbox"
+    },
+    {
+      "name": "Sustainable Transportation Networks and Streetscapes",
+      "date": "2023",
+      "issuer": "Johns Hopkins University",
+      "icon": "fa-solid fa-road"
+    },
+    {
+      "name": "Transportation, Sustainable Buildings, Green Construction",
+      "date": "2023",
+      "issuer": "Johns Hopkins University",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "name": "Sustainable Regional Principles, Planning and Transportation",
+      "date": "2023",
+      "issuer": "Johns Hopkins University",
+      "icon": "fa-solid fa-map"
+    },
+    {
+      "name": "Sustainable Neighborhoods",
+      "date": "2023",
+      "issuer": "Johns Hopkins University",
+      "icon": "fa-solid fa-house"
+    },
+    {
+      "name": "Summer Course: Future City Systems for Resilient and Healthy Cities",
+      "date": "2023",
+      "issuer": "TU Delft",
+      "icon": "fa-solid fa-tree-city"
+    },
+    {
+      "name": "Introducing Cellular Automata",
+      "date": "2023",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-table-cells"
     }
   ],
   "publications": [
     {
-      "name": "Data driven machine learning prognostics of buckling failure modes in ballasted railway track",
-      "publisher": "Discover Applied Sciences",
+      "name": "Spatiotemporal Dynamics of Land Use and Ridership: A Geographically Weighted Regression Analysis of Bangkok's MRT Blue Line",
+      "publisher": "Public Transport (special issue) — 16th Int. Conference on Advanced Systems in Public Transport (CASPT 2025)",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Geographically weighted regression linking land use and MRT Blue Line ridership across space and time."
+    },
+    {
+      "name": "Data-driven machine learning prognostics of buckling failure modes in ballasted railway track",
+      "publisher": "Discover Applied Sciences 6, 212",
       "releaseDate": "2024-04-14",
-      "url": "https://link.springer.com/article/10.1007/s42452-024-05885-3",
-      "summary": "This study explores the development and application of a machine learning (ML) approach to predict buckling failure modes in ballasted railway tracks. "
+      "url": "https://doi.org/10.1007/s42452-024-05885-3",
+      "summary": "Machine-learning approach to predict snap-through and progressive buckling failure modes in ballasted railway track, including a tropical-climate case study in Thailand."
+    },
+    {
+      "name": "Integrating Digital Surface Model for Flood Risk Assessment of Railway Networks in Thailand",
+      "publisher": "International Conference of Rail Transportation (ICRT 2024) — proceedings",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": "Uses digital surface models to assess flood risk to Thailand's railway networks."
+    },
+    {
+      "name": "Spatiotemporal Dynamics of Land Use and Ridership (MRT Blue Line)",
+      "publisher": "3rd International Workshop on Geographic Modelling and Simulation (IWGMS 2024) — abstract",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": "Workshop abstract on the GWR analysis of land use and ridership for Bangkok's MRT Blue Line."
+    },
+    {
+      "name": "Risk Assessment of Railway Tracks in Floodplain Areas using Digital Surface Model",
+      "publisher": "International Conference on Civil and Building Engineering Informatics (ICCBEI 2023) — proceedings",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": "Digital-surface-model-based flood-risk assessment for railway tracks in floodplain areas."
     }
   ],
   "skills": [
     {
-      "name": "Transportation",
-      "level": "Intermediate",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Transportation Engineering",
+      "level": "Advanced",
+      "icon": "fa-solid fa-route",
       "keywords": [
-        "Transportation Engineering",
-        "Transportation Planning",
-        "Travel Behavior",
-        "Mode Choice Modelling",
-        "Public Transportation Systems",
-        "Railway Transportation"
+        "Four-step sequential modeling",
+        "Modal split modeling",
+        "Discrete choice modeling",
+        "Travel behavior survey & analysis",
+        "Data collection"
       ]
     },
     {
-      "name": "Statistics & Machine Learning",
+      "name": "Transportation & Urban Planning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-city",
+      "keywords": ["Urban planning", "Policy planning", "Equity analysis", "Public transportation planning"]
+    },
+    {
+      "name": "Railway Engineering",
       "level": "Intermediate",
-      "icon": "fa-solid fa-calendar",
+      "icon": "fa-solid fa-train",
+      "keywords": ["Railway defect detection", "Infrastructure management & life-cycle design"]
+    },
+    {
+      "name": "Data, Statistics & Machine Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
       "keywords": [
-        "Discrete Choice Models",
-        "Bayesian Statistics",
-        "Traditional Statistical Learning",
-        "Monte Carlo Simulation",
-        "Supervised Learning",
-        "Unsupervised Learning"
+        "Forecasting & time-series analysis",
+        "Statistical modeling & simulation",
+        "Traditional statistical modeling",
+        "Deep learning & neural networks"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "R"]
+    },
+    {
+      "name": "Geography & Project Management",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-earth-asia",
+      "keywords": [
+        "Qualitative fieldwork",
+        "Human geography",
+        "Geographic Information Systems (GIS)",
+        "Stakeholder engagement",
+        "Project planning & coordination"
       ]
     }
   ],
@@ -188,77 +430,95 @@
     {
       "language": "Thai",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-comment"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "fa-solid fa-comment"
     },
     {
       "language": "Japanese",
       "fluency": "Conversational",
-      "icon": ""
+      "icon": "fa-solid fa-comment"
     },
     {
       "language": "German",
       "fluency": "Conversational",
-      "icon": ""
+      "icon": "fa-solid fa-comment"
     }
   ],
   "interests": [
     {
-      "name": "Transportation",
-      "icon": "fa-solid fa-tag",
+      "name": "Research Interests",
+      "icon": "fa-solid fa-magnifying-glass",
       "keywords": [
-        "Transportation Engineering",
-        "Transportation Planning",
+        "Transportation Science",
         "Travel Behavior",
-        "Mode Choice Modelling",
-        "Public Transportation Systems",
-        "Railway Transportation",
-        "Transportation Operations"
+        "Geography",
+        "Urban Big Data",
+        "Transport Spatial Planning",
+        "Artificial Intelligence"
       ]
     },
     {
-      "name": "Statistics & Machine Learning",
-      "icon": "fa-solid fa-tag",
+      "name": "Current Research Threads",
+      "icon": "fa-solid fa-lightbulb",
       "keywords": [
-        "Discrete Choice Models",
-        "Bayesian Statistics",
-        "Traditional Statistical Learning",
-        "Monte Carlo Simulation",
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Reinforcement Learning: LSTM",
-        "Deep Learning: Neural Networks"
+        "Predicting travel-behavior change after urban-development projects with ML",
+        "Real-time transit information & individual mode choice",
+        "Land-use diversity & neighborhood travel behavior"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor Saksith Chalermpong",
-      "icon": "fa-solid fa-laptop",
-      "reference": "One of his standout contributions was his innovative work on the Bangkok Travel Demand survey, where he authored a creative paper predicting mode choice using machine learning methods "
+      "name": "Asst. Prof. Dr. Pongsun Bunditsakulchai",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Research supervisor for the time-specific 4-step sequential travel-behavior model in Nakhon Ratchasima. Contact and additional articles available upon request."
     },
     {
-      "name": "Assistant Professor Pongsun Bunditsakulchai",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "His time during research project entitled “Development of a Time-Specific 4-Step Sequential Model for Examining Travel Behavior in Nakhon Ratchasima” is what truly sets him apart. His capacity to not only comprehend intricate theories but also to apply them in ways that redefine boundaries within travel behavior survey and analysis. "
+      "name": "Prof. Saksith Chalermpong",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Advised work on the Bangkok travel-demand survey, including machine-learning approaches to mode-choice prediction."
     }
   ],
   "projects": [
     {
-      "name": "Tuk-Tuk Safety",
-      "summary": "A project to improve the safety of Tuk-Tuk in Bangkok.",
-      "highlights": ["Transportation Policy", "Safety Analysis"],
-      "startDate": "2024-04-01",
-      "endDate": "2023-09-01"
+      "name": "Generative Urban Foundation Model",
+      "summary": "Sekimoto Lab (IIS, CSIS), The University of Tokyo — generating realistic human-mobility trajectories across global cities from real data with a decoder-only transformer; exploring world models and diffusion methods.",
+      "highlights": ["Foundation models", "Human mobility", "Decoder-only transformer", "Diffusion methods"],
+      "startDate": "2025-10-01"
     },
     {
-      "name": "Don Meuang Airport Egress Mode Choice Modelling",
-      "summary": "Public Mode Choice Modelling for Don Meuang Airport.",
-      "highlights": ["Public Transit", "Transportation Planning", "Mode Choice Analysis", "Travel Behavior"],
+      "name": "Pseudo-PFLOW: Synthetic Mobility Simulation",
+      "summary": "Nationwide agent-based simulation of business vehicles generating 4.5M daily trips for 1.5M+ truck and taxi agents across 106 zones, with calibration and cross-verification against source statistics.",
+      "highlights": ["Agent-based modeling", "Synthetic population", "Nationwide simulation", "Calibration & validation"],
+      "startDate": "2024-10-01"
+    },
+    {
+      "name": "AI for Railway Infrastructure (Book Chapter)",
+      "summary": "Author of a chapter in Elsevier's “Artificial Intelligence for Railway Infrastructure” on railway-track management under extreme events using machine learning — a case study in Thailand's tropical-climate regions.",
+      "highlights": ["Book chapter", "Railway resilience", "Machine learning", "Tropical climate"],
+      "startDate": "2024-01-01"
+    },
+    {
+      "name": "Land Use & Public-Transport Ridership Analysis",
+      "summary": "Combining traditional models and machine learning to analyze how land use relates to public-transport ridership.",
+      "highlights": ["Geographically weighted regression", "Land use", "Ridership", "Machine learning"],
+      "startDate": "2024-06-01"
+    },
+    {
+      "name": "Tuk-Tuk Safety Program",
+      "summary": "Motor-tricycle (Tuk-tuk) safety study for the Department of Land Transport: law review, safety statistics, focus groups, and data analysis.",
+      "highlights": ["Transportation policy", "Safety analysis", "Focus groups"],
+      "startDate": "2023-09-01",
+      "endDate": "2024-12-01"
+    },
+    {
+      "name": "Don Mueang Airport Egress Mode-Choice Modeling",
+      "summary": "Airport access/egress survey and mode-choice modeling for Don Mueang Airport (Airports of Thailand).",
+      "highlights": ["Public transit", "Transportation planning", "Mode-choice analysis", "Travel behavior"],
       "startDate": "2023-04-01",
       "endDate": "2023-09-01"
     }

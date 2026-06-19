@@ -2,96 +2,247 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Watcharapong Wongkaew
+    - name: Role
+      value: "Master's student, Civil Engineering (Geospatial Engineering)"
+    - name: Affiliation
+      value: Sekimoto Lab, IIS / CSIS, The University of Tokyo
+    - name: Based in
+      value: Tokyo, Japan / Bangkok, Thailand
+    - name: Email
+      value: w.wongkaew@csis.u-tokyo.ac.jp
     - name: Languages
-      value: English, German
+      value: Thai (native), English, Japanese, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: "Master of Engineering, Geospatial Engineering"
+      institution: The University of Tokyo
+      department: Center for Spatial Information Science (CSIS), Department of Civil Engineering — Sekimoto Lab
+      location: Tokyo, Japan
+      year: 2025 - 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Pseudo-PFLOW: synthetic mobility simulation for nationwide transportation analysis"
+        - Authored technical documentation for the truck and taxi agent-based models (calibration, data provenance, cross-verification)
+        - Investigator on the Generative Urban Foundation Model in Sekimoto Lab (IIS, CSIS)
+    - title: "Bachelor of Engineering, Transportation Engineering (First-Class Honors)"
+      institution: Chulalongkorn University
+      location: Bangkok, Thailand
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with first-class honors (GPA 3.63)
+        - Research apprenticeship at the Chulalongkorn University Transportation Institute (2021–2023)
+        - University Fund recipient — AI On-demand Transportation research
+        - Engineering Student Committee (2020–2021); Head of the RTUS Ideathon Bangkok transportation team
+        - "Dissertation: time-specific 4-step transportation modeling of public transit in Nakhon Ratchasima"
+    - title: "High School Diploma, STEM Concentration"
+      institution: Mahidol Wittayanusorn School
+      location: Salaya, Nakhon Pathom
+      year: 2016 - 2019
+      description:
+        - Applied GIS to evaluate and survey flood-risk areas in Nakhon Pathom, Thailand
+        - Bronze medalist, International Geography Olympiad
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate
+      institution: Chulalongkorn University Transportation Institute (CUTI)
+      location: Bangkok, Thailand
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Analyzed motorcycle self-reported accident surveys (Chulalongkorn University)
+        - Coordinated congestion-charge workshops for the Thailand Clean Mobility Program (GIZ)
+        - Logistics- and railway-focused policy research for the Strategic Agenda Team, Thailand Science Research and Innovation (TSRI)
+        - Surveyed and analyzed Don Mueang airport access/egress data (Airports of Thailand)
+        - Climate-sensitive transport planning in Chiang Mai and Khon Kaen with the GIZ UrbanAct Project
+        - Motor-tricycle (Tuk-tuk) safety study for the Department of Land Transport
+        - Garbage-collection logistics analysis for the Bangkok Metropolitan Administration
+    - title: Researcher
+      institution: Academic Division, Pheu Thai Party
+      location: Bangkok, Thailand
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Analyzed the 2022 Household Travel Survey (Ministry of Transport) to design public-transport policy
+        - Congestion-charge policy planning for the Bangkok Metropolitan Area
+        - Planned bus routes and mode-shift incentives in Lat Krabang, Bangkok
+        - Built data and policy infrastructure using government datasets
+    - title: Researcher
+      institution: ARIISE Research Unit (Transportation Behavior Research Group), Chulalongkorn University
+      location: Bangkok, Thailand
+      year: 2023 - 2024
       description:
+        - Analyzed railway track geometry and buckling modes from FEM data and visualized results
+        - Researched sustainable transportation, railway-infrastructure resilience, and climate-change adaptation
+        - Modeled travel time and delay on national highways using Highway Traffic Operation Center data
+        - Studied land-use-induced demand on public transportation in Bangkok
+    - title: Operations Intern
+      institution: Toshiba Infrastructure Systems & Solutions Corporation
+      location: Tokyo, Japan (online)
+      year: 2022
+      description:
+        - Modeled urban-railway crew/train scheduling against real-world cases, reaching ~80% accuracy on the BTS Yellow Line monorail and Gold Line APM
+        - Produced operation plans and operation curves for planned railway projects
+    - title: Lecturer / Faculty Advisor
+      institution: Mahidol Wittayanusorn School
+      location: Nakhon Pathom, Thailand
+      year: 2020 - 2026
+      description:
+        - Created the syllabus and curriculum for the National Geography Olympiad
+        - Supported the Social Science department with classwork, exam reading, and fieldwork
+        - Trained students in Geography Fieldwork and Human Geography
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Current Work & Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Generative Urban Foundation Model
+      institution: Sekimoto Lab (IIS, CSIS), The University of Tokyo
+      year: 2025 - now
+      maindescription: Generating realistic human-mobility trajectories across global cities from real data with a decoder-only transformer; exploring world models and diffusion methods.
+    - title: "Pseudo-PFLOW: Synthetic Mobility Simulation"
+      institution: The University of Tokyo
+      year: 2024 - now
+      maindescription: Nationwide agent-based simulation of business vehicles generating 4.5M daily trips for 1.5M+ truck and taxi agents across 106 zones, with calibration and cross-verification against source statistics.
+    - title: AI for Railway Infrastructure (Book Chapter)
+      institution: Elsevier — “Artificial Intelligence for Railway Infrastructure”
+      year: 2024
+      maindescription: Author of a chapter on railway-track management under extreme events using machine learning — a case study in Thailand's tropical-climate regions.
+    - title: Land Use & Public-Transport Ridership Analysis
+      year: 2024
+      maindescription: Combining traditional models and machine learning to analyze how land use relates to public-transport ridership.
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: "Spatiotemporal Dynamics of Land Use and Ridership: A Geographically Weighted Regression Analysis of Bangkok's MRT Blue Line"
+      year: 2026
+      maindescription: "Public Transport (special issue) — 16th Int. Conference on Advanced Systems in Public Transport (CASPT 2025)"
+    - title: Data-driven machine learning prognostics of buckling failure modes in ballasted railway track
+      year: 2024
+      maindescription: "Discover Applied Sciences 6, 212"
+      linkitems:
+        - link: https://doi.org/10.1007/s42452-024-05885-3
+          linkname: DOI
+    - title: Integrating Digital Surface Model for Flood Risk Assessment of Railway Networks in Thailand
+      year: 2024
+      maindescription: "International Conference of Rail Transportation (ICRT 2024) — proceedings"
+    - title: "Spatiotemporal Dynamics of Land Use and Ridership (MRT Blue Line)"
+      year: 2024
+      maindescription: "3rd International Workshop on Geographic Modelling and Simulation (IWGMS 2024) — abstract"
+    - title: Risk Assessment of Railway Tracks in Floodplain Areas using Digital Surface Model
+      year: 2023
+      maindescription: "International Conference on Civil and Building Engineering Informatics (ICCBEI 2023) — proceedings"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - First-Class Honors — Chulalongkorn University
+    - year: 2021
       items:
-        - Max Planck Medal
+        - Finalist, Thailand Innovation Awards — on-demand ride application for urban areas
+    - year: 2018
+      items:
+        - Bronze Medal — International Geography Olympiad
+    - title: Competitions & Hackathons
+      items:
+        - Honorable Mention, GPSC Greenovation Startup Sandbox — hydrogen buses
+        - Honorable Mention, AWS Build on ASEAN — tracking low-CO2 emissions from delivery users
+        - Honorable Mention, German Embassy EV Hackathon — urban superblock problems
+        - Honorable Mention, Last Mile Hackathon (EIT Urban Mobility) — first- and last-mile connectivity in Bangkok
+        - Honorable Mention & Popular Vote, Falling Walls Lab — on-demand transportation
+        - Third Place, Environhack (Ministry of Natural Resources and Environment) — motorcycle EV conversion
 
-- title: Academic Interests
+- title: Certifications
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Johns Hopkins University
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - The Data Scientist's Toolbox
+        - Sustainable Transportation Networks and Streetscapes
+        - Transportation, Sustainable Buildings, Green Construction
+        - Sustainable Regional Principles, Planning and Transportation
+        - Sustainable Neighborhoods
+    - title: École Polytechnique Fédérale de Lausanne (EPFL)
       items:
-        - Description 1.
-        - Description 2.
+        - Geographic Information Systems
+        - Management of Urban Infrastructures
+    - title: University of Amsterdam & EIT Urban Mobility
+      items:
+        - Human Mobility in Future Cities Specialization
+        - Qualitative Research Methods
+    - title: Machine Learning & Statistics
+      items:
+        - Mathematics for Machine Learning (Imperial College London)
+        - Neural Networks and Deep Learning (DeepLearning.AI)
+        - "Supervised Machine Learning: Regression (IBM)"
+        - Causal Inference (Columbia University)
+        - Bayesian Statistics Specialization (UC Santa Cruz)
+    - title: Other
+      items:
+        - Technology and Innovative Entrepreneurship (Stanford University)
+        - Future City Systems for Resilient and Healthy Cities (TU Delft)
+        - Introducing Cellular Automata (Coursera)
 
-- title: Other Interests
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Transportation Engineering
+      items:
+        - Four-step sequential modeling
+        - Modal split modeling
+        - Discrete choice modeling
+        - Travel behavior survey & analysis
+        - Data collection
+    - title: Transportation & Urban Planning
+      items:
+        - Urban planning
+        - Policy planning
+        - Equity analysis
+        - Public transportation planning
+    - title: Railway Engineering
+      items:
+        - Railway defect detection
+        - Infrastructure management & life-cycle design
+    - title: Data, Statistics & Machine Learning
+      items:
+        - Forecasting & time-series analysis
+        - Statistical modeling & simulation
+        - Traditional statistical modeling
+        - Deep learning & neural networks
+    - title: Programming
+      items:
+        - Python
+        - R
+    - title: Geography & Project Management
+      items:
+        - Qualitative fieldwork
+        - Human geography
+        - Geographic Information Systems (GIS)
+        - Stakeholder engagement
+        - Project planning & coordination
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Core Areas
+      items:
+        - Transportation Science
+        - Travel Behavior
+        - Geography
+        - Urban Big Data
+        - Transport Spatial Planning
+        - Artificial Intelligence
+    - title: Current Threads
+      items:
+        - Predicting travel-behavior change after urban-development projects with machine learning
+        - Real-time transit information & individual mode choice
+        - Land-use diversity & neighborhood travel behavior
+
+- title: Volunteer & Outreach
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Academic tutor (volunteer):</u> Police Border Patrol School, Chumphon
+    - <u>Environmental conservation:</u> camps with the Anurak CU Club, Chulalongkorn University
