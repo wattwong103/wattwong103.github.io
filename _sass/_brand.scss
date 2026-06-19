@@ -10,17 +10,32 @@
  ******************************************************************************/
 
 // ---- Display & headings: slab-serif -----------------------------------------
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .post-title,
 .post .post-title,
 .profile .name,
-.cv h1, .cv h2 {
+.cv h1,
+.cv h2 {
   font-family: var(--font-display);
   letter-spacing: var(--tracking-tight);
 }
 
-h1, h2, h3, .post-title { font-weight: var(--weight-bold); }
-h4, h5, h6 { font-weight: var(--weight-medium); }
+h1,
+h2,
+h3,
+.post-title {
+  font-weight: var(--weight-bold);
+}
+h4,
+h5,
+h6 {
+  font-weight: var(--weight-medium);
+}
 
 // Generous academic body leading.
 .post-content p,
@@ -62,7 +77,8 @@ blockquote {
   border: var(--border-hairline) solid var(--divider);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-xs);
-  transition: box-shadow var(--duration-base) var(--ease-standard),
+  transition:
+    box-shadow var(--duration-base) var(--ease-standard),
     border-color var(--duration-base) var(--ease-standard),
     transform var(--duration-base) var(--ease-standard);
 
