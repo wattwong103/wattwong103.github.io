@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * Wongkaew Research — self-hosted brand webfonts (latin subset).
+ * Roboto, Roboto Slab, Roboto Mono — the actual fonts of the live al-folio
+ * site, downloaded from Google Fonts (Apache-2.0) and served locally so they
+ * load reliably everywhere, with no dependency on the Google Fonts CDN. Each
+ * is a variable font, so a single file covers the full weight range.
+ ******************************************************************************/
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/brand/roboto.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/brand/roboto-slab.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url("../fonts/brand/roboto-mono.woff2") format("woff2");
+}
