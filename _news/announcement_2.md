@@ -13,6 +13,7 @@ Raw ambition meets thoughtful governance—this is how I envision my journey as 
 In my role, I am diving deep into the intricate world of public transportation data analysis, with a focus on the Household Travel Survey 2022 from the Ministry of Transport. My goal? To generate actionable insights that will influence the way public transportation is designed and implemented across Thailand. But this isn’t just about crunching numbers—this is about creating policies that truly serve the people, making their daily commutes more efficient, reliable, and sustainable.
 
 Key Areas of Focus
+
 <ul> <li>Analyzing transportation data to inform policy decisions</li> <li>Designing bus routes and incentives for public transport mode shifting</li> <li>Enhancing data and policy infrastructures within the party</li> </ul>
 As I continue to navigate through the complex terrains of transportation planning, I am also tasked with planning new bus routes and developing incentives to encourage a shift towards public transportation in Lad Krabang, Bangkok. This project, backed by a ministerial grant, underscores the importance of strategic urban planning in promoting sustainable urban mobility.
 

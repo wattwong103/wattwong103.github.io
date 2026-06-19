@@ -17,7 +17,14 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            {%- assign wordmark_parts = site.title | split: '.' -%}
+            {%- if wordmark_parts.size == 2 -%}
+              {{- wordmark_parts[0] -}}
+              <span class="brand-dot">.</span>
+              {{- wordmark_parts[1] -}}
+            {%- else -%}
+              {{- site.title -}}
+            {%- endif -%}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}

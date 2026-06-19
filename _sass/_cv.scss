@@ -8,6 +8,17 @@ div.container-link-button {
 
 table.table-cv {
   background-color: transparent !important;
+
+  // Bootstrap's .table sets its own (dark) cell color, which is unreadable on
+  // the dark-navy CV cards. Bind cells to the themed text color so the CV reads
+  // correctly in both light and dark modes.
+  th,
+  td {
+    color: var(--global-text-color);
+  }
+  td.text {
+    color: var(--global-text-color-light);
+  }
 }
 
 a.btncv {

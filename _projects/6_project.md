@@ -46,8 +46,9 @@ Our research tackles this complex challenge by combining advanced computer visio
 ### 1. Data Collection & Oversampling
 
 We collected data on four major risk factors in railway track flooding:
+
 - Historical climate conditions
-- Drainage basin characteristics 
+- Drainage basin characteristics
 - Slope gradient analysis
 - Elevation mapping
 
@@ -57,17 +58,18 @@ Due to the natural imbalance in our dataset (most locations don't flood most yea
 
 We developed a practical Flood Risk Index (FRI) based on real-world railway operations during floods:
 
-| FRI | Range | Level of flood | Interpretation |
-|-----|-------|---------------|----------------|
-| 0 | No flood | No risk | Normal operations |
-| 1 | 0-30 cm | Ballast level - Sleeper bottom | Caution advised |
-| 2 | 31-60 cm | Sleeper bottom - Railhead | Reduced speed required |
-| 3 | 61-70 cm | Over railhead | Minimal operations only |
-| 4 | >70 cm | Severe flooding | No operations permitted |
+| FRI | Range    | Level of flood                 | Interpretation          |
+| --- | -------- | ------------------------------ | ----------------------- |
+| 0   | No flood | No risk                        | Normal operations       |
+| 1   | 0-30 cm  | Ballast level - Sleeper bottom | Caution advised         |
+| 2   | 31-60 cm | Sleeper bottom - Railhead      | Reduced speed required  |
+| 3   | 61-70 cm | Over railhead                  | Minimal operations only |
+| 4   | >70 cm   | Severe flooding                | No operations permitted |
 
 ### 3. Machine Learning Magic
 
 We tested several machine learning models and found that the **Extra Trees classifier** performed best, achieving:
+
 - 98% accuracy on training data
 - 71% F1-score on test data (2015-2016)
 - Excellent performance in identifying areas at risk of flooding
@@ -87,6 +89,7 @@ We tested several machine learning models and found that the **Extra Trees class
 ## Results: From Prediction to Prevention
 
 Our model successfully:
+
 - Generated detailed flood risk maps for railway tracks across Thailand
 - Identified the three most influential flooding factors:
   1. Average rainfall
@@ -106,6 +109,7 @@ Our model successfully:
 ## Real-World Impact
 
 This research has profound implications for:
+
 - **Infrastructure planning**: Identifying high-risk areas for prioritized flood mitigation
 - **Operational protocols**: Setting evidence-based speed restrictions during flood events
 - **Disaster prevention**: Enabling proactive measures before flooding occurs

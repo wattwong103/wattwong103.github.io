@@ -7,5 +7,3 @@ During his summer internship at High Tech Technology Limited in Hong Kong, Kitti
 Kittipat has also worked on several projects, including a Pokémon card recognition system utilizing a deep neural network model and an automatic face smoothing application using image processing techniques in Python. His expertise extends to participating in data science competitions, such as predicting cirrhosis outcomes on Kaggle, where he achieved over 84% accuracy.
 
 Fluent in both Thai and English, Kittipat is skilled in computer vision, deep learning, regression and classification, and time series analysis. He also holds a certification in SQL from Simplilearn, further solidifying his technical abilities.
-
-

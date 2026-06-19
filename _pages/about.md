@@ -26,4 +26,3 @@ Currently, Watcharapong serves as a Researcher at the Academic Division of the P
 In addition to his role with the Pheu Thai Party, Watcharapong is also affiliated with the Advanced Railway Infrastructure Innovation and Systems Engineering (ARIISE) Research Unit, where he focuses on railway track management, sustainable transportation, and climate change adaptation. His leadership in independent projects, such as public transportation cost analysis and travel time modeling, highlights his innovative approach to addressing transportation challenges in Thailand.
 
 Watcharapong's dedication to education is evident through his role as a Lecturer and Faculty Advisor at Mahidol Wittayanusorn School, where he has developed curricula for the National Geography Olympiad and trained students in geography fieldwork and human geography.
-
