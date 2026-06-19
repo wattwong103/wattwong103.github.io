@@ -340,7 +340,21 @@
       "publisher": "Public Transport (special issue) — 16th Int. Conference on Advanced Systems in Public Transport (CASPT 2025)",
       "releaseDate": "2026",
       "url": "",
-      "summary": "Geographically weighted regression linking land use and MRT Blue Line ridership across space and time."
+      "summary": "First author. Geographically weighted regression linking land use and MRT Blue Line ridership across space and time."
+    },
+    {
+      "name": "Public Transport Accessibility Index for Bangkok and Its Application",
+      "publisher": "Transportation Research Record (accepted) — Transportation Research Board (TRB) 2025",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "First author. A public-transport accessibility index (PTAI) for Bangkok's inner core, revealing spatial inequality in accessibility across the Chao Phraya River."
+    },
+    {
+      "name": "Challenges in Climate Action Planning and Implementation in Developing Countries: A Case Study of Low-Carbon Urban Mobility Governance in Thailand",
+      "publisher": "Transportation Research Board (TRB) 104th Annual Meeting",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Co-author. Case study of low-carbon urban-mobility governance in a developing-country context."
     },
     {
       "name": "Data-driven machine learning prognostics of buckling failure modes in ballasted railway track",
@@ -465,7 +479,14 @@
       "name": "Current Research Threads",
       "icon": "fa-solid fa-lightbulb",
       "keywords": [
-        "Predicting travel-behavior change after urban-development projects with ML",
+        "Predicting travel-behavior change after urban-development projects with ML (Bangkok TDS 2017 & 2022)",
+        "Decomposition analysis of mode choice from travel-demand surveys (2017–2022)",
+        "Travel-time prediction on national highways using LSTM models and GPS data",
+        "Bus public-transport reliability from real-time GPS data",
+        "Transportation-network (railway-focused) vulnerability under climate-change scenarios",
+        "Spatiotemporal dynamics between formal and informal transit systems",
+        "Integrating informal transit (motorcycle taxis, 3-wheelers) into demand-forecasting models",
+        "Modeling the socioeconomic impacts of transportation investment",
         "Real-time transit information & individual mode choice",
         "Land-use diversity & neighborhood travel behavior"
       ]
@@ -498,7 +519,7 @@
     },
     {
       "name": "AI for Railway Infrastructure (Book Chapter)",
-      "summary": "Author of a chapter in Elsevier's “Artificial Intelligence for Railway Infrastructure” on railway-track management under extreme events using machine learning — a case study in Thailand's tropical-climate regions.",
+      "summary": "First author of a chapter in Elsevier's “Artificial Intelligence for Railway Infrastructure” on railway-track management under extreme events using machine learning — a case study in Thailand's tropical-climate regions.",
       "highlights": ["Book chapter", "Railway resilience", "Machine learning", "Tropical climate"],
       "startDate": "2024-01-01"
     },

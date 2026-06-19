@@ -107,7 +107,7 @@
     - title: AI for Railway Infrastructure (Book Chapter)
       institution: Elsevier — “Artificial Intelligence for Railway Infrastructure”
       year: 2024
-      maindescription: Author of a chapter on railway-track management under extreme events using machine learning — a case study in Thailand's tropical-climate regions.
+      maindescription: First author of a chapter on railway-track management under extreme events using machine learning — a case study in Thailand's tropical-climate regions.
     - title: Land Use & Public-Transport Ridership Analysis
       year: 2024
       maindescription: Combining traditional models and machine learning to analyze how land use relates to public-transport ridership.
@@ -117,7 +117,13 @@
   contents:
     - title: "Spatiotemporal Dynamics of Land Use and Ridership: A Geographically Weighted Regression Analysis of Bangkok's MRT Blue Line"
       year: 2026
-      maindescription: "Public Transport (special issue) — 16th Int. Conference on Advanced Systems in Public Transport (CASPT 2025)"
+      maindescription: "First author — Public Transport (special issue) — 16th Int. Conference on Advanced Systems in Public Transport (CASPT 2025)"
+    - title: Public Transport Accessibility Index for Bangkok and Its Application
+      year: 2025
+      maindescription: "First author — Transportation Research Board (TRB) 2025; accepted in Transportation Research Record"
+    - title: "Challenges in Climate Action Planning and Implementation in Developing Countries: A Case Study of Low-Carbon Urban Mobility Governance in Thailand"
+      year: 2025
+      maindescription: "Co-author — Transportation Research Board (TRB) 104th Annual Meeting"
     - title: Data-driven machine learning prognostics of buckling failure modes in ballasted railway track
       year: 2024
       maindescription: "Discover Applied Sciences 6, 212"
@@ -237,7 +243,14 @@
         - Artificial Intelligence
     - title: Current Threads
       items:
-        - Predicting travel-behavior change after urban-development projects with machine learning
+        - Predicting travel-behavior change after urban-development projects with machine learning (Bangkok Travel Demand Survey 2017 & 2022)
+        - Decomposition analysis of mode choice from travel-demand surveys (2017–2022)
+        - Travel-time prediction on national highways using LSTM models and GPS data
+        - Bus public-transport reliability from real-time GPS data
+        - Transportation-network (railway-focused) vulnerability under climate-change scenarios
+        - Spatiotemporal dynamics between formal and informal transit systems
+        - Integrating informal transit (motorcycle taxis, 3-wheelers) into demand-forecasting models
+        - Modeling the socioeconomic impacts of transportation investment
         - Real-time transit information & individual mode choice
         - Land-use diversity & neighborhood travel behavior
 
