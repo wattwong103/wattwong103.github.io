@@ -37,6 +37,26 @@ h6 {
   font-weight: var(--weight-medium);
 }
 
+// ---- Body & UI: Roboto ------------------------------------------------------
+// al-folio/MDB otherwise falls back to Bootstrap's native system stack
+// (-apple-system, Segoe UI, …), so the body and navbar rendered in each
+// visitor's OS font instead of the brand face. Bind the body and the form/UI
+// controls that Bootstrap resets to the brand sans, so the whole site reads in
+// Roboto consistently — matching the Roboto Slab headings — on every machine.
+body {
+  font-family: var(--font-sans);
+}
+.navbar,
+.navbar-brand,
+.nav-link,
+input,
+button,
+select,
+optgroup,
+textarea {
+  font-family: var(--font-sans);
+}
+
 // Generous academic body leading.
 .post-content p,
 .post-description,
