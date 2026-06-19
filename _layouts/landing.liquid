@@ -1,0 +1,193 @@
+---
+# Standalone full-bleed entry page — the wayfinding hero shown before the site.
+# Ported from the Wongkaew Research design system (ui_kits/personal-site/landing.html).
+# Deliberately does NOT include the site header/footer: it is its own chrome.
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}" data-theme="dark" data-theme-setting="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ site.first_name }} {{ site.last_name }}</title>
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
+  />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}" />
+  <style>
+    html, body { margin: 0; height: 100%; }
+    body {
+      background: var(--surface-page);
+      color: var(--text-body);
+      font-family: var(--font-sans);
+      overflow: hidden;
+    }
+    .landing-page {
+      position: relative;
+      height: 100vh;
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 34px clamp(24px, 5vw, 72px) 30px;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      z-index: 2;
+    }
+
+    /* faint transit-network texture, top-right */
+    .bg-net {
+      position: fixed;
+      top: -80px; right: -120px;
+      width: 720px; height: 720px;
+      opacity: 0.07;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* ---- top bar ---- */
+    .l-topbar { display: flex; align-items: center; justify-content: space-between; }
+    .l-brand {
+      display: flex; align-items: center; gap: 11px;
+      font-family: var(--font-display); font-weight: 700; font-size: 19px;
+      letter-spacing: -0.02em; color: var(--text-strong); text-decoration: none;
+    }
+    .l-brand .dot { color: var(--accent); }
+    .l-meta { font-family: var(--font-mono); font-size: 12px; color: var(--text-faint); letter-spacing: 0.04em; }
+
+    /* ---- hero ---- */
+    .l-hero { align-self: center; animation: heroIn 0.85s var(--ease-out); }
+    .l-eyebrow {
+      font-family: var(--font-mono); font-size: clamp(11px, 1vw, 13px);
+      letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent);
+      display: flex; align-items: center; gap: 12px; margin: 0 0 clamp(18px, 2.4vh, 30px);
+    }
+    .l-eyebrow::before { content: ""; width: 34px; height: 1px; background: currentColor; opacity: .65; }
+
+    .l-name {
+      font-family: var(--font-display); font-weight: 700;
+      font-size: clamp(54px, 11.5vw, 168px);
+      line-height: 0.9; letter-spacing: -0.035em; margin: 0;
+      color: var(--text-strong);
+    }
+    .l-name .surname {
+      background: linear-gradient(100deg, #E8633F 0%, #4F8DD6 52%, #2FB6A8 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+
+    .l-subtext {
+      font-family: var(--font-display); font-weight: 300;
+      font-size: clamp(20px, 2.7vw, 36px); line-height: 1.2;
+      color: var(--text-body); margin: clamp(22px, 3.2vh, 40px) 0 0; max-width: 18ch;
+    }
+
+    .l-enter {
+      display: inline-flex; align-items: center; gap: 12px;
+      margin-top: clamp(26px, 3.6vh, 46px);
+      font-family: var(--font-sans); font-weight: 500; font-size: 16px;
+      color: var(--text-on-accent); text-decoration: none;
+      background: var(--brand); border: 1px solid var(--brand);
+      padding: 13px 26px; border-radius: var(--radius-sm);
+      transition: background var(--duration-base) var(--ease-standard), transform var(--duration-base) var(--ease-standard);
+    }
+    .l-enter:hover { background: var(--brand-strong); transform: translateX(3px); color: var(--text-on-accent); }
+    .l-enter .arr { transition: transform var(--duration-base) var(--ease-standard); }
+    .l-enter:hover .arr { transform: translateX(4px); }
+
+    /* ---- wayfinding route (nav) ---- */
+    .l-route { position: relative; padding-top: 26px; }
+    .l-route .rail {
+      position: absolute; left: 0; right: 0; top: 32px; height: 2px;
+      background: linear-gradient(90deg, #E8633F 0%, #4F8DD6 52%, #2FB6A8 100%);
+      opacity: .9; border-radius: 2px;
+    }
+    .l-stations { position: relative; display: flex; justify-content: space-between; gap: 12px; }
+    .l-station {
+      display: flex; flex-direction: column; align-items: flex-start; gap: 16px;
+      text-decoration: none; flex: 1;
+    }
+    .l-station:last-child { align-items: flex-end; }
+    .l-station .dot {
+      width: 13px; height: 13px; border-radius: 50%;
+      background: var(--surface-page); border: 3px solid var(--text-faint);
+      transition: border-color var(--duration-base) var(--ease-standard), transform var(--duration-base) var(--ease-standard);
+    }
+    .l-station .lab {
+      font-family: var(--font-mono); font-size: 13px; letter-spacing: 0.04em;
+      color: var(--text-muted); transition: color var(--duration-base) var(--ease-standard);
+    }
+    .l-station:hover .dot { border-color: var(--accent); transform: scale(1.25); }
+    .l-station:hover .lab { color: var(--text-strong); }
+
+    /* ---- bottom meta ---- */
+    .l-footmeta { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 12px; color: var(--text-faint); letter-spacing: 0.04em; }
+
+    @keyframes heroIn { from { opacity: 0.35; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .l-hero { animation: none; } }
+
+    @media (max-width: 640px) {
+      .l-meta, .l-footmeta { font-size: 10px; }
+      .l-subtext { max-width: 100%; }
+      .l-stations { flex-wrap: wrap; row-gap: 18px; }
+      .l-route .rail { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- faint transit-network texture -->
+  <svg class="bg-net" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke="#4F8DD6" stroke-width="3">
+      <path d="M20 120 L160 120 L220 60 L380 60" />
+      <path d="M40 300 L40 200 L140 100" />
+      <path d="M120 380 L260 240 L260 120 L360 120" />
+      <path d="M0 240 L120 240 L200 320 L400 320" />
+    </g>
+    <g fill="#E8633F">
+      <circle cx="160" cy="120" r="6" /><circle cx="260" cy="240" r="6" /><circle cx="140" cy="100" r="6" />
+    </g>
+    <g fill="#2FB6A8">
+      <circle cx="220" cy="60" r="6" /><circle cx="200" cy="320" r="6" /><circle cx="260" cy="120" r="6" />
+    </g>
+  </svg>
+
+  <div class="landing-page">
+    <!-- top -->
+    <div class="l-topbar">
+      <a class="l-brand" href="{{ '/about/' | relative_url }}">
+        <img src="{{ '/assets/img/favicon.svg' | relative_url }}" width="28" height="28" alt="" />
+        <span>W<span class="dot">.</span>{{ site.last_name }}</span>
+      </a>
+      <div class="l-meta">BANGKOK&nbsp;&nbsp;&#8644;&nbsp;&nbsp;TOKYO</div>
+    </div>
+
+    <!-- hero -->
+    <div class="l-hero">
+      <p class="l-eyebrow">Transportation &middot; Urban Mobility &middot; AI</p>
+      <h1 class="l-name">
+        <span style="display:block;">{{ site.first_name }}</span>
+        <span class="surname" style="display:block;">{{ site.last_name }}</span>
+      </h1>
+      <p class="l-subtext">Moving cities, modelling futures.</p>
+      <a class="l-enter" href="{{ '/about/' | relative_url }}">Enter the site <span class="arr">&rarr;</span></a>
+    </div>
+
+    <!-- wayfinding nav -->
+    <nav class="l-route" aria-label="Site sections">
+      <div class="rail"></div>
+      <div class="l-stations">
+        <a class="l-station" href="{{ '/about/' | relative_url }}"><span class="dot"></span><span class="lab">About</span></a>
+        <a class="l-station" href="{{ '/publications/' | relative_url }}"><span class="dot"></span><span class="lab">Publications</span></a>
+        <a class="l-station" href="{{ '/projects/' | relative_url }}"><span class="dot"></span><span class="lab">Projects</span></a>
+        <a class="l-station" href="{{ '/blog/' | relative_url }}"><span class="dot"></span><span class="lab">Blog</span></a>
+        <a class="l-station" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener"><span class="dot"></span><span class="lab">Scholar &#8599;</span></a>
+      </div>
+    </nav>
+
+    <!-- bottom meta -->
+    <div class="l-footmeta">
+      <span>Civil Engineering &middot; The University of Tokyo</span>
+      <span>&copy; {{ site.time | date: '%Y' }}</span>
+    </div>
+  </div>
+</body>
+</html>

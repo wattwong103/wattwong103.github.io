@@ -1,39 +1,47 @@
 /*******************************************************************************
  * Themes
+ *
+ * al-folio's global theme variables are mapped onto the Wongkaew Research
+ * design-system semantic aliases (defined in _brand-tokens.scss). Because those
+ * aliases already flip under html[data-theme="dark"], most --global-* colors
+ * are declared once in :root and follow the active theme automatically. The
+ * dark block below only overrides the few surfaces that are intentionally NOT a
+ * straight alias flip (the always-navy footer) plus al-folio's non-color UI
+ * state (toggle/repo-image visibility, back-to-top).
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-bg-color: var(--surface-page);
+  --global-code-bg-color: var(--surface-sunken);
+  --global-text-color: var(--text-strong);
+  --global-text-color-light: var(--text-muted);
+  --global-theme-color: var(--accent);
+  --global-hover-color: var(--accent-hover);
+  --global-hover-text-color: var(--text-on-accent);
+  --global-footer-bg-color: #{$navy-900};
+  --global-footer-text-color: #{$blue-200};
   --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+  --global-distill-app-color: var(--text-muted);
+  --global-divider-color: var(--divider);
+  --global-card-bg-color: var(--surface-card);
+  --global-highlight-color: var(--status-highlight);
+  --global-back-to-top-bg-color: rgba(8, 26, 51, 0.55);
   --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-newsletter-bg-color: var(--surface-card);
+  --global-newsletter-text-color: var(--text-body);
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: var(--status-success);
+  --global-tip-block-bg: var(--status-success-bg);
+  --global-tip-block-text: var(--status-success);
+  --global-tip-block-title: var(--status-success);
+  --global-warning-block: var(--status-warning);
+  --global-warning-block-bg: var(--status-warning-bg);
+  --global-warning-block-text: var(--status-warning);
+  --global-warning-block-title: var(--status-warning);
+  --global-danger-block: var(--status-danger);
+  --global-danger-block-bg: var(--status-danger-bg);
+  --global-danger-block-text: var(--status-danger);
+  --global-danger-block-title: var(--status-danger);
 
   #light-toggle-system {
     padding-left: 10px;
@@ -68,36 +76,13 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
-
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  /* The footer stays deep-navy in both modes; nudge it just off the dark
+     canvas so it still reads as a distinct band. */
+  --global-footer-bg-color: #0a1f38;
+  --global-footer-text-color: var(--text-muted);
+  --global-footer-link-color: var(--text-strong);
+  --global-back-to-top-bg-color: rgba(238, 244, 251, 0.5);
+  --global-back-to-top-text-color: #{$navy-900};
 
   .repo-img-light {
     display: none;

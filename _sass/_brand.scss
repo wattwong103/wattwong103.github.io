@@ -1,0 +1,100 @@
+/*******************************************************************************
+ * Wongkaew Research — brand layer
+ *
+ * Applied last so it refines al-folio with the design system's idiom:
+ *   • Roboto Slab for display & headings (classic slab-serif)
+ *   • Roboto for body & UI (al-folio default, via MDB)
+ *   • Roboto Mono for eyebrows, dates, venues and other metadata
+ * Everything is built on the semantic-alias tokens so it themes light <-> dark
+ * automatically. "A well-set research paper, brought online."
+ ******************************************************************************/
+
+// ---- Display & headings: slab-serif -----------------------------------------
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.post .post-title,
+.profile .name,
+.cv h1, .cv h2 {
+  font-family: var(--font-display);
+  letter-spacing: var(--tracking-tight);
+}
+
+h1, h2, h3, .post-title { font-weight: var(--weight-bold); }
+h4, h5, h6 { font-weight: var(--weight-medium); }
+
+// Generous academic body leading.
+.post-content p,
+.post-description,
+p.text {
+  line-height: var(--leading-relaxed);
+}
+
+// ---- Metadata: monospace ----------------------------------------------------
+// Dates, venues, affiliations and other small print read in Roboto Mono.
+.post-meta,
+.post-tags,
+.news .date,
+.news td.date,
+table.table.news td:first-child,
+time,
+.bibliography .periodical,
+.bibliography .year,
+.archive-year .year {
+  font-family: var(--font-mono);
+  letter-spacing: 0.01em;
+}
+
+// ---- Links ------------------------------------------------------------------
+a {
+  text-underline-offset: 2px;
+}
+
+// ---- Blockquotes: 4px brand-blue left accent --------------------------------
+blockquote {
+  border-left: var(--border-accent) solid var(--brand);
+  background: var(--surface-tint);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--text-body);
+}
+
+// ---- Cards: hairline border + soft lift on hover ----------------------------
+.card {
+  border: var(--border-hairline) solid var(--divider);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow var(--duration-base) var(--ease-standard),
+    border-color var(--duration-base) var(--ease-standard),
+    transform var(--duration-base) var(--ease-standard);
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--blue-200);
+    transform: translateY(-2px);
+  }
+}
+
+// ---- Selected-publications / news venue + award badges ----------------------
+// Coral is reserved for awards and "Oral Presentation", matching the live site.
+.bibliography .award,
+abbr.award {
+  color: var(--status-highlight);
+  font-family: var(--font-mono);
+}
+
+// ---- Eyebrow helper (mono overline) -----------------------------------------
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs, 0.75rem);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+// ---- Focus ring on interactive controls -------------------------------------
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+.btn:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
