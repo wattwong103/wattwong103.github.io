@@ -7,5 +7,3 @@ Wachira's research interests focus on railway infrastructure, specifically in ar
 In addition to his technical skills in programming languages like Python and engineering software such as AutoCAD and Solidworks, Wachira is multilingual, with proficiency in Thai, English, and basic knowledge of Russian. He has also participated in various extracurricular activities, including hackathons and seminars related to public transportation systems.
 
 Wachira's dedication to his field is further demonstrated by his certifications, including a course in high-speed rail systems and a basic amateur radio operator license. He is committed to advancing his career in civil and transportation engineering, with a particular interest in railway systems and safety.
-
-
