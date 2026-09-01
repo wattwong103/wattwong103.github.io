@@ -215,6 +215,9 @@ latest_posts:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+# Dated posts in this repo run ahead of "today" as a publishing calendar.
+future: true
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
