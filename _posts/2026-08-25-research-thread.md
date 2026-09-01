@@ -36,4 +36,4 @@ I do not have a paper from that work on this site yet. When I do, it will go on 
 
 If you want a single sentence: I am trying to make travel demand models that survive a flood, a new mall, and a city they were not calibrated on.
 
-Deeper notes, one habit or paper at a time, start at [how I actually do the research]({{ '/blog/2026/how-i-actually-do-the-research/' | relative_url }}).
+Deeper notes, one habit or paper at a time, start at [how I actually do the research]({{ '/blog/2026/how-i-do-research/' | relative_url }}).

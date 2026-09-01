@@ -8,7 +8,7 @@ categories: research-notes
 featured: true
 ---
 
-The [world-models note]({{ '/blog/2026/world-models-are-the-next-layer-for-mobility/' | relative_url }}) ended on a rule: pick **one city + one action type + one output people would open daily**. This is Bangkok. Tokyo is a [separate post]({{ '/blog/2026/tokyo-one-city-one-action-one-output/' | relative_url }}). They are not the same product with a different basemap.
+The [world-models note]({{ '/blog/2026/world-models-for-mobility/' | relative_url }}) ended on a rule: pick **one city + one action type + one output people would open daily**. This is Bangkok. Tokyo is a [separate post]({{ '/blog/2026/tokyo-world-model/' | relative_url }}). They are not the same product with a different basemap.
 
 ## The unit
 
@@ -54,7 +54,7 @@ The honest MVP is **WorldMove + OSM + a handful of counted corridors + rainfall*
 
 ## The Bangkok-shaped hole
 
-The [world-models post]({{ '/blog/2026/world-models-are-the-next-layer-for-mobility/' | relative_url }}) listed five breaks. Bangkok hits all of them except “we have no city”:
+The [world-models post]({{ '/blog/2026/world-models-for-mobility/' | relative_url }}) listed five breaks. Bangkok hits all of them except “we have no city”:
 
 - Ego vs city → corridor crowding, not a camera in a taxi.
 - Grounding → real BTS/MRT graph, not a generated street.

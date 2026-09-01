@@ -62,4 +62,4 @@ I do not care whether the logo on the train is a ministry or a listed company. I
 
 So: if you want to keep SRT as a state railway, fund it like one and stop using it as a jobs program. If you want to privatize, be like JR — regional, vertically integrated, stations that earn, debt left behind, rural lines told the truth. Anything in between is how you get Britain's diagram with Thailand's monsoon.
 
-The numbers behind that claim — what 1987 actually moved, who listed, who is still on the public books — are in the next post: [JR: past, present, and future]({{ '/blog/2026/jr-past-present-and-future/' | relative_url }}).
+The numbers behind that claim — what 1987 actually moved, who listed, who is still on the public books — are in the next post: [JR: past, present, and future]({{ '/blog/2026/jr-past-present-future/' | relative_url }}).

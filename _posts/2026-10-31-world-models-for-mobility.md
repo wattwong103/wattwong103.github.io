@@ -10,7 +10,7 @@ featured: true
 
 World models are the right next layer for mobility work. They do not just forecast the next 15 minutes of traffic. They learn how the city *evolves* under actions, so you can roll out “what if” futures. That is the gap between a dashboard and infrastructure people would actually use.
 
-This sits next to [Pseudo-PFLOW]({{ '/blog/2026/pseudo-pflow-making-the-freight-that-surveys-miss/' | relative_url }}): a synthetic population when surveys miss the vehicles, and a world model when you need those agents to stay coherent after you close a lane. It is not a GUFM paper. It is why action-conditioned dynamics belong in the same lab as generative mobility.
+This sits next to [Pseudo-PFLOW]({{ '/blog/2026/pseudo-pflow/' | relative_url }}): a synthetic population when surveys miss the vehicles, and a world model when you need those agents to stay coherent after you close a lane. It is not a GUFM paper. It is why action-conditioned dynamics belong in the same lab as generative mobility.
 
 ## What a world model is (in 2026)
 
@@ -108,7 +108,7 @@ Don’t train a Genie. Use embeddings / reconstructed 3D / Street View as contex
 5. Infrastructure-centric WM — the public-infra research agenda.
 6. Google Mobility AI + Uber DeepETT — what production systems already ship without calling themselves world models.
 
-One city + one action + one daily output, written out: [Bangkok]({{ '/blog/2026/bangkok-one-city-one-action-one-output/' | relative_url }}) (flood / motorcade / concert → BTS+bus crowding, three hours) and [Tokyo]({{ '/blog/2026/tokyo-one-city-one-action-one-output/' | relative_url }}) (line closure → parallel crowding and trucks). Same \(s_{t+1}=f(s_t,a_t,c_t)\). Different \(a\), different data, different buyer.
+One city + one action + one daily output, written out: [Bangkok]({{ '/blog/2026/bangkok-world-model/' | relative_url }}) (flood / motorcade / concert → BTS+bus crowding, three hours) and [Tokyo]({{ '/blog/2026/tokyo-world-model/' | relative_url }}) (line closure → parallel crowding and trucks). Same \(s_{t+1}=f(s_t,a_t,c_t)\). Different \(a\), different data, different buyer.
 
 ## Sources I actually opened
 

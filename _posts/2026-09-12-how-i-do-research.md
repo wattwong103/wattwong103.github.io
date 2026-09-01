@@ -8,7 +8,7 @@ categories: research-notes
 featured: true
 ---
 
-The [overview]({{ '/blog/2026/the-research-thread-from-bangkok-surveys-to-generative-mobility/' | relative_url }}) is the arc. This is the method. Four habits I can point to in the papers, not a philosophy of science.
+The [overview]({{ '/blog/2026/research-thread/' | relative_url }}) is the arc. This is the method. Four habits I can point to in the papers, not a philosophy of science.
 
 ## 1. Start from something a dispatcher or a planner could use
 

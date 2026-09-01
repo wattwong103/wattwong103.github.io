@@ -8,7 +8,7 @@ categories: research-notes
 featured: true
 ---
 
-I do not have a separate “coding career.” The repositories are how the questions in [how I do the research]({{ '/blog/2026/how-i-actually-do-the-research/' | relative_url }}) get to a number someone else can rerun. Python for networks and ML, R for surveys and plots, QGIS when the unit of analysis is a catchment. That is the stack. This is the map of it.
+I do not have a separate “coding career.” The repositories are how the questions in [how I do the research]({{ '/blog/2026/how-i-do-research/' | relative_url }}) get to a number someone else can rerun. Python for networks and ML, R for surveys and plots, QGIS when the unit of analysis is a catchment. That is the stack. This is the map of it.
 
 ## A city as a graph
 

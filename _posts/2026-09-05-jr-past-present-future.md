@@ -8,7 +8,7 @@ categories: mobility-innovation
 featured: true
 ---
 
-The last post was a recommendation: [if you privatize, be like JR]({{ '/blog/2026/if-you-privatize-public-transport-be-like-jr/' | relative_url }}). This one is not. It is the record — past, present, future — so the recommendation can be checked against what actually happened.
+The last post was a recommendation: [if you privatize, be like JR]({{ '/blog/2026/privatize-like-jr/' | relative_url }}). This one is not. It is the record — past, present, future — so the recommendation can be checked against what actually happened.
 
 The short version, before the numbers: the 1987 reform produced three listed, self-standing passenger companies on Honshu, a fourth listing on Kyushu 29 years later, and three companies that are still not listed and still on the public books. Both halves are the JR story.
 
@@ -111,7 +111,7 @@ Not licensed:
 - That the late-1980s traffic boom was privatization alone. Fukui's own account puts the bubble in the room.
 - That the JR template extends unchanged onto a sparse network. Japan's own thin-line future is already drifting toward public support and, in places, vertical-ish splits — the thing the 1987 reformers declined to do on the main island.
 
-I am still willing to say [be like JR]({{ '/blog/2026/if-you-privatize-public-transport-be-like-jr/' | relative_url }}) as a policy sentence. The evidence says: be like **JR East in 2002**, with your eyes open about **JR Hokkaido in 2025**, and do not call the settlement debt someone else's problem. That is the past, the present, and the part of the future that is already on the timetable.
+I am still willing to say [be like JR]({{ '/blog/2026/privatize-like-jr/' | relative_url }}) as a policy sentence. The evidence says: be like **JR East in 2002**, with your eyes open about **JR Hokkaido in 2025**, and do not call the settlement debt someone else's problem. That is the past, the present, and the part of the future that is already on the timetable.
 
 ## Sources
 

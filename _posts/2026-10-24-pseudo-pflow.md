@@ -31,7 +31,7 @@ It is not a digital twin of every depot. It is not GUFM. GUFM is the other Tokyo
 
 ## How I am willing to talk about progress
 
-Same rules as [the method post]({{ '/blog/2026/how-i-actually-do-the-research/' | relative_url }}):
+Same rules as [the method post]({{ '/blog/2026/how-i-do-research/' | relative_url }}):
 
 - The unit is the agent-day, the geography is the zone, the judge is a published margin (counts, totals, shares) — not a loss curve.
 - If a calibration gap is not in a public figure, it is not on this blog.
@@ -39,4 +39,4 @@ Same rules as [the method post]({{ '/blog/2026/how-i-actually-do-the-research/' 
 
 When there is a paper, this post gets a DOI line. Until then: 4.5 million trips, 106 zones, and a refusal to fake the fit.
 
-The layer after a synthetic population is action-conditioned dynamics: [world models for mobility]({{ '/blog/2026/world-models-are-the-next-layer-for-mobility/' | relative_url }}).
+The layer after a synthetic population is action-conditioned dynamics: [world models for mobility]({{ '/blog/2026/world-models-for-mobility/' | relative_url }}).

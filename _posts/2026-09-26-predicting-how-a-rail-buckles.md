@@ -38,4 +38,4 @@ We then took the trained model to a real alignment in Thailand and asked whether
 
 Misalignment in the FEM set was a sine wave. Real track is a mess of welds and tamps. The paper already flags that. Next time I want measured geometry in the training distribution, not only in the case study. And I would report the confusion between snap-through and progressive as the headline metric, not overall F1 — overall F1 is too easy to inflate with the majority class even after SMOTE.
 
-The habit this paper taught me, which [the method post]({{ '/blog/2026/how-i-actually-do-the-research/' | relative_url }}) is about: pick a label a maintainer already has a word for, then make the ML answer in that word.
+The habit this paper taught me, which [the method post]({{ '/blog/2026/how-i-do-research/' | relative_url }}) is about: pick a label a maintainer already has a word for, then make the ML answer in that word.

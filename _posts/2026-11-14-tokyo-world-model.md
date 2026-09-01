@@ -8,13 +8,13 @@ categories: research-notes
 featured: true
 ---
 
-[Bangkok]({{ '/blog/2026/bangkok-one-city-one-action-one-output/' | relative_url }}) is a sparse-data, monsoon, fractured-GTFS problem. Tokyo is not. Copying the Bangkok MVP onto a 23-ku basemap would waste the one thing this city has: a population layer and a rail graph that already work.
+[Bangkok]({{ '/blog/2026/bangkok-world-model/' | relative_url }}) is a sparse-data, monsoon, fractured-GTFS problem. Tokyo is not. Copying the Bangkok MVP onto a 23-ku basemap would waste the one thing this city has: a population layer and a rail graph that already work.
 
-Same rule as the [world-models note]({{ '/blog/2026/world-models-are-the-next-layer-for-mobility/' | relative_url }}): **one city + one action type + one daily output.**
+Same rule as the [world-models note]({{ '/blog/2026/world-models-for-mobility/' | relative_url }}): **one city + one action type + one daily output.**
 
 ## The unit
 
-- **City:** Tokyo metropolitan rail + the surface streets that feed it (JR East, metro, private railways). Freight on the same geography via [Pseudo-PFLOW]({{ '/blog/2026/pseudo-pflow-making-the-freight-that-surveys-miss/' | relative_url }}).
+- **City:** Tokyo metropolitan rail + the surface streets that feed it (JR East, metro, private railways). Freight on the same geography via [Pseudo-PFLOW]({{ '/blog/2026/pseudo-pflow/' | relative_url }}).
 - **Actions:** a **line or corridor closure** (typhoon / incident / planned engineering) and its cousin, a **pricing or access change** (congestion charge trial, express-stop skip). Not a concert. Tokyo already handles concerts.
 - **Output:** delay and crowding **on the parallel corridors**, 1–6 hours out, passenger *and* business-vehicle. A duty officer at a JR control centre already sees the closed line. They do not see a coherent “what the trucks do instead.”
 
@@ -22,7 +22,7 @@ If the screen only restates the delay already on Yahoo Transit, it is not a worl
 
 ## Why Tokyo is not Bangkok with better GTFS
 
-1. **The graph is real and dense.** Vertical integration on JR, private railways that own the station, metro as a separate clock — still one of the most complete urban rail objects on Earth. Grounding is not the bottleneck. [JR: past, present, future]({{ '/blog/2026/jr-past-present-and-future/' | relative_url }}) is the institutional layer; the world model is the dynamics layer.
+1. **The graph is real and dense.** Vertical integration on JR, private railways that own the station, metro as a separate clock — still one of the most complete urban rail objects on Earth. Grounding is not the bottleneck. [JR: past, present, future]({{ '/blog/2026/jr-past-present-future/' | relative_url }}) is the institutional layer; the world model is the dynamics layer.
 2. **A synthetic population already exists in this lab.** Pseudo-PFLOW: on the order of **4.5 million** daily business-vehicle trips, **1.5 million-plus** truck and taxi agents, **106** zones, calibrated against source statistics. That is the freight that household surveys miss. The world-model job is to roll those agents *under an action*, not to invent them again.
 3. **Operators are not waiting for a startup dashboard.** JR East, TMG, and the expressway companies have measurement. Google Mobility AI and DeepETT-class ETA stacks will be judged here on operational metrics. A Tokyo product that only forecasts the next 15 minutes of traffic has already lost.
 4. **The rare event is a network event.** Typhoon, earthquake inspection, last-train failure, a Shinkansen feeder shock. The photoreal AV world models (Waymo, Cosmos, SceneDiffuser++) will give you the flooded intersection in 4K. They will not tell you whether the Saikyō Line dump lands on the Yamanote or on the Metropolitan Expressway — or on the trucks Pseudo-PFLOW is supposed to be counting.
