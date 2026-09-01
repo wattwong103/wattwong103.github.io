@@ -4,7 +4,7 @@ title: NaviCity
 description: Transportation routing application for optimizing travel cost and time
 img: assets/img/logo-2.png
 importance: 4
-category: projects
+category: mobility
 github: https://github.com/wattwong103/transport-cost
 ---
 
@@ -33,6 +33,6 @@ NaviCity is currently in trial phase with two separate modules:
 
 The application interface shown here represents the trial design and not the final product, which will ultimately integrate both modules into a seamless experience.
 
-### Try NaviCity Trial
+### Source
 
-You can test the current version of NaviCity through our web-based trial:
+The trial code is on GitHub: [wattwong103/transport-cost](https://github.com/wattwong103/transport-cost).

@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Current UTokyo work, railway and mobility projects, and earlier CUTI / ARIISE collaborations.
 nav: true
-nav_order: 3
-display_categories: [work, projects, fun, research]
+nav_order: 2
+display_categories: [tokyo, railways, mobility, other]
 horizontal: false
 ---
 

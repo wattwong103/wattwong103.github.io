@@ -3,8 +3,8 @@ layout: page
 title: Travel Time Analysis Methods
 description: Comparing Snapshot and Vehicle Trajectory approaches for travel time calculation
 img: assets/img/traffic-flow.jpg
-importance: 5
-category: work
+importance: 6
+category: mobility
 ---
 
 # Travel Time Analysis Methods: Snapshot vs Vehicle Trajectory

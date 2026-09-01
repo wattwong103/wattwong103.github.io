@@ -22,7 +22,7 @@ Research on sustainable mobility options for Bangkok, including assessment of ca
 
 ### Airport Egress Modelling
 
-Development of models to predict and optimize passenger flows exiting Suvarnabhumi Airport, with focus on reducing congestion and improving service quality.
+Development of models to predict and optimize passenger flows exiting Don Mueang International Airport, with focus on reducing congestion and improving service quality.
 
 ### Mode Change Prediction
 

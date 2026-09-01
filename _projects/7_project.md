@@ -3,8 +3,8 @@ layout: page
 title: Machine Learning Approach to Predict Railway Track Buckling
 description: Our first project with my Prof. Chayut
 img: assets/img/4.jpg
-importance: 1
-category: work
+importance: 4
+category: railways
 related_publications: true
 ---
 

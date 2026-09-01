@@ -3,12 +3,14 @@ layout: page
 title: Thailand Transport Open Data Platform
 description: An initiative to collect, standardize, and democratize transportation data across Thailand
 img: assets/img/transport-data.png
-importance: 1
-category: work
+importance: 3
+category: mobility
 github: https://github.com/wattwong103/th-open-transdata
 ---
 
 # Thailand Transport Open Data Platform
+
+Live map: [wattwong103.github.io/th-open-transdata](https://wattwong103.github.io/th-open-transdata/). It is a JavaScript tree over [`arf.json`](https://github.com/wattwong103/th-open-transdata/blob/main/arf.json) (Thai and international transport sources). A no-JS fetch of the page looks empty; open it in a browser.
 
 ## Project Overview
 

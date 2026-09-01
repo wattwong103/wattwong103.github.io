@@ -4,7 +4,7 @@ title: Portal
 description: On-demand bus riding application using machine learning
 img: assets/img/portal.png
 importance: 5
-category: projects
+category: mobility
 ---
 
 ## Portal: On-demand Bus Riding Application

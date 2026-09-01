@@ -4,7 +4,7 @@ title: Urban Green Spaces
 description: Reimagining Bangkok's public realm through integrated policy, business, and spatial planning approaches
 img: assets/img/urban-green-spaces.jpeg
 importance: 1
-category: fun
+category: other
 ---
 
 # Urban Green Spaces: Reimagining Bangkok's Public Realm

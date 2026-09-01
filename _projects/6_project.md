@@ -3,8 +3,8 @@ layout: page
 title: Railway Flood Risk Mapping
 description: Development of flood risk maps for railway tracks in nationwide floodplain areas using digital surface models and machine learning
 img: assets/img/flood-risk-map.jpg
-importance: 3
-category: work
+importance: 5
+category: railways
 ---
 
 ## The Challenge: When Railways Meet Monsoons
