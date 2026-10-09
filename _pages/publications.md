@@ -9,7 +9,7 @@ nav_order: 1
 
 <p class="post-description">
   Journal articles, conference papers (including orals at ICCBEI 2023 and ICRT 2024), and work in press or under review. Talks, slides, and awards are on the
-  <a href="{{ '/research/' | relative_url }}">research one-pager</a>.
+  <a href="https://wattwong103.github.io/research/">research one-pager</a>.
 </p>
 
 <!-- _pages/publications.md -->

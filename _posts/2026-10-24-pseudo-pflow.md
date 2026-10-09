@@ -14,14 +14,14 @@ Status: **in progress**, CSIS / Sekimoto Lab, The University of Tokyo. Project c
 
 Household travel surveys are where I learned the craft. They are also almost silent on **business vehicles**. Trucks and taxis eat urban road space and they barely appear in a diary of “where did you go yesterday.” If you only calibrate a city on households, you are modelling the commute and calling it traffic.
 
-Pseudo-PFLOW is a nationwide **agent-based** picture of those missing vehicles: synthetic trucks and taxis, daily activity, assigned to a zone system, checked against statistics that *are* published. The CV numbers I will repeat, and not add to:
+Pseudo-PFLOW is a nationwide **agent-based** picture of those missing vehicles: synthetic trucks and taxis, daily activity, assigned to a zone system, checked against statistics that _are_ published. The CV numbers I will repeat, and not add to:
 
 - on the order of **4.5 million** daily trips
 - **1.5 million-plus** truck and taxi agents
 - **106** zones
 - calibration and cross-verification against **source statistics** (not against a private GPS dump I will not name here)
 
-I also wrote technical documentation for the truck and taxi ABMs: calibration, data provenance, cross-verification. That sentence is on the CV because provenance *is* the method. If you cannot say which table an agent’s trip rate came from, you have a simulator, not a synthetic population.
+I also wrote technical documentation for the truck and taxi ABMs: calibration, data provenance, cross-verification. That sentence is on the CV because provenance _is_ the method. If you cannot say which table an agent’s trip rate came from, you have a simulator, not a synthetic population.
 
 ## What the model is for
 

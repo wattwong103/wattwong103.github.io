@@ -8,7 +8,7 @@ categories: opinion
 featured: true
 ---
 
-Every few years Bangkok rediscovers privatization. The State Railway is late and broke; the buses are a political object; someone has been to London or Singapore and returned with a slide deck. I am not against selling the railway. I am against selling it *badly*. If you are going to do it, be like JR.
+Every few years Bangkok rediscovers privatization. The State Railway is late and broke; the buses are a political object; someone has been to London or Singapore and returned with a slide deck. I am not against selling the railway. I am against selling it _badly_. If you are going to do it, be like JR.
 
 ## Two privatizations that are not the same thing
 
@@ -30,13 +30,13 @@ Three things, not a logo.
 
 3. **A region, not a franchise map.** JR East is eastern Honshu, not "whichever lines won the last tender." You can plan a network, a rolling-stock family, a suburb. Franchise boundaries teach operators to game the edge.
 
-What JR did *not* do is pretend that Hokkaido is Tokyo. The island companies still struggle. Density along the Tokaido and through the capital region is doing a lot of the work. Anyone who copies JR onto a sparse network and expects JR East's dividend is not copying JR. They are copying a press release.
+What JR did _not_ do is pretend that Hokkaido is Tokyo. The island companies still struggle. Density along the Tokaido and through the capital region is doing a lot of the work. Anyone who copies JR onto a sparse network and expects JR East's dividend is not copying JR. They are copying a press release.
 
 ## Thailand is closer to JNR than it wants to admit
 
 SRT is a production-driven national railway with political projects, deferred maintenance, and a balance sheet that cannot fund the next flood season. That is JNR in 1986, with worse drainage. BMTA is a different mess — urban buses as employment policy — but the same temptation: announce a private operator and leave the depot, the labour, and the road space untouched.
 
-We already privatized *pieces*. BTS and MRT are concessions. They work best where the city is dense and the station is a real estate event. They do not magically fix the national railway, and they do not prove that the next step is to franchise SRT operations onto track SRT still cannot maintain.
+We already privatized _pieces_. BTS and MRT are concessions. They work best where the city is dense and the station is a real estate event. They do not magically fix the national railway, and they do not prove that the next step is to franchise SRT operations onto track SRT still cannot maintain.
 
 If a Thai government wants the JR outcome, the checklist is unfashionable:
 
@@ -50,7 +50,7 @@ Vertical integration is not a slogan about "synergy." It is how you make the per
 
 ## The objection I take seriously
 
-JR worked because Tokyo-Yokohama-Nagoya-Osaka is a ridership machine, the state spent a decade preparing the split, and Japanese private railways had already shown that you can live on fares *and* property. Bangkok's rail spines have some of that density. Most of SRT does not. Copying JR onto the whole map would strand rural Thailand.
+JR worked because Tokyo-Yokohama-Nagoya-Osaka is a ridership machine, the state spent a decade preparing the split, and Japanese private railways had already shown that you can live on fares _and_ property. Bangkok's rail spines have some of that density. Most of SRT does not. Copying JR onto the whole map would strand rural Thailand.
 
 Fine. Then do not copy it onto the whole map. Copy it onto the corridors that can carry it, and be honest about the rest. That is still more JR than selling a 20-year operate-and-maintain contract on a track you will not upgrade.
 

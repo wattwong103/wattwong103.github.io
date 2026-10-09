@@ -8,7 +8,7 @@ categories: research-notes
 featured: false
 ---
 
-Paper: Wanichjaroenporn, Wongkaew, Muanyoksakul, Surangsrirout, Bunditsakulchai. Public Transport Accessibility Index for Bangkok and Its Application. *Transportation Research Record*, accepted (2025). Listings: [publications]({{ '/publications/' | relative_url }}), [research one-pager](https://wattwong103.github.io/research/).
+Paper: Wanichjaroenporn, Wongkaew, Muanyoksakul, Surangsrirout, Bunditsakulchai. Public Transport Accessibility Index for Bangkok and Its Application. _Transportation Research Record_, accepted (2025). Listings: [publications]({{ '/publications/' | relative_url }}), [research one-pager](https://wattwong103.github.io/research/).
 
 This is Kongtup’s lead. I am writing as a coauthor, not as the PI. I will not paste a results table the journal has not put on a DOI yet.
 
@@ -16,7 +16,7 @@ This is Kongtup’s lead. I am writing as a coauthor, not as the PI. I will not 
 
 Bangkok talks about “coverage” as if a station on the map were access. Coverage is geometry. Accessibility is whether a person at a given place, at a given time, can reach the places that count, at a cost of time (and usually money) they will actually pay. The paper builds an **index** for that, then an **application** — without the application the index is a colour ramp.
 
-The user is a planner who needs to see *where* public transport fails, not a ranking of cities for a press release.
+The user is a planner who needs to see _where_ public transport fails, not a ranking of cities for a press release.
 
 ## What I am willing to say before the DOI
 

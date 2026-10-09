@@ -8,7 +8,7 @@ categories: research-notes
 featured: false
 ---
 
-Paper: Wongkaew, Wanichjaroenporn, Bunditsakulchai. Spatiotemporal dynamics of land use and ridership: a geographically weighted regression analysis of Bangkok’s MRT Blue Line. *Public Transport* (2026), special issue of [CASPT 2025](https://www.caspt.org/); pages 1–45 as indexed. Earlier: abstract at the 3rd International Workshop on Geographic Modelling and Simulation (IWGMS 2024). On this site: [publications]({{ '/publications/' | relative_url }}).
+Paper: Wongkaew, Wanichjaroenporn, Bunditsakulchai. Spatiotemporal dynamics of land use and ridership: a geographically weighted regression analysis of Bangkok’s MRT Blue Line. _Public Transport_ (2026), special issue of [CASPT 2025](https://www.caspt.org/); pages 1–45 as indexed. Earlier: abstract at the 3rd International Workshop on Geographic Modelling and Simulation (IWGMS 2024). On this site: [publications]({{ '/publications/' | relative_url }}).
 
 I am not restating a table of local coefficients here. They belong in the paper. This is why we refused a single beta.
 
@@ -16,7 +16,7 @@ I am not restating a table of local coefficients here. They belong in the paper.
 
 Does land use next to a Blue Line station move ridership the same way at every station, at every hour? A citywide regression says yes by construction. Anyone who has been at Hua Lamphong at 08:30 and at Tha Phra at 14:00 knows the construction is the result.
 
-The operational user is a planner who is about to allow a mall, a condo, or a depot next to a station and wants to know whether *this* catchment behaves like the CBD.
+The operational user is a planner who is about to allow a mall, a condo, or a depot next to a station and wants to know whether _this_ catchment behaves like the CBD.
 
 ## Method, in one paragraph
 

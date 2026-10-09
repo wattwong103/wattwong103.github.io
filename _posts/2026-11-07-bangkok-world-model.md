@@ -23,8 +23,8 @@ If that screen is not something a duty officer at BMTA or a BTS station master w
 Almost every photorealistic world model in 2026 sits in a car on a well-mapped street graph. Bangkok’s binding constraints are the opposite:
 
 1. **Sparse, fractured open data.** GTFS is incomplete or stale depending on the operator. BMTA, BTS, MRT, and boats do not share a clock. [TODM](https://wattwong103.github.io/th-open-transdata/) exists because finding the table is still a week of work. A world model that assumes Uber-scale probe density will silently train on the CBD and call it the city.
-2. **Physics Waymo will not cover.** Motorcycle filtering, songthaew stop patterns, jaywalk regimes, sidewalks that are not sidewalks. That is the infrastructure-centric world-model argument in miniature: a roadside camera at a few intersections has *years* of those behaviors. Fleet AV data does not.
-3. **Monsoon as an action, not weather noise.** We already treated water on the **railway** as an operating rule (FRI in centimetres) in the [flood orals]({{ '/blog/2026/when-the-railway-is-a-floodplain/' | relative_url }}). The missing piece is the *urban* graph: when a canal road goes under, which BTS stations overload, which bus routes die, who is stuck in a songthaew that never comes.
+2. **Physics Waymo will not cover.** Motorcycle filtering, songthaew stop patterns, jaywalk regimes, sidewalks that are not sidewalks. That is the infrastructure-centric world-model argument in miniature: a roadside camera at a few intersections has _years_ of those behaviors. Fleet AV data does not.
+3. **Monsoon as an action, not weather noise.** We already treated water on the **railway** as an operating rule (FRI in centimetres) in the [flood orals]({{ '/blog/2026/when-the-railway-is-a-floodplain/' | relative_url }}). The missing piece is the _urban_ graph: when a canal road goes under, which BTS stations overload, which bus routes die, who is stuck in a songthaew that never comes.
 4. **Land use is local.** The [Blue Line GWR]({{ '/blog/2026/land-use-is-not-a-global-coefficient/' | relative_url }}) is the warning: a citywide elasticity will mis-state both Siam and Tha Phra. An intervention rollout that uses one demand head for the whole BMA will do the same.
 
 Google Mobility AI will underserve this city relative to Tokyo. That is the product reason to be here.
@@ -33,14 +33,14 @@ Google Mobility AI will underserve this city relative to Tokyo. That is the prod
 
 Do not wait for a 70,000-household survey refresh.
 
-| Layer | Start here | Do not pretend |
-| --- | --- | --- |
-| Synthetic population / traces | [WorldMove](https://www.nature.com/articles/s41597-026-06555-2) (Bangkok is in the 1,600-city set) | That WorldMove *is* the HTS |
-| Open catalogues | TODM + MOT / BMA portals | That BMTA GTFS is complete |
-| Network | OSM + whatever official rail station lists exist | A fused multi-operator GTFS |
-| Grounding | Street View / map tiles as *layout condition*, not as a video world | Genie-invented soi geometry |
-| Weather / flood | Public rainfall + the railway FRI work as a prior on *how water becomes an operating rule* | A hydrology digital twin on day one |
-| Behavior | HTS 2022 margins where they exist; mode shares as calibration targets | Microdata on GitHub |
+| Layer                         | Start here                                                                                         | Do not pretend                      |
+| ----------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| Synthetic population / traces | [WorldMove](https://www.nature.com/articles/s41597-026-06555-2) (Bangkok is in the 1,600-city set) | That WorldMove _is_ the HTS         |
+| Open catalogues               | TODM + MOT / BMA portals                                                                           | That BMTA GTFS is complete          |
+| Network                       | OSM + whatever official rail station lists exist                                                   | A fused multi-operator GTFS         |
+| Grounding                     | Street View / map tiles as _layout condition_, not as a video world                                | Genie-invented soi geometry         |
+| Weather / flood               | Public rainfall + the railway FRI work as a prior on _how water becomes an operating rule_         | A hydrology digital twin on day one |
+| Behavior                      | HTS 2022 margins where they exist; mode shares as calibration targets                              | Microdata on GitHub                 |
 
 The honest MVP is **WorldMove + OSM + a handful of counted corridors + rainfall**, with a learned residual on top of a calibrated simulator. Not Atlas.
 
@@ -48,7 +48,7 @@ The honest MVP is **WorldMove + OSM + a handful of counted corridors + rainfall*
 
 **Fake (simulator) first.** Lane closure, station closure, concert centroid: a macroscopic or mesoscopic assignment (even a four-step with a time-of-day slice, which is how I was trained in Nakhon Ratchasima) plus crude crowding = volume / capacity on BTS links. Operators already think in that language.
 
-**Learn next.** The residual world model: given state (flows, weather, clock, a one-hot action) predict the *distribution* of crowding three hours out, including the tail. Flood and motorcade are rare; that is why you need a world model instead of last-week’s LSTM. You will not have enough labelled motorcades. You will have enough ordinary evenings to learn the base dynamics, then condition on the rare action with a lot of humility and a simulator prior.
+**Learn next.** The residual world model: given state (flows, weather, clock, a one-hot action) predict the _distribution_ of crowding three hours out, including the tail. Flood and motorcade are rare; that is why you need a world model instead of last-week’s LSTM. You will not have enough labelled motorcades. You will have enough ordinary evenings to learn the base dynamics, then condition on the rare action with a lot of humility and a simulator prior.
 
 **Do not learn.** Photoreal rain on Sukhumvit. Useless if the mode split is wrong.
 

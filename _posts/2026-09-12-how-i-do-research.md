@@ -12,13 +12,13 @@ The [overview]({{ '/blog/2026/research-thread/' | relative_url }}) is the arc. T
 
 ## 1. Start from something a dispatcher or a planner could use
 
-The flood work did not begin as “apply Extra Trees to climate data.” It began as: if water is on the track, what can the railway still run? That produced an operation-based Flood Risk Index — ballast, sleeper, railhead — not a generic hazard score. The buckling work asked which *mode* of failure you get (snap-through vs progressive), because those are different maintenance problems. The Blue Line GWR asked where land use actually moves ridership, not whether land use “matters” in a citywide regression.
+The flood work did not begin as “apply Extra Trees to climate data.” It began as: if water is on the track, what can the railway still run? That produced an operation-based Flood Risk Index — ballast, sleeper, railhead — not a generic hazard score. The buckling work asked which _mode_ of failure you get (snap-through vs progressive), because those are different maintenance problems. The Blue Line GWR asked where land use actually moves ridership, not whether land use “matters” in a citywide regression.
 
 If I cannot say who would change a decision, I do not have a question yet. Consultancy language (“insights,” “frameworks”) is usually a missing user.
 
 ## 2. Geography before the model
 
-I came in through the Geography Olympiad and a four-step model of public transit in Nakhon Ratchasima. That sequence is still the lab order: *where*, then *why people leave*, then *which mode*, then *which network*. Machine learning sits on top of that, it does not replace it. A transformer that generates trajectories is still a geography problem — agents in space, at hours, with purposes — or it is a sampler with no transport content.
+I came in through the Geography Olympiad and a four-step model of public transit in Nakhon Ratchasima. That sequence is still the lab order: _where_, then _why people leave_, then _which mode_, then _which network_. Machine learning sits on top of that, it does not replace it. A transformer that generates trajectories is still a geography problem — agents in space, at hours, with purposes — or it is a sampler with no transport content.
 
 Bangkok is a bad place to skip this. A coefficient estimated on the whole BMA will describe Siam and Lat Krabang with the same sentence. They do not share a sentence.
 
@@ -26,7 +26,7 @@ Bangkok is a bad place to skip this. A coefficient estimated on the whole BMA wi
 
 The published GWR paper exists because a single land-use coefficient on the MRT Blue Line is a convenient lie. Station catchments are not interchangeable; morning and evening are not interchangeable. I would rather report a map of local relationships that I can argue with than a star on a citywide beta.
 
-That habit is not only for ridership. Flood features that matter in the North may not be the ones that matter on a floodplain in the Central region. An accessibility index that averages Bangkok into one number is a press release. The TRR paper Kongtup led is an index *and an application* — the application is the geography.
+That habit is not only for ridership. Flood features that matter in the North may not be the ones that matter on a floodplain in the Central region. An accessibility index that averages Bangkok into one number is a press release. The TRR paper Kongtup led is an index _and an application_ — the application is the geography.
 
 ## 4. The code has to be able to lie to you
 
