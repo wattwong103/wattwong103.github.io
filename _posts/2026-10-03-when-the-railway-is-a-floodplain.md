@@ -32,13 +32,13 @@ Four risk-factor families: climate, basin, slope, elevation. Most location-years
 
 The label is an **operation-based Flood Risk Index**, tied to water on the structure:
 
-| FRI | Water | Operations |
-| --- | --- | --- |
-| 0 | none | normal |
-| 1 | 0–30 cm (ballast to sleeper bottom) | caution |
-| 2 | 31–60 cm (sleeper to railhead) | reduced speed |
-| 3 | 61–70 cm (over railhead) | minimal operations |
-| 4 | >70 cm | no operations |
+| FRI | Water                               | Operations         |
+| --- | ----------------------------------- | ------------------ |
+| 0   | none                                | normal             |
+| 1   | 0–30 cm (ballast to sleeper bottom) | caution            |
+| 2   | 31–60 cm (sleeper to railhead)      | reduced speed      |
+| 3   | 61–70 cm (over railhead)            | minimal operations |
+| 4   | >70 cm                              | no operations      |
 
 Several classifiers were tried. **Extra Trees** was the one we kept. On the project evaluation: **0.98** accuracy on training, **0.71** F1 on the 2015–2016 test years. That drop is the honest result. Rainfall features dominated importance: average rainfall, average rainfall per day, maximum rainfall per day.
 

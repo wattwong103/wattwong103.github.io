@@ -8,7 +8,7 @@ categories: research-notes
 featured: false
 ---
 
-Paper: Wongkaew, Muanyoksakul, Ngamkhanong, Sresakoolchai, Kaewunruen. [Data driven machine learning prognostics of buckling failure modes in ballasted railway track](https://doi.org/10.1007/s42452-024-05885-3). *Discover Applied Sciences* 6, 212 (April 2024). PDF on this site: [buckling_01.pdf]({{ '/assets/pdf/buckling_01.pdf' | relative_url }}). Project notes: [here]({{ '/projects/7_project/' | relative_url }}).
+Paper: Wongkaew, Muanyoksakul, Ngamkhanong, Sresakoolchai, Kaewunruen. [Data driven machine learning prognostics of buckling failure modes in ballasted railway track](https://doi.org/10.1007/s42452-024-05885-3). _Discover Applied Sciences_ 6, 212 (April 2024). PDF on this site: [buckling_01.pdf]({{ '/assets/pdf/buckling_01.pdf' | relative_url }}). Project notes: [here]({{ '/projects/7_project/' | relative_url }}).
 
 This was the first journal paper. The question was not “will the rail fail in heat?” Railway engineers already know continuous welded rail can buckle. The question was **which failure**, on **which geometry**, early enough to change maintenance.
 

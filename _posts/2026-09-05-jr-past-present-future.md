@@ -20,12 +20,12 @@ On 1 April 1987 JNR was replaced by six regional passenger companies and one nat
 
 The opening balance sheet is the part most slide decks skip. JR East's [2004 annual report](https://www.jreast.co.jp/e/investor/ar/2004/pdf/ar2004_17.pdf) puts JNR's long-term liabilities at restructuring — including future costs — at **¥37.1 trillion**. The IHRA brief and the same JR East note give the same split, in round figures:
 
-| Who took the liability | About |
-| --- | --- |
-| JR East, JR Central, JR West, JR Freight (and related entities) | ¥5.9 trillion |
-| Shinkansen Holding Corporation | ¥5.7 trillion |
-| JNR Settlement Corporation | ¥25.5 trillion |
-| JR Hokkaido, JR Shikoku, JR Kyushu | none |
+| Who took the liability                                          | About          |
+| --------------------------------------------------------------- | -------------- |
+| JR East, JR Central, JR West, JR Freight (and related entities) | ¥5.9 trillion  |
+| Shinkansen Holding Corporation                                  | ¥5.7 trillion  |
+| JNR Settlement Corporation                                      | ¥25.5 trillion |
+| JR Hokkaido, JR Shikoku, JR Kyushu                              | none           |
 
 The island passenger companies were instead given a Management Stabilization Fund whose interest was meant to cover operating losses: about **¥682 billion** for Hokkaido, **¥208 billion** for Shikoku, **¥388 billion** for Kyushu (about ¥1.28 trillion in total). That is not a footnote. It is how the reform treated density: Honshu companies inherited some debt and a market; the islands inherited a fund and no debt.
 
@@ -40,12 +40,12 @@ Two design choices sit under those numbers and should not be blurred:
 
 ### Traffic and productivity in the first decade
 
-Hiroyuki Fukui, writing in the [*Japan Railway & Transport Review*](https://www.ejrcf.or.jp/jrtr/jrtr49/f06_fuk.html), reports that total passenger traffic on the new JR operators rose **24%** between 1986 (the last JNR year) and 1991, passing JNR's 1974 peak, and that JR Freight volume rose **30%** over the same stretch. He also says the late-1980s bubble did a lot of that lifting: volumes and revenue rose without the fare increase that had been planned. That caveat belongs in the same paragraph as the success.
+Hiroyuki Fukui, writing in the [_Japan Railway & Transport Review_](https://www.ejrcf.or.jp/jrtr/jrtr49/f06_fuk.html), reports that total passenger traffic on the new JR operators rose **24%** between 1986 (the last JNR year) and 1991, passing JNR's 1974 peak, and that JR Freight volume rose **30%** over the same stretch. He also says the late-1980s bubble did a lot of that lifting: volumes and revenue rose without the fare increase that had been planned. That caveat belongs in the same paragraph as the success.
 
 On productivity, the numbers that get quoted are from Fumitoshi Mizutani and co-authors, using Ministry of Transport and JNR/JR statistics:
 
-- Mizutani and Kiyoshi Nakamura, [*Papers in Regional Science* (1996)](https://doi.org/10.1111/j.1435-5597.1996.tb00660.x): the estimated effect of privatization on **labour productivity growth was about 29%**. They also found JRs still had about **20% more employees** than Japan's large private railways, with the gap concentrated in stations and maintenance, and that employment reduction in the transition did most of the work. Serious accidents were not associated with the productivity gain.
-- Mizutani and Shuji Uranishi, [*International Journal of Transport Economics* (2007)](https://www.jstor.org/stable/42747818): after privatization, annual **TFP growth was 2.97%**, of which privatization itself accounted for **1.62 percentage points**. Over-capitalisation at JNR was largely corrected.
+- Mizutani and Kiyoshi Nakamura, [_Papers in Regional Science_ (1996)](https://doi.org/10.1111/j.1435-5597.1996.tb00660.x): the estimated effect of privatization on **labour productivity growth was about 29%**. They also found JRs still had about **20% more employees** than Japan's large private railways, with the gap concentrated in stations and maintenance, and that employment reduction in the transition did most of the work. Serious accidents were not associated with the productivity gain.
+- Mizutani and Shuji Uranishi, [_International Journal of Transport Economics_ (2007)](https://www.jstor.org/stable/42747818): after privatization, annual **TFP growth was 2.97%**, of which privatization itself accounted for **1.62 percentage points**. Over-capitalisation at JNR was largely corrected.
 - Mizutani and Nakamura (1997), in the same journal: in the first ten years, financial results, service quality, labour productivity, and operating costs improved; accident rates did not rise; fares, which had been rising almost yearly before 1987, **did not increase for nine years** after.
 
 Those are not "JR is magic." They are: the Honshu operators, in a dense market, with debt parked elsewhere, got more output per worker and did not buy it with a worse safety record in the period studied.
@@ -54,15 +54,15 @@ Those are not "JR is magic." They are: the Honshu operators, in a dense market, 
 
 "Privatized in 1987" is the wrong sentence. The JRs started as special companies whose shares sat with the Settlement Corporation. Listing is the later event. The [Japan Railway Construction, Transport and Technology Agency (JRTT)](https://www.jrtt.go.jp/settlement/share.html), which inherited the settlement function, records the share sales:
 
-| Company | First sale | Fully sold | Listed |
-| --- | --- | --- | --- |
-| JR East | October 1993 | June 2002 | yes |
-| JR West | October 1996 | March 2004 | yes |
-| JR Central | October 1997 | April 2006 | yes |
-| JR Kyushu | October 2016 (one tranche) | October 2016 | yes |
-| JR Hokkaido | — | still with JRTT | no |
-| JR Shikoku | — | still with JRTT | no |
-| JR Freight | — | still with JRTT | no |
+| Company     | First sale                 | Fully sold      | Listed |
+| ----------- | -------------------------- | --------------- | ------ |
+| JR East     | October 1993               | June 2002       | yes    |
+| JR West     | October 1996               | March 2004      | yes    |
+| JR Central  | October 1997               | April 2006      | yes    |
+| JR Kyushu   | October 2016 (one tranche) | October 2016    | yes    |
+| JR Hokkaido | —                          | still with JRTT | no     |
+| JR Shikoku  | —                          | still with JRTT | no     |
+| JR Freight  | —                          | still with JRTT | no     |
 
 JRTT puts total proceeds from the four sold companies at **¥4.4503 trillion**. JR Kyushu listed 29 years after the split, after building property and other non-rail businesses — the same station-area model the Honshu companies used, and the same model Railway Gazette noted ahead of the 2016 IPO.
 
@@ -76,7 +76,7 @@ The state is still in the room. MLIT's support packages for "the two islands and
 
 ### The settlement debt
 
-Land and share sales were supposed to shrink the Settlement Corporation's pile. They did not keep up with interest. JR East's 2004 report already describes liabilities at the settlement body *rising* after 1987 because land was hard to sell and listings slipped. Government-guaranteed JNR-related debt was still about **¥15.6 trillion** at the end of FY2021 — lower than ¥37 trillion, not gone. The operators were isolated from most of that hole. The public was not.
+Land and share sales were supposed to shrink the Settlement Corporation's pile. They did not keep up with interest. JR East's 2004 report already describes liabilities at the settlement body _rising_ after 1987 because land was hard to sell and listings slipped. Government-guaranteed JNR-related debt was still about **¥15.6 trillion** at the end of FY2021 — lower than ¥37 trillion, not gone. The operators were isolated from most of that hole. The public was not.
 
 That fact does not cancel the operating success of JR East, Central, and West. It means "JR paid off JNR" is false. The reform moved the corpse.
 
@@ -84,7 +84,7 @@ That fact does not cancel the operating success of JR East, Central, and West. I
 
 The forward-looking evidence is already visible. It does not look like 1987 copied onto the whole map.
 
-**The listed companies** will keep doing what the large private railways did before them: run dense corridors, sell the station, and treat non-rail as a real P&L line. JR Kyushu's listing is the existence proof that this can work off Honshu *if* the city-region is thick enough and the property is allowed to work.
+**The listed companies** will keep doing what the large private railways did before them: run dense corridors, sell the station, and treat non-rail as a real P&L line. JR Kyushu's listing is the existence proof that this can work off Honshu _if_ the city-region is thick enough and the property is allowed to work.
 
 **The unlisted companies** are on a different path. JR Freight, as of April 2024, is a Type-1 railway on only **29.1 km**; almost all of its trains run on passenger companies' tracks, with a freight adjustment-charge system still written through **FY2030**. JR Hokkaido is shrinking the map, putting hotels on former railway housing sites, and remaining on MLIT support through the decade. Thin passenger lines that left JR after Shinkansen parallel-conventional splits are already experimenting with **deemed vertical separation** — local governments taking infrastructure risk while an operator runs trains. Hisatsu Orange Railway, a third-sector line in Kyushu, saw ridership fall from about **1.88 million** in its opening year (FY2004) to about **1.03 million** in FY2024. That is the demography the island JRs are running into.
 
@@ -118,7 +118,7 @@ I am still willing to say [be like JR]({{ '/blog/2026/privatize-like-jr/' | rela
 - East Japan Railway Company, [Annual Report 2004](https://www.jreast.co.jp/e/investor/ar/2004/pdf/ar2004_17.pdf) (JNR liability split).
 - [IHRA, "JNR Reform"](https://www.ihra-hsr.org/jp/hsr/_pdf/jnr_reform.pdf) (employment, debt allocation).
 - JRTT, [Disposal of JR shares](https://www.jrtt.go.jp/settlement/share.html) (listing and sale proceeds).
-- Hiroyuki Fukui, ["JNR Privatization"](https://www.ejrcf.or.jp/jrtr/jrtr49/f06_fuk.html), *Japan Railway & Transport Review*.
-- Fumitoshi Mizutani and Kiyoshi Nakamura, ["Effects of Japan National Railways' Privatization on Labor Productivity"](https://doi.org/10.1111/j.1435-5597.1996.tb00660.x), *Papers in Regional Science* 75(2), 1996.
-- Fumitoshi Mizutani and Shuji Uranishi, "The Effects of Privatization on Productivity and Capital Adjustment," *International Journal of Transport Economics* 34(2), 2007.
+- Hiroyuki Fukui, ["JNR Privatization"](https://www.ejrcf.or.jp/jrtr/jrtr49/f06_fuk.html), _Japan Railway & Transport Review_.
+- Fumitoshi Mizutani and Kiyoshi Nakamura, ["Effects of Japan National Railways' Privatization on Labor Productivity"](https://doi.org/10.1111/j.1435-5597.1996.tb00660.x), _Papers in Regional Science_ 75(2), 1996.
+- Fumitoshi Mizutani and Shuji Uranishi, "The Effects of Privatization on Productivity and Capital Adjustment," _International Journal of Transport Economics_ 34(2), 2007.
 - MLIT, support materials for JR Hokkaido, JR Shikoku, and JR Freight (FY2024– packages; self-reliance target around FY2031).
