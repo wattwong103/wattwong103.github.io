@@ -10,17 +10,17 @@ featured: false
 
 People ask what I work on and I still give three answers. The honest one is a thread, not a topic.
 
-It starts as geography. I trained students for the Geography Olympiad, then wrote a dissertation on a time-specific four-step model of public transit in Nakhon Ratchasima. That is the unglamorous core: people leave home for a reason, pick a mode, load a network. At the Chulalongkorn University Transportation Institute I spent three years doing the same thing at national scale — household travel surveys, airport egress at Don Mueang, tuk-tuk safety, garbage routing, GIZ climate-sensitive planning in Chiang Mai and Khon Kaen. The Pheu Thai year was that skill applied to bus routes and congestion charging.
+It starts as geography. I trained students for the Geography Olympiad, then wrote a dissertation on a time-specific four-step model of public transit in Nakhon Ratchasima. That is the unglamorous core: people leave home for a reason, pick a mode, load a network.
 
 ## Rails that flood and rails that buckle
 
-In parallel I worked with ARIISE on the track itself. Thailand's railway does not fail in the abstract. It fails when monsoon water sits above the ballast, and when continuous welded rail gets hot enough to snap through. We used digital surface models and computer vision to map floodplain risk, then machine learning to turn that into an operation-based flood index — what the dispatcher can still run at 30 cm of water versus 70. That work was an oral at ICCBEI 2023 and again at ICRT 2024. The buckling paper, with XGBoost on finite-element scenarios, is in *Discover Applied Sciences* (2024). A chapter on track management under extreme events is in press with Elsevier.
+In parallel I worked on the track itself. Thailand's railway does not fail in the abstract. It fails when monsoon water sits above the ballast, and when continuous welded rail gets hot enough to snap through. We used digital surface models and computer vision to map floodplain risk, then machine learning to turn that into an operation-based flood index — what the dispatcher can still run at 30 cm of water versus 70. That work was an oral at ICCBEI 2023 and again at ICRT 2024. The buckling paper, with XGBoost on finite-element scenarios, is in _Discover Applied Sciences_ (2024). A chapter on track management under extreme events is in press with Elsevier.
 
 That is not a side project. If you care about mode shift in a tropical country, you have to care whether the train shows up in October.
 
 ## Land use is not a global coefficient
 
-The other Bangkok thread is ridership. Land use next to the MRT Blue Line does not have one effect. It has a geography. We used geographically weighted regression so the relationship can change along the line and across the day. An abstract went to IWGMS 2024; the paper went to CASPT 2025 and the *Public Transport* special issue (2026). A related accessibility index for Bangkok, led by Kongtup Wanichjaroenporn, is accepted at *Transportation Research Record*.
+The other Bangkok thread is ridership. Land use next to the MRT Blue Line does not have one effect. It has a geography. We used geographically weighted regression so the relationship can change along the line and across the day. An abstract went to IWGMS 2024; the paper went to CASPT 2025 and the _Public Transport_ special issue (2026). A related accessibility index for Bangkok, led by Kongtup Wanichjaroenporn, is accepted at _Transportation Research Record_.
 
 The lesson I keep is methodological and political: a citywide elasticity is a convenient lie. Station catchments are not interchangeable. Policy that pretends they are will overbuild one place and starve another.
 
