@@ -10,11 +10,11 @@ featured: false
 
 People ask what I work on and I still give three answers. The honest one is a thread, not a topic.
 
-It starts as geography. I trained students for the Geography Olympiad, then wrote a dissertation on a time-specific four-step model of public transit in Nakhon Ratchasima. That is the unglamorous core: people leave home for a reason, pick a mode, load a network.
+It starts as geography. I trained students for the Geography Olympiad, then wrote a dissertation on a time-specific four-step model of public transit in Nakhon Ratchasima. That is the unglamorous core: people leave home for a reason, pick a mode, load a network. At the Chulalongkorn University Transportation Institute I spent three years doing the same thing at national scale — household travel surveys, airport egress at Don Mueang, tuk-tuk safety, garbage routing, GIZ climate-sensitive planning in Chiang Mai and Khon Kaen. The Pheu Thai year was that skill applied to bus routes and congestion charging.
 
 ## Rails that flood and rails that buckle
 
-In parallel I worked on the track itself. Thailand's railway does not fail in the abstract. It fails when monsoon water sits above the ballast, and when continuous welded rail gets hot enough to snap through. We used digital surface models and computer vision to map floodplain risk, then machine learning to turn that into an operation-based flood index — what the dispatcher can still run at 30 cm of water versus 70. That work was an oral at ICCBEI 2023 and again at ICRT 2024. The buckling paper, with XGBoost on finite-element scenarios, is in _Discover Applied Sciences_ (2024). A chapter on track management under extreme events is in press with Elsevier.
+In parallel I worked with ARIISE on the track itself. Thailand's railway does not fail in the abstract. It fails when monsoon water sits above the ballast, and when continuous welded rail gets hot enough to snap through. We used digital surface models and computer vision to map floodplain risk, then machine learning to turn that into an operation-based flood index — what the dispatcher can still run at 30 cm of water versus 70. That work was an oral at ICCBEI 2023 and again at ICRT 2024. The buckling paper, with XGBoost on finite-element scenarios, is in _Discover Applied Sciences_ (2024). A chapter on track management under extreme events is in press with Elsevier.
 
 That is not a side project. If you care about mode shift in a tropical country, you have to care whether the train shows up in October.
 
