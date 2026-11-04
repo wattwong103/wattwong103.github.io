@@ -336,6 +336,13 @@
   ],
   "publications": [
     {
+      "name": "The Impact of Demographic and Home-Location Conditioning on Urban Mobility Generation",
+      "publisher": "2nd ACM SIGSPATIAL International Workshop on Urban Mobility Foundation Models (UMFM 2026), ACM SIGSPATIAL 2026, Riverside, CA",
+      "releaseDate": "2026-11-03",
+      "url": "",
+      "summary": "Workshop talk from the Generative Urban Foundation Model (GUFM) project."
+    },
+    {
       "name": "Spatiotemporal Dynamics of Land Use and Ridership: A Geographically Weighted Regression Analysis of Bangkok's MRT Blue Line",
       "publisher": "Public Transport (special issue) — 16th Int. Conference on Advanced Systems in Public Transport (CASPT 2025)",
       "releaseDate": "2026",
@@ -485,7 +492,7 @@
   ],
   "projects": [
     {
-      "name": "Generative Urban Foundation Model",
+      "name": "Generative Urban Foundation Model (GUFM)",
       "summary": "Sekimoto Lab (IIS, CSIS), The University of Tokyo — generating realistic human-mobility trajectories across global cities from real data with a decoder-only transformer; exploring world models and diffusion methods.",
       "highlights": ["Foundation models", "Human mobility", "Decoder-only transformer", "Diffusion methods"],
       "startDate": "2025-10-01"
