@@ -102,7 +102,7 @@
       maindescription: Generating realistic human-mobility trajectories across global cities from real data with a decoder-only transformer; exploring world models and diffusion methods.
     - title: "Pseudo-PFLOW: Synthetic Mobility Simulation"
       institution: The University of Tokyo
-      year: 2024 - now
+      year: 2025 - now
       maindescription: Nationwide agent-based simulation of business vehicles generating 4.5M daily trips for 1.5M+ truck and taxi agents across 106 zones, with calibration and cross-verification against source statistics.
     - title: AI for Railway Infrastructure (Book Chapter)
       institution: Elsevier — “Artificial Intelligence for Railway Infrastructure”
