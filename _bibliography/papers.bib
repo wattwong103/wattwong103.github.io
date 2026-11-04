@@ -1,6 +1,23 @@
 ---
 ---
 
+@inproceedings{wongkaew2026umfm,
+  abbr={UMFM},
+  title={The Impact of Demographic and Home-Location Conditioning on Urban Mobility Generation},
+  author={Wongkaew, Watcharapong and Liu, Ziheng and Pang, Yanbo and Nakai, Fuko and Sekimoto, Yoshihide},
+  abstract={We study how conditioning and spatial evaluation affect conclusions about urban mobility generation. On synthetic Tokyo trajectories from Pseudo-PFLOW, we vary four conditioning pathways (channels A–D) in a 12.3M-parameter autoregressive generator through matched comparisons with acceptance thresholds fixed before each experiment. No tested demographic channel improves or harms a judged metric beyond its bar (three training runs each, held-out Chiyoda residents); these results are specific to the tested mechanisms, model and synthetic corpus. Both headline models centre retrieval on each person’s own home; also writing that home into the persona raises teacher-forced exact next-cell accuracy from 0.128 to 0.196 for held-out Chiyoda residents (three paired training runs per model), but lowers within-2 km accuracy over all predictions (0.794 → 0.550). The holdout is a whole ward’s resident population, in places seen in training; the reversal repeats in two further wards, Setagaya and Nerima (one training run per model and ward; rule fixed in advance). About 69% of prediction steps target the person’s home cell, and the loss in the scored tolerances is located on those steps. In autoregressive continuations started from an observed first event (Chiyoda residents with at least two events in their day), the personalized model is detectably better on ward-level destination distributions and on exact own-home return, and detectably worse on trip-length distributions and on ending the day within 2 km of home; origin–destination agreement is unresolved, and trip counts are reported separately from these scores. The main contribution is an empirical evaluation finding: exact next-cell accuracy, spatial proximity and generated-sequence quality can disagree, and here required separate evidence.},
+  booktitle={2nd ACM SIGSPATIAL International Workshop on Urban Mobility Foundation Models (UMFM 2026)},
+  publisher={ACM},
+  address={Riverside, CA, USA},
+  year={2026},
+  month={November},
+  isbn={979-8-4007-3055-9},
+  doi={10.1145/3849729.3856128},
+  keywords={human mobility, generative models, urban knowledge graphs, evaluation protocol, foundation models},
+  note={Workshop talk, November 3, 2026, 10:00--10:15. DOI: 10.1145/3849729.3856128. Part of the Generative Urban Foundation Model (GUFM) project},
+  selected={true}
+}
+
 @article{wongkaew2026gwr,
   abbr={Public Transport},
   title={Spatiotemporal Dynamics of Land Use and Ridership: A Geographically Weighted Regression Analysis of Bangkok's {MRT} Blue Line},

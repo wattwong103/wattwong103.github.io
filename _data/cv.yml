@@ -96,7 +96,7 @@
 - title: Current Work & Projects
   type: time_table
   contents:
-    - title: Generative Urban Foundation Model
+    - title: Generative Urban Foundation Model (GUFM)
       institution: Sekimoto Lab (IIS, CSIS), The University of Tokyo
       year: 2025 - now
       maindescription: Generating realistic human-mobility trajectories across global cities from real data with a decoder-only transformer; exploring world models and diffusion methods.
@@ -115,6 +115,9 @@
 - title: Selected Publications
   type: time_table
   contents:
+    - title: "The Impact of Demographic and Home-Location Conditioning on Urban Mobility Generation"
+      year: 2026
+      maindescription: "2nd ACM SIGSPATIAL International Workshop on Urban Mobility Foundation Models (UMFM 2026), ACM SIGSPATIAL 2026, Riverside, CA — talk, with Ziheng Liu, Yanbo Pang, Fuko Nakai and Yoshihide Sekimoto. DOI: 10.1145/3849729.3856128"
     - title: "Spatiotemporal Dynamics of Land Use and Ridership: A Geographically Weighted Regression Analysis of Bangkok's MRT Blue Line"
       year: 2026
       maindescription: "Public Transport (special issue) — 16th Int. Conference on Advanced Systems in Public Transport (CASPT 2025)"
