@@ -3,7 +3,8 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Geography Olympiad teaching at Mahidol Wittayanusorn School.
-nav: false
+nav: true
+nav_order: 5
 ---
 
 I teach as a lecturer and faculty advisor at [Mahidol Wittayanusorn School](https://www.mwit.ac.th/) (2020–present): the National Geography Olympiad, and support for the Social Science department (classwork, exam reading, fieldwork). This is school teaching, not a university course list. I do not currently lecture at Chulalongkorn or the University of Tokyo.
