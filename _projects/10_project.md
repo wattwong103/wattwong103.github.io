@@ -13,7 +13,7 @@ This is current research (2025–present). The academic write-up lives on the [r
 
 ### Publications
 
-- _The Impact of Demographic and Home-Location Conditioning on Urban Mobility Generation_. 2nd ACM SIGSPATIAL International Workshop on Urban Mobility Foundation Models (UMFM 2026), ACM SIGSPATIAL 2026, Riverside, CA (talk, November 3, 2026).
+- Watcharapong Wongkaew, Ziheng Liu, Yanbo Pang, Fuko Nakai, Yoshihide Sekimoto. _The Impact of Demographic and Home-Location Conditioning on Urban Mobility Generation_. 2nd ACM SIGSPATIAL International Workshop on Urban Mobility Foundation Models (UMFM 2026), ACM SIGSPATIAL 2026, Riverside, CA (talk, November 3, 2026). DOI: 10.1145/3849729.3856128.
 
 ### Talks
 
