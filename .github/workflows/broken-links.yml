@@ -50,4 +50,5 @@ jobs:
           fail: true
           # removed md files that include liquid tags
           # skip *.chula.ac.th: its servers send an incomplete TLS certificate chain, so lychee fails on links that open fine in browsers
-          args: --user-agent 'curl/7.54' --exclude '^https?://([a-z0-9-]+\.)*chula\.ac\.th(/|$)' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
+          # skip the Tsinghua WorldMove page: it has returned 502 Bad Gateway on every check since Nov 2026
+          args: --user-agent 'curl/7.54' --exclude '^https?://([a-z0-9-]+\.)*chula\.ac\.th(/|$)' --exclude '^https?://fi\.ee\.tsinghua\.edu\.cn/worldmove(/|$)' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
