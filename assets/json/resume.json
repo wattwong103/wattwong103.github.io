@@ -501,7 +501,7 @@
       "name": "Pseudo-PFLOW: Synthetic Mobility Simulation",
       "summary": "Nationwide agent-based simulation of business vehicles generating 4.5M daily trips for 1.5M+ truck and taxi agents across 106 zones, with calibration and cross-verification against source statistics.",
       "highlights": ["Agent-based modeling", "Synthetic population", "Nationwide simulation", "Calibration & validation"],
-      "startDate": "2024-10-01"
+      "startDate": "2025-10-01"
     },
     {
       "name": "AI for Railway Infrastructure (Book Chapter)",
