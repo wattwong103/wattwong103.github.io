@@ -503,6 +503,20 @@
       "startDate": "2025-10-01"
     },
     {
+      "name": "trajectory-viz (open source)",
+      "url": "https://github.com/wattwong103/trajectory-viz",
+      "summary": "Interactive dashboard for agent-based mobility output, first built for the Pseudo-PFLOW truck and taxi ABMs (4.43M trips, 233M waypoints): FastAPI and DuckDB backend, React, deck.gl and MapLibre frontend, declarative source registry for any trajectory dataset.",
+      "highlights": ["Open source (MIT)", "DuckDB", "Geovisualization", "Agent-based models"],
+      "startDate": "2026-04-01"
+    },
+    {
+      "name": "BKK/FLOW: Bangkok Flood Exposure and Evacuation (open source)",
+      "url": "https://github.com/wattwong103/flood-vul-evac",
+      "summary": "Open-data research platform that applies the PFLOW people–activities–trips–trajectories contract to Bangkok flood exposure and evacuation connectivity, with a licence-aware source registry and immutable, auditable runs. Demonstration status; not a forecast.",
+      "highlights": ["Open data", "Flood exposure", "Evacuation connectivity", "Reproducibility"],
+      "startDate": "2026-09-01"
+    },
+    {
       "name": "AI for Railway Infrastructure (Book Chapter)",
       "summary": "Author of a chapter in Elsevier's “Artificial Intelligence for Railway Infrastructure” on railway-track management under extreme events using machine learning — a case study in Thailand's tropical-climate regions.",
       "highlights": ["Book chapter", "Railway resilience", "Machine learning", "Tropical climate"],
