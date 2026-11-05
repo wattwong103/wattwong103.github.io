@@ -41,3 +41,5 @@ trajectory-viz-demo --serve
 ```
 
 Docker and native setups are in the [quickstart](https://github.com/wattwong103/trajectory-viz/blob/main/docs/QUICKSTART.md).
+
+Blog: [Looking at 233 million waypoints]({{ '/blog/2026/looking-at-233-million-waypoints/' | relative_url }}).

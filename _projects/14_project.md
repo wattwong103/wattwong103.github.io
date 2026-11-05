@@ -30,3 +30,5 @@ Shibuya Station stacks several railway operators across eight levels, from the G
 Version 1.0.0 was released on 14 September 2026, with 11 regression tests and desktop and mobile checks. All shapes, elevations and connector positions are **schematic**. The diagram covers 20 selected exits, not the whole station. Exit links are not walking routes, and building interiors, step-free routes and current closures are not mapped. A measured station model and complete exit coverage are later work.
 
 Built with Next.js as a static site, using React Three Fiber for the 3D view.
+
+Blog: [Shibuya has no denominator]({{ '/blog/2026/shibuya-has-no-denominator/' | relative_url }}).

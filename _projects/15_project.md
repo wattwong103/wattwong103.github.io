@@ -36,3 +36,5 @@ Each mode has its own daily puzzle, also by area: region, city, operator, Shinka
 - Stations and lines come from [station_database](https://github.com/Seo-4d696b75/station_database) (CC BY 4.0): about 9,000 operating stations to guess from, and about 1,100 transfer, Shinkansen and well-known stations as daily answers.
 - Maps use [OpenFreeMap](https://openfreemap.org/) with Leaflet and MapLibre. Map clues have every label removed before they render, and no map view is ever framed around the hidden answer.
 - Version 1.0 was released on 14 September 2026, with 101 automated tests. Loading the maps only when they are needed cut the JavaScript loaded at startup from about 237 kB to 82 kB.
+
+Blog: [A station a day]({{ '/blog/2026/a-station-a-day/' | relative_url }}).
