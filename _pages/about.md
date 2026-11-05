@@ -24,4 +24,6 @@ He graduated with first-class honours in Civil Engineering from Chulalongkorn Un
 
 He continues as a lecturer and faculty advisor at Mahidol Wittayanusorn School, where he developed the National Geography Olympiad curriculum and trains students in geography fieldwork and human geography.
 
+He also writes open-source tools around the research: [trajectory-viz]({{ '/projects/12_project/' | relative_url }}), a map dashboard for agent-based mobility output; [BKK/FLOW]({{ '/projects/13_project/' | relative_url }}), an open-data flood-exposure and evacuation platform for Bangkok; a 3D [atlas of Shibuya Station]({{ '/projects/14_project/' | relative_url }}); and [Eki-dle]({{ '/projects/15_project/' | relative_url }}), a daily Japanese railway-station puzzle. The rest is on the [Projects]({{ '/projects/' | relative_url }}) page and [GitHub](https://github.com/wattwong103).
+
 The academic one-pager — papers, talks, and awards — is at [wattwong103.github.io/research](https://wattwong103.github.io/research/).
