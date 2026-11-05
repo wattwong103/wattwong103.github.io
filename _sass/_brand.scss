@@ -177,3 +177,44 @@ input:focus-visible,
   outline: none;
   box-shadow: var(--ring);
 }
+
+// ---- Repository cards (/projects/#code) --------------------------------------
+// Static cards from _data/repositories.yml; replaces the github-readme-stats images.
+.repo-card {
+  background: var(--surface-card);
+
+  .repo-card-title {
+    font-size: var(--text-base, 1rem);
+    margin-bottom: 0.4rem;
+
+    i {
+      color: var(--text-muted);
+      margin-right: 0.35rem;
+    }
+  }
+
+  .repo-card-desc {
+    font-size: var(--text-sm, 0.875rem);
+    margin-bottom: 0.6rem;
+  }
+
+  .repo-card-meta {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs, 0.75rem);
+    color: var(--text-muted);
+    margin-bottom: 0;
+
+    > * + * {
+      margin-left: 0.9rem;
+    }
+  }
+
+  .repo-card-dot {
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+    vertical-align: baseline;
+  }
+}
