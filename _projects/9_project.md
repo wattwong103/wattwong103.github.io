@@ -76,7 +76,7 @@ Our team continues to work with government agencies, private developers, and com
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/future-vision.jpg" title="Future vision for Bangkok" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/future-vision.png" title="Future vision for Bangkok" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
