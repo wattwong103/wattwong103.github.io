@@ -1,9 +1,44 @@
 github_users:
   - wattwong103
 
-repo_description_lines_max: 2
-
+# Rendered as static cards on /projects/#code by _includes/repository/repo.liquid.
+# The cards used to be images from github-readme-stats.vercel.app, but its public
+# instance is paused (503 DEPLOYMENT_PAUSED), so the text lives here instead.
+# Only public repositories belong in this list.
 github_repos:
-  - wattwong103/th-open-transdata
-  - wattwong103/transport-cost
-  - wattwong103/research
+  - repo: wattwong103/trajectory-viz
+    description: Map dashboard for agent-based mobility output, first built for Pseudo-PFLOW. FastAPI, DuckDB, React, deck.gl.
+    language: Python
+    project: /projects/12_project/
+  - repo: wattwong103/flood-vul-evac
+    description: BKK/FLOW, an open-data flood exposure and evacuation platform for Bangkok on the PFLOW contract.
+    language: Python
+    project: /projects/13_project/
+  - repo: wattwong103/transit-layout
+    description: Shibuya Station Atlas, an interactive 3D model and 2D floor plan of the station and its exits.
+    language: TypeScript
+    site: https://wattwong103.github.io/transit-layout/
+    project: /projects/14_project/
+  - repo: wattwong103/Eki-dle
+    description: 駅dle, a daily Japanese railway-station puzzle with six modes.
+    language: TypeScript
+    site: https://wattwong103.github.io/Eki-dle/
+    project: /projects/15_project/
+  - repo: wattwong103/ansys-rocky-mcp
+    description: MCP server for the Ansys Rocky DEM solver, with real and clearly labelled simulated backends.
+    language: Python
+    project: /projects/16_project/
+  - repo: wattwong103/th-open-transdata
+    description: Thailand Transport Open Data Platform, a browsable catalogue of Thai and international transport data sources.
+    language: JavaScript
+    site: https://wattwong103.github.io/th-open-transdata/
+    project: /projects/8_project/
+  - repo: wattwong103/transport-cost
+    description: NaviCity, bus and rail routing for Bangkok that trades travel cost against travel time.
+    language: JavaScript
+    site: https://wattwong103.github.io/transport-cost/
+    project: /projects/2_project/
+  - repo: wattwong103/research
+    description: Source of the academic one-pager with papers, talks and awards.
+    language: SCSS
+    site: https://wattwong103.github.io/research/

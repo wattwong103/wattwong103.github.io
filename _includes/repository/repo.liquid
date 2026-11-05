@@ -1,27 +1,42 @@
-{% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
-
-{% if site.data.repositories.repo_description_lines_max %}
-  {% assign max_lines = site.data.repositories.repo_description_lines_max %}
-{% else %}
-  {% assign max_lines = 2 %}
-{% endif %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="repo-img-light w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="repo-img-dark w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-  </a>
+{% comment %}
+  Static repository card. `include.repository` is an entry from _data/repositories.yml
+  (repo, description, language, optional site and project). No third-party image service.
+{% endcomment %}
+{% assign r = include.repository %}
+{% assign repo_name = r.repo | split: '/' | last %}
+{% case r.language %}
+  {% when 'Python' -%}
+    {%- assign lang_color = '#3572A5' %}
+  {% when 'TypeScript' -%}
+    {%- assign lang_color = '#3178C6' %}
+  {% when 'JavaScript' -%}
+    {%- assign lang_color = '#F1E05A' %}
+  {% when 'SCSS' -%}
+    {%- assign lang_color = '#C6538C' %}
+  {% when 'CSS' -%}
+    {%- assign lang_color = '#563D7C' %}
+  {% else -%}
+    {%- assign lang_color = '#8B949E' %}
+{% endcase %}
+<div class="col mb-3">
+  <div class="card h-100 repo-card">
+    <div class="card-body">
+      <h3 class="repo-card-title">
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+        <a href="https://github.com/{{ r.repo }}">{{ repo_name }}</a>
+      </h3>
+      <p class="repo-card-desc">{{ r.description }}</p>
+      <p class="repo-card-meta">
+        {% if r.language %}
+          <span class="repo-card-lang"><span class="repo-card-dot" style="background: {{ lang_color }}"></span>{{ r.language }}</span>
+        {% endif %}
+        {% if r.site %}
+          <a href="{{ r.site }}">Live site</a>
+        {% endif %}
+        {% if r.project %}
+          <a href="{{ r.project | relative_url }}">Project page</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
 </div>

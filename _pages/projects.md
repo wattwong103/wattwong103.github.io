@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Current UTokyo work, railway and mobility projects, earlier CUTI / ARIISE collaborations, collaborators and code.
+description: Current UTokyo work, railway and mobility projects, earlier CUTI / ARIISE collaborations, open-source software, collaborators and code.
 nav: true
 nav_order: 2
-display_categories: [tokyo, railways, mobility, other]
+display_categories: [tokyo, railways, mobility, software, other]
 horizontal: false
 ---
 
@@ -90,7 +90,9 @@ horizontal: false
 
 {% if site.data.repositories.github_repos %}
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<p>Public repositories on <a href="https://github.com/wattwong103">GitHub</a>. All are MIT-licensed unless the repository says otherwise.</p>
+
+<div class="row row-cols-1 row-cols-md-2 repositories">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}

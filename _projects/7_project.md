@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Machine Learning Approach to Predict Railway Track Buckling
-description: Our first project with my Prof. Chayut
+description: XGBoost on 8,000 finite-element track scenarios predicts snap-through and progressive buckling, with a Thai case study
 img: assets/img/4.jpg
 importance: 4
 category: railways
@@ -9,6 +9,8 @@ related_publications: true
 ---
 
 ## Project Summary
+
+This was my first project with Chayut Ngamkhanong at the ARIISE Research Unit, Department of Civil Engineering, Chulalongkorn University.
 
 This research develops and implements advanced machine learning models to predict buckling failure modes in ballasted railway tracks, addressing a critical safety concern in railway infrastructure. As climate change increases the frequency of extreme temperatures, the risk of track buckling grows - particularly in continuous welded rail (CWR) systems that are susceptible to heat-induced expansion and lateral instability.
 
@@ -64,6 +66,6 @@ The researchers acknowledge limitations including the simplification of track mi
 
 This research represents a significant advancement in railway engineering by integrating machine learning with structural analysis, potentially leading to safer and more efficient railway systems worldwide.
 
-This project builds to our work {% cite DiscovApplSci.6.212 %}.
+This project led to our paper in _Discover Applied Sciences_ (2024), {% cite DiscovApplSci.6.212 %}.
 
 [Download Poster (PDF)](/assets/pdf/PosterBuckling2.pdf){: .btn}

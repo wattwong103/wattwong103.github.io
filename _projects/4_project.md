@@ -1,45 +1,66 @@
 ---
 layout: page
-title: Research Works
-description: Collaborative research projects at Chulalongkorn University Transportation Institute
-importance: 2
-category: research
+title: CUTI Research Portfolio
+description: Applied transport studies at the Chulalongkorn University Transportation Institute, 2021–2025, for national agencies and international partners
+importance: 7
+category: mobility
 ---
 
-## Research Experience
+From July 2021 to October 2025 I was a research associate at the [Chulalongkorn University Transportation Institute (CUTI)](http://www.cuti.chula.ac.th/). The work was applied: surveys, models and policy analysis for government agencies, airports and international partners. I worked with researchers in public transport, logistics, engineering economics and feasibility studies. Most of the analysis was done in R and Python, with QGIS for anything spatial.
 
-As a research assistant at the Transportation Institute at Chulalongkorn University, I have worked with numerous researchers with different expertises ranging from public transportation and logistics to engineering economy and feasibility studies. This diverse experience has allowed me to develop a broad understanding of transportation systems and their impacts.
+The research thread that runs through these projects is in [The research thread: from Bangkok surveys to generative mobility]({{ '/blog/2026/research-thread/' | relative_url }}).
 
-## Key Research Projects
+## Studies at a glance
 
-### BMA Garbage Logistics
+| Year      | Study                                                                 | For                                             |
+| --------- | --------------------------------------------------------------------- | ----------------------------------------------- |
+| 2022      | Analysis of self-reported motorcycle accident surveys                 | Chulalongkorn University                        |
+| 2022      | Congestion-charge workshops for the Thailand Clean Mobility Program   | GIZ                                             |
+| 2022–2024 | Logistics and railway policy research for the Strategic Agenda Team   | Thailand Science Research and Innovation (TSRI) |
+| 2023      | Don Mueang Airport access and egress survey and mode-choice modelling | Airports of Thailand                            |
+| 2023      | Climate-sensitive transport planning in Chiang Mai and Khon Kaen      | GIZ UrbanAct Project                            |
+| 2023      | Garbage-collection logistics analysis                                 | Bangkok Metropolitan Administration             |
+| 2023–2024 | Motor-tricycle (tuk-tuk) safety study                                 | Department of Land Transport                    |
 
-Analysis and optimization of garbage collection routes in Bangkok Metropolitan Area to reduce operational costs and environmental impacts.
+## Projects and tools
 
-### Sustainable Transportation
+### BMA garbage logistics
 
-Research on sustainable mobility options for Bangkok, including assessment of carbon emissions reduction strategies and promotion of active transportation modes.
+Analysis and optimisation of garbage-collection routes in the Bangkok Metropolitan Area, to cut operating costs and environmental impact. _Python, QGIS._
 
-### Airport Egress Modelling
+### Airport egress modelling
 
-Development of models to predict and optimize passenger flows exiting Don Mueang International Airport, with focus on reducing congestion and improving service quality.
+An access and egress survey at Don Mueang International Airport, then models of how passengers leave the airport, aimed at reducing congestion and improving service. _Python, TensorFlow._
 
-### Mode Change Prediction
+### Tuk-tuk safety
 
-Application of machine learning techniques to predict traveler behavior and mode choice shifts in response to transportation system changes.
+A safety study of motor tricycles for the Department of Land Transport: a review of the law, accident statistics, focus groups and data analysis.
 
-### Travel Demand Survey Analysis
+### Sustainable transportation
 
-Comprehensive analysis of travel demand patterns in Bangkok based on household survey data, identifying key determinants of travel behavior.
+Low-carbon mobility options for Bangkok, including emission-reduction strategies and support for walking and cycling, with dashboards to compare initiatives. _R, Shiny._
 
-### Shared Mobility in University
+### Mode-change prediction
 
-Investigation of shared mobility solutions for university campuses, including bike-sharing and ride-sharing systems optimization.
+Machine-learning models of how travellers switch mode when the transport system changes. _Python, scikit-learn._
 
-### Land Use Changes and Transport Demand
+### Travel demand survey analysis
 
-Analysis of the relationship between land use development patterns and resulting transportation demand, with implications for urban planning.
+Travel patterns in Bangkok from household survey data, and the main factors behind travel behaviour. _R, ggplot2._
 
-### Technical Analysis
+### Shared mobility on campus
 
-Other technical analyses utilizing R and Python programming languages, including statistical modeling, GIS applications, and data visualization for transportation research.
+Bike-sharing and ride-sharing options for a university campus, studied as a network problem. _Python, NetworkX._
+
+### Land use and transport demand
+
+How land-use development patterns relate to the travel demand they generate, and what that means for planning. _R, GeoDa, QGIS._ Related later work: the [MRT Blue Line ridership study]({{ '/blog/2026/land-use-is-not-a-global-coefficient/' | relative_url }}).
+
+## Skills these projects built
+
+- Statistical analysis and modelling
+- Machine learning and prediction
+- Network optimisation and routing
+- Geographic information systems (GIS)
+- Data visualisation
+- Travel demand modelling
