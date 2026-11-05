@@ -31,6 +31,9 @@ jobs:
             }
       - name: Install and Build 🔧
         run: |
+          # ubuntu-latest no longer ships ImageMagick; jekyll-imagemagick needs `convert` to build the responsive .webp images
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          convert -version
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build

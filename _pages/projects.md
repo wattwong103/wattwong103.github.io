@@ -77,7 +77,7 @@ horizontal: false
     <p class="text-muted">ARIISE Research Unit, Dept. of Civil Engineering, Chulalongkorn University, Bangkok</p>
   </div>
   <div class="col-sm-6 mt-3">
-    {% include figure.liquid path="assets/img/king.JPG" title="Kittipat Phunjanna" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/king.jpg" title="Kittipat Phunjanna" class="img-fluid rounded z-depth-1" %}
     <p class="mt-2 mb-1"><strong>Kittipat Phunjanna</strong></p>
     <p class="mb-1">Data scientist (B.Eng. Electronic Engineering, The Chinese University of Hong Kong, First Class Honours); co-author on the ICRT 2024 and Smart Cities 2025 papers.</p>
     <p class="text-muted">On education leave, Budapest, Hungary</p>
