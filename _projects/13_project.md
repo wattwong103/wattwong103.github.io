@@ -39,5 +39,6 @@ City-scale flood depth and evacuation outcomes are left empty on purpose, each w
 
 ### Related
 
+- [A flood map that is really a noise field]({{ '/blog/2026/a-flood-map-that-is-a-noise-field/' | relative_url }}), on why city-scale flood depth is left empty.
 - [When the railway is a floodplain]({{ '/blog/2026/when-the-railway-is-a-floodplain/' | relative_url }}), the earlier flood-risk work on Thai railway track.
 - [Bangkok: one city, one action, one output]({{ '/blog/2026/bangkok-world-model/' | relative_url }}), on what a flood does to crowding hours later.

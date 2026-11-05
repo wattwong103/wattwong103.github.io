@@ -31,3 +31,5 @@ Every response carries `backend` and `simulated` fields, and the server instruct
 ### Status
 
 The full workflow has been checked end to end over a real MCP stdio connection, with 42 automated tests. It runs over stdio by default or over HTTP, and needs Python 3.12 or newer.
+
+Blog: [A solver, an assistant, and a flag that says simulated]({{ '/blog/2026/a-flag-that-says-simulated/' | relative_url }}).

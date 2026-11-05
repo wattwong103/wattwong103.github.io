@@ -104,6 +104,12 @@
       institution: The University of Tokyo
       year: 2025 - now
       maindescription: Nationwide agent-based simulation of business vehicles generating 4.5M daily trips for 1.5M+ truck and taxi agents across 106 zones, with calibration and cross-verification against source statistics.
+    - title: trajectory-viz (open source)
+      year: 2026 - now
+      maindescription: Interactive dashboard for agent-based mobility output, first built for the Pseudo-PFLOW truck and taxi ABMs (4.43M trips, 233M waypoints). FastAPI, DuckDB, React, deck.gl and MapLibre.
+    - title: "BKK/FLOW: Bangkok Flood Exposure and Evacuation (open source)"
+      year: 2026 - now
+      maindescription: Open-data platform applying the PFLOW people–activities–trips–trajectories contract to Bangkok flood exposure and evacuation connectivity. Demonstration status; not a forecast.
     - title: AI for Railway Infrastructure (Book Chapter)
       institution: Elsevier — “Artificial Intelligence for Railway Infrastructure”
       year: 2024

@@ -18,6 +18,7 @@ I write from two cities. Bangkok is where I learned to count trips and argue abo
 - **Models**, from four-step sequential demand through geographically weighted regression to agent-based trucks and, now, generative mobility.
 - **Infrastructure that fails in the wet and the heat** — railway floodplains, buckling rails — because climate is not a sidebar to transport in Thailand.
 - **Opinion**, when a policy idea is fashionable and the implementation path is not.
+- **Tools**, the open-source code the research needs and the side projects it spins off, with what each one can and cannot claim.
 
 I will not recap every paper. If you want the GWR on the MRT Blue Line, the flood-risk orals, or the buckling work, start at [publications]({{ '/publications/' | relative_url }}). If you want the thread that ties them together, stay here.
 
